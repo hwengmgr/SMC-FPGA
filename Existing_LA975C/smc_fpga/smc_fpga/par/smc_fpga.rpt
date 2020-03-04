@@ -1,0 +1,104 @@
+++++++++++++++++++++++
+| Design Information |
+++++++++++++++++++++++
+Design:            smc_fpga
+SpDE Version:      SpDE 9.5.1 Release Build
+Report Generated:  Thu Apr 15 14:29:17 2004
+CHIP Last Updated: Wed Oct 08 17:27:33 2003
+Part Type:         ql3012
+Speed Grade:       0
+Operating Range:   Commercial
+Package Type:      84 PIN PLCC
+Link Check Sum:    12717
+
+
++++++++++++++++++++++++++++
+| Utilization Information |
++++++++++++++++++++++++++++
+Utilized cells (preplacement):                 242 of     320  (75.6%)
+Utilized cells (postplacement):                312 of     320  (97.5%)
+Utilized Logic cell Frags (preplacement):     1189 of    1920  (61.9%)
+Utilized Logic cell Frags (postplacement):    1271 of    1920  (66.2%)
+Utilized Fragment A :                          263
+Utilized Fragment F :                          257
+Utilized Fragment O :                          255
+Utilized Fragment N :                          273
+Input only cells:                                0 of       4  (0.0%)
+Clock only cells:                                3 of       4  (75.0%)
+Bi directional cells:                           57 of      60  (95.0%)
+Flip-Flop of IO cells:                           0 of     140  (0.0%)
+Flip-Flop of Logic cells:                      223 of     320  (69.7%)
+Routing resources:                            8852 of   42812  (20.7%)
+ViaLink resources:                            7763 of  965958  (0.8%)
+
+
+++++++++++++++++++
+| Timing Results |
+++++++++++++++++++
+
+Summary:
+
+Longest Pad to Pad: 78.1 ns (I_reset_N -- BI_port0[2])
+
+Clock                               Frequency       Setup Time      Clock to Out   
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I_clk                            46 MHz / 21.8 ns     76.0 ns         28.0 ns
+
+
+Inter Clock Domain Delay Matrix
++++++++++++++++++++++++++++++++
+
+Clock0 = I_clk 
+
+ 
+          Clock0  
+Clock0   21.8 ns
+
+++++++++++++++++++++++++++++++++
+| Tools run on design smc_fpga |
+++++++++++++++++++++++++++++++++
+partdef         6.0    
+design          3.0    
+logic optimizer 9.5     Mode = Quality Goal = Speed IgnorePack = FALSE UseNonBondedPads = TRUE
+placer          9.5     Seed = 42 Mode = Quality
+router          9.51    Seed = 42
+delay modeler   9.5     Mode = Commercial Corner = Worst SpeedGrade = 0 LowPower = TRUE
+back annotation 9.5    
+verifier        9.5     Strip = TRUE RemoveBuffersOnLoad = TRUE
+sequencer       9.5    
+auto buffer     9.5    
+
+
++++++++++++++
+| Pin Table |
++++++++++++++
+Display Pin Info option is FALSE.
+Pin information will not be displayed.
+
+++++++++++++++++++++
+| Fixed Flip Flops |
+++++++++++++++++++++
+None
+
+
++++++++++++++++++++
+| Fixed RAM cells |
++++++++++++++++++++
+None
+
+
++++++++++++++++++++
+| Fixed ECU cells |
++++++++++++++++++++
+None
+
+
++++++++++++++++++++++++++++++++++++++
+| Nets Removed by Technology Mapper |
++++++++++++++++++++++++++++++++++++++
+Removed Nets option is FALSE.
+Removed Nets information will not be displayed.
+
+
+
+++++++++++  The end of report file  ++++++++++

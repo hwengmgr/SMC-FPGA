@@ -1,0 +1,21 @@
+// Simucad Generated Commands Start Here
+
+// Simucad define
++define+sse
+
+// Project Settings
++assignment_tracking
+-v "c:\\pasic\\spde\\data\\qlprim.v"
+"+incdir+../idl"
++typdelays
+-"!file .sav=\"smc_fpga_gate\""
+-"!control .sav=3"
+-"!control .enablecache"
+-"!control .savcell=0"
+-"!control .disk=1000M"
+
+// Input Files
+"smc_fpga_tf.v"
+"../par/smc_fpga.vq"
+
+// Simucad Generated Commands End Here

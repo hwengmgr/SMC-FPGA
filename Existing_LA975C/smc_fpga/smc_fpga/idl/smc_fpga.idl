@@ -1,0 +1,1177 @@
+// $Id: smc_fpga.idl /main/6 2003/08/27  10:58 klein $*/
+// $Log: smc_fpga.idl $
+// Version: /main/6  2003/08/27  10:58 klein
+// corrected on/off values for the switched AC registers so on=1,off=0
+// 
+// Version: /main/5  2003/08/13  17:34 klein
+// removed tach signals and added them to fre ctr inputs
+// 
+// Version: /main/4  2003/08/13  11:27 klein
+// updated for latest Bobcat and Jag changes
+// 
+// Version: /main/3  2003/08/06  16:57 klein
+// added new regs for bobcat and jag control and readback
+// 
+// Version: /main/2  2003/08/06  16:02 klein
+// added new regs for bobcat and jag control and readback
+// 
+// Version: /main/4  2003/07/24  16:43 broadben
+// remove powerclear from pdu k1 as I vs O experiment
+// 
+// Version: /main/1  2003/06/25  16:06 broadben
+// Initial Version
+// 
+
+// Revision 1.6  2003/06/09 23:28:31  Broadbent
+// First cut at jaguar, bobcat
+//
+// Revision 1.5  2001/12/04 23:28:31  klein
+// error in codes for gen freq mux: lsb used on I_monitors not feedbacks.
+//
+// Revision 1.4  2001/09/10 01:47:34  klein
+// added lock_out readback and clear register.
+// added enable for on/off enabling.
+//
+// Revision 1.3  2001/09/08 12:20:16  klein
+// added enable reg's for on/off bits. made on/off bits noalloc so enable
+// can tuen them off.
+// Removed aux_fan_ctl reg.
+//
+// Revision 1.2  2001/09/07 19:06:28  klein
+// added general purpose counter readback.
+// added documentation for LSB resolution for all ctrs.
+//
+// Revision 1.1  2001/08/16 13:55:46  klein
+// Initial revision
+//
+
+// Create a rtl header file that references wire names rather than port names
+options hdrfmt m1
+testmode no;
+//super_hide yes;
+
+inst SMC_FPGA 0x0;           // this names the instrument
+
+
+rdefault
+	wstb	wrstb
+	rstb	rdstb
+	amode	C32
+	;
+
+fdef V48_ON 1 rw
+   note "On/off control bit for 48V"
+   value ON : 0x1
+   value OFF : 0x0
+;
+
+rdef V48_ON 1
+   note "On/off control bit for 48V"
+   wenb addr == 0xB201
+        V48_ENABLE_ON == 0x1
+   renb addr == 0xB201
+   data V48_ON : 0
+   rtext after /#
+   Turn 48V control signal on or off. Control signal is a 15khz square
+   wave. When off, the pin goes tristate. When on, the output is open 
+   collector (only actively pulls low).
+   #/
+;
+
+fdef V48_ENABLE 1 rw
+   note "Enable for On/off control bit for 48V"
+   value ENABLE : 0x1
+   value DISABLE : 0x0
+;
+
+rdef V48_ENABLE 1
+   note "Enable for On/off control bit for 48V"
+   wenb addr == 0xB20c
+   renb addr == 0xB20c
+   data V48_ENABLE : 0
+   rtext after /#
+   This register enable the V48_ON register. This is part of a 2 level fault
+   protection mechanism such that this register and the V48_ON register must
+   fail before power in the system could accidentally turn on.
+
+   This register must be enabled before writing to the on/off register. If 
+   this register is disabled while the on/off register is on, the on/off will
+   br turned off.
+   #/
+;
+
+fdef K1_ON 1 rw
+   note "On/off control bit for K1"
+   value ON : 0x1
+   value OFF : 0x0
+;
+
+rdef K1_ON 1
+   note "On/off control bit for K1"
+   wenb addr == 0xB202
+   K1_ENABLE_ON == 0x1
+   renb addr == 0xB202
+   data K1_ON : 0
+   rtext after /#
+   Turn K1 control signal on or off. Control signal is a 15khz square
+   wave. When off, the pin goes tristate. When on, the output is open 
+   collector (only actively pulls low).
+   #/
+;
+
+fdef K1_ENABLE 1 rw
+   note "Enable for On/off control bit for K1"
+   value ENABLE : 0x1
+   value DISABLE : 0x0
+;
+
+rdef K1_ENABLE 1
+   note "Enable for On/off control bit for 48V"
+   wenb addr == 0xB20d
+   renb addr == 0xB20d
+   data K1_ENABLE : 0
+   rtext after /#
+   This register enable the K1_ON register. This is part of a 2 level fault
+   protection mechanism such that this register and the K1_ON register must
+   fail before power in the system could accidentally turn on.
+
+   This register must be enabled before writing to the on/off register. If 
+   this register is disabled while the on/off register is on, the on/off will
+   br turned off.
+   #/
+;
+
+fdef AUX_FAN_CTL 2 rw
+   note "On/off control bits for Auxiliary fan output"
+   value ON : 0x1
+   value OFF : 0x0
+   value LOW : 0x3
+;
+
+rdef AUX_FAN_CTL 2
+   note "On/off control bits for Auxiliary fan output"
+   wenb addr == 0xB203
+   renb addr == 0xB203
+   data AUX_FAN_CTL : 0
+   rtext after /#
+   Controls auxiliary fan output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   #/
+;
+
+fdef AUX_0_CTL 2 rw
+   note "On/off control bits for Auxiliary 0 output"
+   value ON : 0x1
+   value OFF : 0x0
+   value LOW : 0x3
+;
+
+rdef AUX_0_CTL 2
+   note "On/off control bits for Auxiliary 0 control"
+   wenb addr == 0xB204
+   renb addr == 0xB204
+   data AUX_0_CTL : 0
+   rtext after /#
+   Controls auxiliary 0 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   #/
+;
+
+fdef AUX_1_CTL 2 rw
+   note "On/off control bits for Auxiliary 1 output"
+   value ON : 0x1
+   value OFF : 0x0
+   value LOW : 0x3
+;
+
+rdef AUX_1_CTL 2
+   note "On/off control bits for Auxiliary 1 control"
+   wenb addr == 0xB205
+   renb addr == 0xB205
+   data AUX_1_CTL : 0
+   rtext after /#
+   Controls auxiliary 1 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   #/
+;
+
+fdef AUX_2_CTL 2 rw
+   note "On/off control bits for Auxiliary 2 output"
+   value ON : 0x1
+   value OFF : 0x0
+   value LOW : 0x3
+;
+
+rdef AUX_2_CTL 2
+   note "On/off control bits for Auxiliary 2 control"
+   wenb addr == 0xB206   renb addr == 0xB206
+   data AUX_2_CTL : 0
+   rtext after /#
+   Controls auxiliary 2 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   #/
+;
+
+fdef AUX_3_CTL 2 rw
+   note "On/off control bits for Auxiliary 3 output"
+   value ON : 0x1
+   value OFF : 0x0
+   value LOW : 0x3
+;
+
+rdef AUX_3_CTL 2
+   note "On/off control bits for Auxiliary 3 control"
+   wenb addr == 0xB207
+   renb addr == 0xB207
+   data AUX_3_CTL : 0
+   rtext after /#
+   Controls auxiliary 3 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   #/
+;
+
+fdef CLR_CTRS 1 rw
+   note "Reset all frequency counters"
+   value CLR : 0x1
+   value COUNT : 0x0
+;
+
+fdef CLR_REGS 1 rw
+   note "Reset all frequency counter output registers"
+   value CLR : 0x1
+   value COUNT : 0x0
+;
+
+fdef CLR_MAINT_REG 1 rw
+   note "Reset Maint signal change register"
+   value CLR : 0x1
+   value NORMAL : 0x0
+;
+
+fdef CLR_LOCK_OUT 1 rw
+   note "Reset lock_out signals for all counters"
+   value CLR : 0x1
+   value NORMAL : 0x0
+;
+
+rdef RESET 4
+   note "Resets for counters and output registers"
+   wenb addr == 0xB208
+   renb addr == 0xB208
+   data CLR_CTRS : 0
+   data CLR_REGS : 1
+   data CLR_MAINT_REG : 2
+   data CLR_LOCK_OUT : 3
+   rtext after /#
+   This register contains 3 bits for resetting various parts of the circuit.
+
+   CLR_CTRS will reset all frequency counters back to 0. While the register
+   is set to CLR, the caounters will be held at 0. WHen the register is set
+   back to COUNT, the frequency counters will start counting again.
+
+   CLR_REGS will reset the frequency counter output registers. When a 
+   frequency counter has finished its measurement window, it wil
+   transfer the counter value to the output register so the CPU will
+   see a stable value while the counter gets the next data. Setting this
+   register to CLR will hold the output registers at 0. When the register 
+   is set back to COUNT, the registers will start to get values from the 
+   frequency counters.
+
+   CLR_MAINT_REG will reset the maintainence signal monitor register. Since
+   the maintainence signal changes so infrequently, a frequency counter is
+   not implemented to measure it. Instead, maintainence monitor circuit will
+   watch for any activity on the signal. If the signal changes from low to
+   high or high to low, the maintainence monitor circuit will capture the
+   event.
+   
+   Writing this bit to CLR will hold the maintainence monitor circuit at 0.
+   When this register is set to NORMAL, the maintainence monitor circuit
+   will monitor the maintainence signal for changes.
+   
+   CLR_LOCK_OUT will clear any lock_out signals that are set. The lock_out
+   signals are used to prevent the holding registers from getting updated
+   until software has read all bytes from the counters. Lock_out is set
+   by reading the HI byte of a counter, and is reset after reading the
+   LO bytes from the counter. Lock_out can also be cleared by setting the
+   CLR_LOCK_OUT bit high and then low. The state of the lock_out signals
+   can be read through the LOCK_OUT_STATE readback.
+#/
+;
+
+fdef CTR_CTL 1 rw
+   note "frequency counter enable"
+   value ENABLE : 0x1
+   value DISABLE : 0x0
+;
+
+rdef CTR_CTL 1
+   note "Frequency counter enable"
+   wenb addr == 0xB209
+   renb addr == 0xB209
+   data CTR_CTL : 0
+   rtext after /#
+   This register enables all the frequency counter in the FPGA. When set to
+   DISABLE, The counters are held at a value of zero. When set to ENABLE, the
+   counters are allowed to count incoming signals.
+   #/
+;
+
+fdef GEN_FREQ_CTR_MUX 5 rw
+   note "General purpose frequency counter input select"
+   value SC_FAN : 0x10
+   value PDU_V1 : 0x11
+   value PDU_V2 : 0x12
+   value PDU_K1_ON : 0x13
+   value SPU_FAN : 0x14
+   value PDU_VAB : 0x15
+   value PDU_VAC : 0x16
+   value PDU_VBC : 0x17
+   value PDU_FREQ : 0x18
+   value PDU_48V_ON : 0x19
+   value SMC_SPR2_FAN_IN_MON : 0x1A
+   value FPGA_48V_ON : 0x00
+   value FPGA_K1_ON : 0x01
+   value BC_FAN0_TACH : 0x02
+   value BC_FAN1_TACH : 0x03
+   value FPGA_AUX2 : 0x04
+   value FPGA_AUX3 : 0x05
+;
+
+rdef GEN_FREQ_CTR_MUX 5
+   note "General purpose frequency counter input select"
+   wenb addr == 0xB227
+   renb addr == 0xB227
+   data GEN_FREQ_CTR_MUX : 0
+   rtext after /#
+   This register selects which signal to feed into the general purpose 
+   frequency counter. There are 14 signal inputs to the FPGA, and 7
+   outputs. 4 of the signal inputs, V0, I1, I2 and MAIN_BLOWER have
+   dedicated frequency counters. All the other signal inputs, and all
+   of the output signals can be be measured by selecting one as input
+   to the general purpose frequency conter using this register. The general
+   purpose frequency counter is a 24 bit counter, whereas he other frequency
+   counters are only 16 bits. his is to allow it to cover a wider range of 
+   possible input frequencies. I added an additional mux select six rjb 
+   #/
+;
+
+fdef V0_LO 8 r
+   note "Readback for low 8 bits of V0 frequency counter"
+;
+
+rdef V0_LO 8
+   note "Readback for low 8 bits of V0 frequency counter"
+   wenb addr == 0xB20A
+   renb addr == 0xB20A
+   data V0_LO : 0
+   rtext after /#
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   V0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   #/
+;
+
+fdef V0_HI 8 r
+   note "Readback for upper 8 bits of V0 frequency counter"
+;
+
+rdef V0_HI 8
+   note "Readback for upper 8 bits of V0 frequency counter"
+   wenb addr == 0xB20B
+   renb addr == 0xB20B
+   data V0_HI : 0
+   rtext after /#
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   V0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   #/
+;
+
+fdef I1_LO 8 r
+   note "Readback for low 8 bits of I1 frequency counter"
+;
+
+rdef I1_LO 8
+   note "Readback for low 8 bits of I1 frequency counter"
+   wenb addr == 0xB210
+   renb addr == 0xB210
+   data I1_LO : 0
+   rtext after /#
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   I1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   #/
+;
+
+fdef I1_HI 8 r
+   note "Readback for upper 8 bits of I1 frequency counter"
+;
+
+rdef I1_HI 8
+   note "Readback for upper 8 bits of I1 frequency counter"
+   wenb addr == 0xB211
+   renb addr == 0xB211
+   data I1_HI : 0
+   rtext after /#
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   I1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   #/
+;
+
+fdef I2_LO 8 r
+   note "Readback for low 8 bits of I2 frequency counter"
+;
+
+rdef I2_LO 8
+   note "Readback for low 8 bits of I2 frequency counter"
+   wenb addr == 0xB212
+   renb addr == 0xB212
+   data I2_LO : 0
+   rtext after /#
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   I2 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   #/
+;
+
+fdef I2_HI 8 r
+   note "Readback for upper 8 bits of I2 frequency counter"
+;
+
+rdef I2_HI 8
+   note "Readback for upper 8 bits of I2 frequency counter"
+   wenb addr == 0xB213
+   renb addr == 0xB213
+   data I2_HI : 0
+   rtext after /#
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   I2 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   #/
+;
+
+fdef MAIN_BLOWER_LO 8 r
+   note "Readback for upper 8 bits of main blower frequency counter"
+;
+
+rdef MAIN_BLOWER_LO 8
+   note "Readback for lower 8 bits of main blower frequency counter"
+   wenb addr == 0xB21E
+   renb addr == 0xB21E
+   data MAIN_BLOWER_LO : 0
+   rtext after /#
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   main blower input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 11.574 usec.
+   #/
+;
+
+fdef MAIN_BLOWER_HI 8 r
+   note "Readback for upper 8 bits of main blower frequency counter"
+;
+
+rdef MAIN_BLOWER_HI 8
+   note "Readback for upper 8 bits of main blower frequency counter"
+   wenb addr == 0xB21F
+   renb addr == 0xB21F
+   data MAIN_BLOWER_HI : 0
+   rtext after /#
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   main blower input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 11.574 usec.
+   #/
+;
+
+fdef GEN_FREQ_CTR_LO 8 r
+   note "Readback for upper 8 bits of the general purpose frequency counter"
+;
+
+rdef GEN_FREQ_CTR_LO 8
+   note "Readback for lower 8 bits of the general purpose frequency counter"
+   wenb addr == 0xB228
+   renb addr == 0xB228
+   data GEN_FREQ_CTR_LO : 0
+   rtext after /#
+   Readback for lower 8 bits of 24 bit frequency counter for the
+   other input signals and output signals. This value is actually
+   the value in the holding register so that it is stable while
+   the counter takes the next measurement.
+
+   The signal being measured is selected by the GEN_FREQ_CTR_MUX register.
+
+   The LSB of this counter is 90.432 nsec.
+   #/
+;
+
+fdef GEN_FREQ_CTR_MID 8 r
+   note "Readback for middle 8 bits of the general purpose frequency counter"
+;
+
+rdef GEN_FREQ_CTR_MID 8
+   note "Readback for lower 8 bits of the general purpose frequency counter"
+   wenb addr == 0xB226
+   renb addr == 0xB226
+   data GEN_FREQ_CTR_MID : 0
+   rtext after /#
+   Readback for middle 8 bits of 24 bit frequency counter for the
+   other input signals and output signals. This value is actually
+   the value in the holding register so that it is stable while
+   the counter takes the next measurement.
+
+   The signal being measured is selected by the GEN_FREQ_CTR_MUX register.
+
+   The LSB of this counter is 90.432 nsec.
+   #/
+;
+
+fdef GEN_FREQ_CTR_HI 8 r
+   note "Readback for upper 8 bits of general purpose frequency counter"
+;
+
+rdef GEN_FREQ_CTR_HI 8
+   note "Readback for upper 8 bits of general purpose frequency counter"
+   wenb addr == 0xB229
+   renb addr == 0xB229
+   data GEN_FREQ_CTR_HI : 0
+   rtext after /#
+   Readback for upper 8 bits of 24 bit frequency counter for the
+   other input signals and output signals. This value is actually
+   the value in the holding register so that it is stable while
+   the counter takes the next measurement.
+
+   The signal being measured is selected by the GEN_FREQ_CTR_MUX register.
+
+   The LSB of this counter is 90.432 nsec.
+   #/
+;
+
+fdef BC_TACH0_CTR_LO 8 r
+   note "Readback for upper 8 bits of Bobcat fan 0 frequency counter"
+;
+
+rdef BC_TACH0_CTR_LO 8
+   note "Readback for lower 8 bits of Bobcat fan 0 frequency counter"
+   wenb addr == 0xB22D
+   renb addr == 0xB22D
+   data BC_TACH0_CTR_LO : 0
+   rtext after /#
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   Bocat fan 0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   #/
+;
+
+fdef BC_TACH0_CTR_HI 8 r
+   note "Readback for upper 8 bits of Bobcat fan 0 frequency counter"
+;
+
+rdef BC_TACH0_CTR_HI 8
+   note "Readback for upper 8 bits of Bobcat fan 0 frequency counter"
+   wenb addr == 0xB22E
+   renb addr == 0xB22E
+   data BC_TACH0_CTR_HI : 0
+   rtext after /#
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   Bobcat fan 0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   #/
+;
+
+fdef BC_TACH1_CTR_LO 8 r
+   note "Readback for upper 8 bits of Bobcat fan 1 frequency counter"
+;
+
+rdef BC_TACH1_CTR_LO 8
+   note "Readback for lower 8 bits of Bobcat fan 1 frequency counter"
+   wenb addr == 0xB22F
+   renb addr == 0xB22F
+   data BC_TACH1_CTR_LO : 0
+   rtext after /#
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   Bocat fan 1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   #/
+;
+
+fdef BC_TACH1_CTR_HI 8 r
+   note "Readback for upper 8 bits of Bobcat fan 1 frequency counter"
+;
+
+rdef BC_TACH1_CTR_HI 8
+   note "Readback for upper 8 bits of Bobcat fan 1 frequency counter"
+   wenb addr == 0xB230
+   renb addr == 0xB230
+   data BC_TACH1_CTR_HI : 0
+   rtext after /#
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   Bobcat fan 1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   #/
+;
+
+fdef BC_TACH0_CTL 1 w pulse
+   note " Control bit for TACH0 counters"
+;
+
+fdef BC_TACH1_CTL 1 w pulse
+   note " Control bit for TACH1 counters"
+;
+
+rdef BC_TACH_CTL 2
+   note "COntrol bits for TACH counters"
+   wenb addr == 0xB231
+   data BC_TACH0_CTL:0
+   data BC_TACH1_CTL:1
+   rtext after /#
+   control bits to reser the TACH counters and transfer their 
+   last value to the holding registers for readback
+   #/
+   ;
+
+fdef ID_REV 8 r
+   note "ID and revision of FPGA"
+;
+
+rdef ID_REV 8
+   note "ID and revision of FPGA"
+   wenb addr == 0xB22A
+   renb addr == 0xB22A
+   data ID_REV : 0
+   rtext after /#
+   ID and revision of FPGA. Upper 4 bits are the ID and is set to hex D.
+   Lower 4 bits are the revision starting at rev 1.
+   #/
+;
+
+fdef MAINT_MON 2 r
+   note "Maintainence signal monitor readback"
+;
+
+rdef MAINT_MON 2
+   note "Maintainence signal monitor readback"
+   renb addr == 0xB22B
+   data MAINT_MON : 0
+   rtext after /#
+   Readback of maintainence signal monitor circuit. The monitor circuit
+   captures any rising or falling edge event that occurs on the 
+   maintainence signal input. This register is synchronously cleared
+   by the CLR_MAINT_REG bit in the RESET register.
+
+   The LSB of this register is set if a rising edge has been seen by
+   the monitor circuit on the maintainence signal. The 2nd bit will
+   be set if the monitor circuit saw a falling edge on the
+   maintainence signal.
+
+   The expected usage of this readback is that the software will clear
+   this register using the CLR_MAINT_REG bit, then will wait some time,
+   and then check the state of these bits. If any of them are set, then
+   the maintainence signal had activity since the register was cleared.
+   #/
+;
+
+fdef V0_LOCK_OUT 1 r
+   note "Lock out state of the V0 counter readback"
+;
+
+fdef I1_LOCK_OUT 1 r
+   note "Lock out state of the I1 counter readback"
+;
+
+fdef I2_LOCK_OUT 1 r
+   note "Lock out state of the I2 counter readback"
+;
+
+fdef MAIN_LOCK_OUT 1 r
+   note "Lock out state of the MAIN_BLOWER counter readback"
+;
+
+fdef GEN_FREQ_LOCK_OUT 1 r
+   note "Lock out state of the GEN_FREQ counter readback"
+;
+
+fdef BC_TACH0_LOCK_OUT 1 r
+   note "Lock out state of the GEN_FREQ counter readback"
+;
+
+fdef BC_TACH1_LOCK_OUT 1 r
+   note "Lock out state of the GEN_FREQ counter readback"
+;
+rdef LOCK_OUT_STATE 7
+   note "Readback for all lock_out signals"
+   renb addr == 0xB22C
+   data V0_LOCK_OUT : 0
+   data I1_LOCK_OUT : 1
+   data I2_LOCK_OUT : 2
+   data MAIN_LOCK_OUT : 3
+   data GEN_FREQ_LOCK_OUT : 4
+   data BC_TACH0_LOCK_OUT : 5
+   data BC_TACH1_LOCK_OUT : 6
+   rtext after /#
+   #/
+;
+
+
+//   Start of new design: that is the requirements for Bobcat and Jaguar drives
+// this new revision: D.
+
+
+fdef B_CNTRL_BC_48VDC 1 rw
+   note "On/off control bit for Bobcat 48V"
+   value ON : 0x1
+   value OFF : 0x0
+;
+
+rdef B_CNTRL_BC_48VDC 1
+   note "On/off control bit for Bobcat 48V"
+   wenb addr == 0xB301
+        V48_ENABLE_ON == 0x1
+   renb addr == 0xB301
+   data B_CNTRL_BC_48VDC : 0
+   rtext after /#
+   Turn Bobcat 48V control signal on or off. Control signal is a level. When 
+   off, the pin goes Actively High. When on, the output actively pulls low.
+   #/
+;
+
+fdef B_DC90_48V_Enable 1 rw
+   note "Enable for On/off control bit for Bobcat DC90 48V"
+   value ENABLE : 0x1
+   value DISABLE : 0x0
+;
+
+rdef B_DC90_48V_Enable 1
+   note "Enable for On/off control bit for Bobcat DC90 48V"
+   wenb addr == 0xB30C
+   renb addr == 0xB30C
+   data B_DC90_48V_Enable : 0
+   rtext after /#
+   This register enable the Bobcat B_DC90_V48_ON register. This is part of a 2 
+   level fault protection mechanism such that this register and the 
+   B_CNTRL_BC_48VDC_DC90 register must fail before power in the system could
+   accidentally turn on. This register must be enabled before writing to the 
+   on/off register. If this register is disabled while the on/off register is
+   on, the on/off will be turned off.
+   #/
+;
+
+fdef B_CNTRL_BC_48VDC_DC90 1 rw
+   note "On/off control bit for Bobcat 48V"
+   value ON : 0x1
+   value OFF : 0x0
+;
+
+rdef B_CNTRL_BC_48VDC_DC90 1
+   note "On/off control bit for Bobcat 48V"
+   wenb addr == 0xB304
+       B_DC90_48V_Enable_ON == 0x1
+   renb addr == 0xB304
+   data B_CNTRL_BC_48VDC_DC90 : 0
+   rtext after /#
+   Turn DC_90 on Bobcat 48V control signal on or off. Control signal is a level. 
+   When off, the pin goes Actively LOW. When on, the output actively pulls High. 
+   Uses the enable signal, part of a 2 level fault protection mechanism.
+   #/
+;
+
+fdef SMC_MON_DC90_OUTPUT_FAULT 1 r
+   note "Output bad DC90 supply Low Active"
+;
+
+fdef SMC_MON_DC90_AC_PWR_FAULT 1 r
+   note "AC input fault DC90 supply Low Active"
+;
+
+fdef SMC_MON_DC90_OVR_TMP 1 r
+   note "Overtemperature signal DC90 supply Low Active"
+;
+
+fdef SMC_MON_DC90_48V_ON 1 r
+   note "Feedback from the control side of the opto re: the PS state On = High"
+;
+
+
+
+
+rdef DC90_STATE 4
+   note "Readback for all Bobcat DC90 Status bits"
+   renb addr == 0xB32E
+   data SMC_MON_DC90_OUTPUT_FAULT : 0
+   data SMC_MON_DC90_AC_PWR_FAULT : 1
+   data SMC_MON_DC90_OVR_TMP : 2
+   data SMC_MON_DC90_48V_ON : 3
+   rtext after /# 
+   #/
+;
+
+fdef SMC_MON_BC_OUTPUT_FAULT 1 r
+   note "Output bad Bobcat 48V supply Low Active"
+;
+
+fdef SMC_MON_BC_AC_PWR_FAULT 1 r
+   note "AC power fault Bobcat 48V supply Low Active"
+;
+
+fdef SMC_MON_BC_OVR_TMP 1 r
+   note "Overtemperature signal Bobcat 48V supply Low Active"
+;
+
+fdef SMC_MON_BC_PHASE_LOSS 1 r
+   note "Phase Loss signal Bobcat 48V supply Low Active"
+;
+
+rdef STATE_48V 4
+   note "Readback for all Bobcat 48V Supply Status bits"
+   renb addr == 0xB32B
+   data SMC_MON_BC_OUTPUT_FAULT : 0
+   data SMC_MON_BC_AC_PWR_FAULT : 1
+   data SMC_MON_BC_OVR_TMP : 2
+   data SMC_MON_BC_PHASE_LOSS : 3
+   rtext after /# 
+Since all active low a test for non-zero indicates all is well
+   #/
+;
+
+fdef SMC_MON_BC_FAN0_STATE 1 r
+   note "Input the state of the multiSpeed fan bit 0"
+;
+
+fdef SMC_MON_BC_FAN1_STATE 1 r
+   note " Input the state of the multiSpeed fan bit 1"
+;
+
+rdef STATE_BC_FAN 2
+   note "Readback for all Bobcat 48V Supply Status bits"
+   renb addr == 0xB310
+   data SMC_MON_BC_FAN0_STATE: 0
+   data SMC_MON_BC_FAN1_STATE: 1
+   rtext after /# 
+State not really used but left here anyway. Tach is 90hz signal
+connected to Frequency Counter.
+   #/
+;
+fdef B_SMC_CNTRL_BC_SWITCHED_AC 1 rw
+   note "On/off control bit for Bobcat AC"
+   value ON : 0x1
+   value OFF : 0x0
+;
+
+rdef B_SMC_CNTRL_BC_SWITCHED_AC 1
+   note "On/off control bit for Bobcat AC"
+   wenb addr == 0xB305
+        AC_ENABLE_ON == 0x1
+   renb addr == 0xB305
+   data  B_SMC_CNTRL_BC_SWITCHED_AC : 0
+   rtext after /#
+   Turn  Bobcat AC control signal on or off. Control signal is a level. When on, 
+   the pin goes Actively LOW. When off, the output actively pulls High. Uses the
+   enable signal, part of a 2 level fault protection mechanism.
+   #/
+;
+
+fdef SMC_MON_BC_AC_ON 1 r
+   note "On/off control readback bit for K1"
+;
+
+rdef SMC_MON_BC_AC_ON 1
+   note "On/off control readback bit for K1"
+   renb addr == 0xB32A
+   data SMC_MON_BC_AC_ON : 0
+   rtext after /#
+   Used on Bobcat this is feedback for the control Input Signal is On=Low
+   #/
+;
+
+// This is the end of the Bobcat Specific Section
+
+fdef SMC_CNTRL_JAG_SWITCHED_AC 1 rw
+   note "On/off control bit for Jaguar AC"
+   value ON : 0x1
+   value OFF : 0x0
+;
+
+rdef SMC_CNTRL_JAG_SWITCHED_AC 1
+   note "On/off control bit for Jaguar AC"
+   wenb addr == 0xB302
+    AC_ENABLE_ON == 0x1
+   renb addr == 0xB302
+   data SMC_CNTRL_JAG_SWITCHED_AC : 0
+   rtext after /#
+   Turn  Jaguar AC control signal on or off. Control signal is a level. When on, 
+   the pin goes Actively LOW. When off, the output actively pulls High. Uses the
+   enable signal, part of a 2 level fault protection mechanism.
+   #/
+;
+
+fdef SMC_MON_PDU_K1 1 r
+   note "On/off control readback bit for K1"
+value CLR : 0x0
+;
+
+rdef SMC_MON_PDU_K1 1
+   note "On/off control readback bit for K1"
+   renb addr == 0xB303
+   data SMC_MON_PDU_K1 : 0
+   rtext after /#
+   Used on Jaguar this is feedback for the K1 control Input Signal, On=High
+   #/
+;
+
+fdef SMC_CNTRL_JAG_48VDC_ON 1 rw
+   note "On/off control bit for Jaguar 48V"
+   value ON : 0x1
+   value OFF : 0x0
+;
+
+rdef SMC_CNTRL_JAG_48VDC_ON 1
+   note "On/off control bit for Jaguar 48V"
+   wenb addr == 0xB306
+        V48_ENABLE_ON == 0x1
+   renb addr == 0xB306
+   data SMC_CNTRL_JAG_48VDC_ON : 0
+   rtext after /#
+   Turn Jaguar 48V control signal on or off. Control signal is a level. When 
+   off, the pin goes Actively High. When on, the output actively pulls low.
+   #/
+;
+
+fdef SMC_MON_PDU_JAG_48V_GOOD 1 r
+   note "BOBCAT 48V interlock OK = Low, Jag output OK OK = HIGH"
+;
+
+rdef SMC_MON_PDU_JAG_48V_GOOD 1
+   note "On/off control readback bit for JAG_48V"
+   renb addr == 0xB311
+   data SMC_MON_PDU_JAG_48V_GOOD : 0
+   rtext after /#
+ BOBCAT 48V interlock OK = Low, Jag output OK = High
+   #/
+;
+
+fdef SMC_MON_PDU_JAG_48V_LVL_ON 1 r
+   note " Used on Jaguar this is feedback for the control Input Signal, On=Low "
+;
+
+rdef SMC_MON_PDU_JAG_48V_LVL_ON 1
+   note "On/off control readback bit for JAG_48V"
+   renb addr == 0xB32C
+   data SMC_MON_PDU_JAG_48V_LVL_ON : 0
+   rtext after /#
+   Used on Jaguar this is feedback for the control Input Signal, On=Low
+   #/
+;
+fdef SMC_MON_PDU_JAG_THERMAL_FAULT 1 r
+   note "Thermal Fault output from 48V Jag Power Supply"
+;
+
+rdef SMC_MON_PDU_JAG_THERMAL_FAULT 1
+   note "Thermal Fault output from 48V Jag Power Supply"
+   renb addr == 0xB30A
+   data SMC_MON_PDU_JAG_THERMAL_FAULT : 0
+   rtext after /#
+   Used on Jaguar this is power supply fault is Active Low
+   #/
+;
+
+
+module idl
+  parent smc_fpga
+    field V48_ON noalloc
+    field B_CNTRL_BC_48VDC noalloc
+    field B_CNTRL_BC_48VDC_DC90 noalloc
+    field B_SMC_CNTRL_BC_SWITCHED_AC noalloc
+    field K1_ON noalloc
+    field SMC_MON_PDU_K1 noalloc
+    field V48_ENABLE set PWRCLR : 0x0
+    field B_DC90_48V_Enable set PWRCLR : 0x0
+    field K1_ENABLE set PWRCLR : 0x0
+    field AUX_FAN_CTL set PWRCLR : 0x0
+    field AUX_0_CTL set PWRCLR : 0x0
+    field AUX_1_CTL set PWRCLR : 0x0
+    field AUX_2_CTL set PWRCLR : 0x0
+    field AUX_3_CTL set PWRCLR : 0x0
+    field CLR_MAINT_REG set PWRCLR : 0x0
+    field CLR_CTRS set PWRCLR : 0x0
+    field CLR_REGS set PWRCLR : 0x0
+    field CLR_LOCK_OUT set PWRCLR : 0x0
+    field CTR_CTL set PWRCLR : 0x0
+    field GEN_FREQ_CTR_MUX set PWRCLR : 0x0 usewe
+    field V0_LO noalloc
+    field V0_HI noalloc
+    field I1_LO noalloc
+    field I1_HI noalloc
+    field I2_LO noalloc
+    field I2_HI noalloc
+    field MAIN_BLOWER_LO noalloc
+    field MAIN_BLOWER_HI noalloc
+    field GEN_FREQ_CTR_LO noalloc
+    field GEN_FREQ_CTR_MID noalloc
+    field GEN_FREQ_CTR_HI noalloc
+    field BC_TACH0_CTR_LO noalloc
+    field BC_TACH0_CTR_HI noalloc
+    field BC_TACH1_CTR_LO noalloc
+    field BC_TACH1_CTR_HI noalloc
+    field BC_TACH0_CTL
+    field BC_TACH1_CTL
+    field ID_REV noalloc
+    field MAINT_MON noalloc
+    field V0_LOCK_OUT noalloc
+    field I1_LOCK_OUT noalloc
+    field I2_LOCK_OUT noalloc
+    field MAIN_LOCK_OUT noalloc
+    field GEN_FREQ_LOCK_OUT noalloc
+    field BC_TACH1_LOCK_OUT noalloc
+    field BC_TACH0_LOCK_OUT noalloc
+    field SMC_MON_DC90_OUTPUT_FAULT noalloc
+    field SMC_MON_DC90_AC_PWR_FAULT noalloc
+    field SMC_MON_DC90_OVR_TMP noalloc
+    field SMC_MON_DC90_48V_ON noalloc
+    field SMC_MON_BC_OUTPUT_FAULT noalloc
+    field SMC_MON_BC_AC_PWR_FAULT noalloc
+    field SMC_MON_BC_OVR_TMP noalloc
+    field SMC_MON_BC_PHASE_LOSS noalloc
+    field SMC_MON_BC_AC_ON noalloc
+    field SMC_MON_BC_FAN0_STATE noalloc
+    field SMC_MON_BC_FAN1_STATE noalloc
+    field SMC_CNTRL_JAG_SWITCHED_AC noalloc
+    field SMC_CNTRL_JAG_48VDC_ON noalloc
+    field SMC_MON_PDU_JAG_48V_GOOD noalloc
+    field SMC_MON_PDU_JAG_THERMAL_FAULT noalloc
+    field SMC_MON_PDU_JAG_48V_LVL_ON noalloc
+;
+
+rtlmod idl
+ parent smc_fpga
+   rmodopt notci
+    field V48_ON derived
+    field K1_ON derived
+    field V48_ENABLE derived
+    field K1_ENABLE derived
+    field B_DC90_48V_Enable derived
+    field AUX_FAN_CTL derived
+    field AUX_0_CTL derived
+    field AUX_1_CTL derived
+    field AUX_2_CTL derived
+    field AUX_3_CTL derived
+    field CLR_MAINT_REG derived
+    field CLR_CTRS derived
+    field CLR_REGS derived
+    field CLR_LOCK_OUT derived
+    field CTR_CTL derived
+    field GEN_FREQ_CTR_MUX derived
+    field V0_LO
+    field V0_HI
+    field I1_LO
+    field I1_HI
+    field I2_LO
+    field I2_HI
+    field MAIN_BLOWER_LO
+    field MAIN_BLOWER_HI
+    field GEN_FREQ_CTR_LO
+    field GEN_FREQ_CTR_MID
+    field GEN_FREQ_CTR_HI
+    field BC_TACH0_CTR_LO 
+    field BC_TACH0_CTR_HI 
+    field BC_TACH1_CTR_LO 
+    field BC_TACH1_CTR_HI 
+    field BC_TACH0_CTL derived
+    field BC_TACH1_CTL derived
+    field ID_REV 
+    field MAINT_MON
+    field V0_LOCK_OUT
+    field I1_LOCK_OUT
+    field I2_LOCK_OUT
+    field MAIN_LOCK_OUT
+    field GEN_FREQ_LOCK_OUT
+    field BC_TACH1_LOCK_OUT 
+    field BC_TACH0_LOCK_OUT 
+    field B_CNTRL_BC_48VDC derived
+    field B_CNTRL_BC_48VDC_DC90 derived
+    field B_SMC_CNTRL_BC_SWITCHED_AC  derived
+    field SMC_MON_DC90_OUTPUT_FAULT 
+    field SMC_MON_DC90_AC_PWR_FAULT 
+    field SMC_MON_DC90_OVR_TMP 
+    field SMC_MON_DC90_48V_ON 
+    field SMC_MON_BC_OUTPUT_FAULT 
+    field SMC_MON_BC_AC_PWR_FAULT 
+    field SMC_MON_BC_OVR_TMP 
+    field SMC_MON_BC_PHASE_LOSS 
+    field SMC_MON_BC_AC_ON 
+    field SMC_CNTRL_JAG_SWITCHED_AC derived
+    field SMC_MON_PDU_K1 
+    field SMC_CNTRL_JAG_48VDC_ON derived
+    field SMC_MON_PDU_JAG_48V_GOOD 
+    field SMC_MON_PDU_JAG_THERMAL_FAULT
+    field SMC_MON_PDU_JAG_48V_LVL_ON
+    field SMC_MON_BC_FAN0_STATE 
+    field SMC_MON_BC_FAN1_STATE 
+;
+
+

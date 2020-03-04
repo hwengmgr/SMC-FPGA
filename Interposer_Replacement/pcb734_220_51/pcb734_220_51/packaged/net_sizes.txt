@@ -1,0 +1,18 @@
+Distribution of net sizes for 'PCB734_220_51
+'
+Wed Jan 12 11:08:52 2011
+
+ Size   Count
+     1     50
+     2    114
+     3     27
+     4      3
+     5      2
+    10      2
+    15      1
+    44      1
+    89      1
+
+NET TOTALS:
+Total Pins: 549
+Total Nets: 202

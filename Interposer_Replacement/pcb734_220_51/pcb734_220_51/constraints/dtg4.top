@@ -1,0 +1,530 @@
+(SKIDL
+  (Circuits
+    ("MAIN"
+      (Parts
+        ("idlPart_35" IbisIO
+          (xy (5563 4240))
+          (refDes "IO1")
+          (model "Unknown")
+          (Props
+            (_SXDesignName "DESIGN")
+            (bufferModel "CDSDefaultIOMultistage")
+            (cycle "1")
+            (hold "1.0e-09")
+            (offsets
+              ("5" "0")
+              ("4" "0")
+            )
+            (setup "2.0e-09")
+            (state "tristate")
+            (stimuli
+              ("5" "local37")
+              ("4" "local36")
+            )
+            (temperature "27")
+            (termMap
+              ("4" "Data")
+              ("5" "Enable")
+            )
+          )
+          (Terms ("idlNode_147" "1") )
+        )
+        ("idlPart_39" IbisIO
+          (xy (5519.5 4240.0))
+          (refDes "IO2")
+          (model "Unknown")
+          (Props
+            (_SXDesignName "DESIGN")
+            (bufferModel "CDSDefaultIOMultistage")
+            (cycle "1")
+            (hold "1.0e-09")
+            (offsets
+              ("5" "0")
+              ("4" "0")
+            )
+            (setup "2.0e-09")
+            (state "tristate")
+            (stimuli
+              ("5" "local41")
+              ("4" "local40")
+            )
+            (temperature "27")
+            (termMap
+              ("4" "Data")
+              ("5" "Enable")
+            )
+          )
+          (Terms ("idlNode_123" "1") )
+        )
+        ("idlPart_43" IbisIO
+          (xy (5544 4240))
+          (refDes "IO3")
+          (model "Unknown")
+          (Props
+            (_SXDesignName "DESIGN")
+            (bufferModel "CDSDefaultIOMultistage")
+            (cycle "1")
+            (hold "1.0e-09")
+            (offsets
+              ("5" "0")
+              ("4" "0")
+            )
+            (setup "2.0e-09")
+            (state "tristate")
+            (stimuli
+              ("5" "local45")
+              ("4" "local44")
+            )
+            (temperature "27")
+            (termMap
+              ("4" "Data")
+              ("5" "Enable")
+            )
+          )
+          (Terms ("idlNode_117" "1") )
+        )
+        ("idlPart_72" Resistor
+          (xy (5517.5 4221.5))
+          (mirror x)
+          (refDes "R1")
+          (value "50 Ohm")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_136" "1") ("idlNode_184" "2") )
+        )
+        ("idlPart_79" Resistor
+          (xy (5540 4228))
+          (mirror x)
+          (refDes "R4")
+          (value "50 Ohm")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_155" "1") ("idlNode_158" "2") )
+        )
+        ("idlPart_59" TLine
+          (xy (5525.0 4228.0))
+          (mirror x)
+          (refDes "TL1")
+          (Props
+            (_SXDesignName "DESIGN")
+            (impedance "60 ohm")
+            (length "2800 mil")
+            (propDelay "0.5 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_123" "1") ("idlNode_136" "2") )
+        )
+        ("idlPart_67" TLine
+          (xy (5531.0 4235.0))
+          (mirror x)
+          (refDes "TL5")
+          (Props
+            (_SXDesignName "DESIGN")
+            (impedance "60 ohm")
+            (length "2800 mil")
+            (propDelay "0.5 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_117" "1") ("idlNode_123" "2") )
+        )
+        ("idlPart_84" Source
+          (xy (5533 4228))
+          (refDes "V2")
+          (value "0 V")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_158" "1") )
+        )
+        ("idlPart_86" Source
+          (xy (5511.0 4221.5))
+          (refDes "V3")
+          (value "5 V")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_184" "1") )
+        )
+        ("idlPart_63" TLine
+          (xy (5549 4228))
+          (mirror x)
+          (refDes "TL3")
+          (Props
+            (_SXDesignName "DESIGN")
+            (impedance "60 ohm")
+            (length "2800 mil")
+            (propDelay "0.5 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_198" "1") ("idlNode_155" "2") )
+        )
+        ("idlPart_65" TLine
+          (xy (5551.5 4235.0))
+          (mirror x)
+          (refDes "TL4")
+          (Props
+            (_SXDesignName "DESIGN")
+            (impedance "60 ohm")
+            (length "2800 mil")
+            (propDelay "0.5 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_147" "1") ("idlNode_117" "2") )
+        )
+        ("idlPart_82" Source
+          (xy (5542.0 4221.5))
+          (refDes "V1")
+          (value "5 V")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_160" "1") )
+        )
+        ("idlPart_61" TLine
+          (xy (5558 4228))
+          (mirror x)
+          (refDes "TL2")
+          (Props
+            (_SXDesignName "DESIGN")
+            (impedance "60 ohm")
+            (length "2800 mil")
+            (propDelay "0.5 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_147" "1") ("idlNode_198" "2") )
+        )
+        ("idlPart_88" Source
+          (xy (5502.0 4228.0))
+          (refDes "V4")
+          (value "0 V")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_139" "1") )
+        )
+        ("idlPart_69" TLine
+          (xy (5517.5 4228.0))
+          (mirror x)
+          (refDes "TL6")
+          (Props
+            (_SXDesignName "DESIGN")
+            (impedance "60 ohm")
+            (length "2800 mil")
+            (propDelay "0.5 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_136" "1") ("idlNode_134" "2") )
+        )
+        ("idlPart_75" Resistor
+          (xy (5508.5 4228.0))
+          (mirror x)
+          (refDes "R2")
+          (value "50 Ohm")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_134" "1") ("idlNode_139" "2") )
+        )
+        ("idlPart_77" Resistor
+          (xy (5549.0 4221.5))
+          (mirror x)
+          (refDes "R3")
+          (value "50 Ohm")
+          (Props
+            (_SXDesignName "DESIGN")
+          )
+          (Terms ("idlNode_198" "1") ("idlNode_160" "2") )
+        )
+      )
+      (Nodes
+        ("idlNode_155"
+          (terms "idlPart_63.2" "idlPart_79.1" )
+        )
+        ("idlNode_123"
+          (terms "idlPart_67.2" "idlPart_59.1" "idlPart_39.1" )
+        )
+        ("idlNode_147"
+          (terms "idlPart_61.1" "idlPart_65.1" "idlPart_35.1" )
+        )
+        ("idlNode_160"
+          (terms "idlPart_77.2" "idlPart_82.1" )
+        )
+        ("idlNode_158"
+          (terms "idlPart_84.1" "idlPart_79.2" )
+        )
+        ("idlNode_139"
+          (terms "idlPart_75.2" "idlPart_88.1" )
+        )
+        ("idlNode_184"
+          (terms "idlPart_86.1" "idlPart_72.2" )
+        )
+        ("idlNode_117"
+          (terms "idlPart_65.2" "idlPart_67.1" "idlPart_43.1" )
+        )
+        ("idlNode_136"
+          (terms "idlPart_69.1" "idlPart_59.2" "idlPart_72.1" )
+        )
+        ("idlNode_134"
+          (terms "idlPart_75.1" "idlPart_69.2" )
+        )
+        ("idlNode_198"
+          (terms "idlPart_77.1" "idlPart_61.2" "idlPart_63.1" )
+        )
+      )
+      (Stimuli
+        ("local44"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "5e+07")
+            (periodicJitter "0")
+            (periodicPattern "10")
+          )
+        )
+        ("local45"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "5e+07")
+            (periodicJitter "0")
+            (periodicPattern "1")
+          )
+        )
+        ("local40"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "5e+07")
+            (periodicJitter "0")
+            (periodicPattern "10")
+          )
+        )
+        ("local41"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "5e+07")
+            (periodicJitter "0")
+            (periodicPattern "1")
+          )
+        )
+        ("local36"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "5e+07")
+            (periodicJitter "0")
+            (periodicPattern "10")
+          )
+        )
+        ("local37"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "5e+07")
+            (periodicJitter "0")
+            (periodicPattern "1")
+          )
+        )
+      )
+      (Notes
+      )
+      (Constraints
+        ("NET_SCHEDULE" "VERIFY")
+        ("RATSNEST_SCHEDULE" "TEMPLATE")
+        ("TEMPLATE_MAPPING_MODE" "PINUSE")
+      )
+      (MeasurementSets
+        ("Custom"
+            ("DieNoiseMarginHigh"
+              (status "off")
+              (description "Minimum voltage in High state at Die Pad - Vihmin")
+              (definition "(Term[\"DiePad\"]->(Rise[Vmin]) - ioInputHighThresh)")
+            )
+            ("DieNoiseMarginLow"
+              (status "off")
+              (description "Vilmax - Maximum voltage in Low state at Die Pad")
+              (definition "(ioInputLowThresh - Term[\"DiePad\"]->(Fall[Vmax]))")
+            )
+            ("DieOvershootHigh"
+              (status "off")
+              (description "Maximum voltage in High state at DiePad")
+              (definition "Term[\"DiePad\"]->(Rise[Vmax])")
+            )
+            ("DieOvershootLow"
+              (status "off")
+              (description "Minimum voltage in Low state at Die Pad")
+              (definition "Term[\"DiePad\"]->(Fall[Vmin])")
+            )
+            ("DieSettleTimeFall"
+              (status "off")
+              (description "Last time below Vilmax at Die Pad")
+              (definition "Term[\"DiePad\"]->(FALL[Tfinal(ioInputLowThresh)])")
+            )
+            ("DieSettleTimeRise"
+              (status "off")
+              (description "Last time above Vihmin at Die Pad")
+              (definition "Term[\"DiePad\"]->(RISE[Tfinal(ioInputHighThresh)])")
+            )
+        )
+        ("Reflection"
+            ("BufferDelayFall"
+              (status "off")
+            )
+            ("BufferDelayRise"
+              (status "off")
+            )
+            ("FirstIncidentFall"
+              (status "off")
+            )
+            ("FirstIncidentRise"
+              (status "off")
+            )
+            ("Monotonic"
+              (status "on")
+            )
+            ("MonotonicFall"
+              (status "off")
+            )
+            ("MonotonicRise"
+              (status "off")
+            )
+            ("NoiseMargin"
+              (status "on")
+            )
+            ("NoiseMarginHigh"
+              (status "off")
+            )
+            ("NoiseMarginLow"
+              (status "off")
+            )
+            ("OvershootHigh"
+              (status "on")
+            )
+            ("OvershootLow"
+              (status "on")
+            )
+            ("PropDelay"
+              (status "on")
+            )
+            ("SettleDelay"
+              (status "on")
+            )
+            ("SettleDelayFall"
+              (status "off")
+            )
+            ("SettleDelayRise"
+              (status "off")
+            )
+            ("SwitchDelay"
+              (status "on")
+            )
+            ("SwitchDelayFall"
+              (status "off")
+            )
+            ("SwitchDelayRise"
+              (status "off")
+            )
+        )
+        ("Crosstalk"
+            ("Crosstalk"
+              (status "on")
+            )
+        )
+        ("EMI"
+            ("EMIStatus"
+              (status "on")
+            )
+            ("PeakEmission"
+              (status "on")
+            )
+            ("PeakFrequency"
+              (status "on")
+            )
+            ("PulseFreq"
+              (status "on")
+            )
+            ("RiseTime"
+              (status "on")
+            )
+            ("VoltageSwing"
+              (status "on")
+            )
+        )
+      )
+      (VectorSets
+      )
+      (Props
+        (_SXCMObjectType "2 blank 16 DTG4")
+        (allDrivers "active")
+        (customSimType "Reflection")
+        (ftsMode ("Typ"))
+        (rcvrSelect "all")
+        (tlineDelayMode "time")
+        (userRevision "1.0")
+      )
+    )
+  )
+  (Subckts
+  )
+  (Props
+    (Revision "14.207")
+  )
+  (Params
+    (async ((asyncTimePoints "") (asyncInitState "1")))
+    (DiffOutput ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput") (bufferModelInverting "CDSDefaultOutput") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (threshOutputHighMin "4.5 V") (threshOutputHighTyp "4.8 V") (threshOutputHighMax "5.1 V") (threshOutputLowMin "-5.2 V") (threshOutputLowTyp "-4.8 V") (threshOutputLowMax "-4.5 V") (spice nil)))
+    (Trace ((d1Thickness "10 mil") (d1Constant "4.5") (d1LossTangent "0.035") (d2Thickness "10 mil") (d2Constant "4.5") (d2LossTangent "0.035") (d3Thickness "0.0") (d3Constant "1.0") (d3LossTangent "0.035") length("1000 mil") (spacing "5 mil") (spacing2 "5 mil") (spacing3 "5 mil") (spacing4 "5 mil") (spacing5 "5 mil") (traceConductivity "595900 mho/cm") (traceGeometry "microstrip") (traceLayerName "") (traceThickness "0.72 mil") (traceType "single") (traceWidth "5.0 mil") (traceWidth2 "5.0 mil") (traceWidth3 "5.0 mil") (traceWidth4 "5.0 mil") (traceWidth5 "5.0 mil") (traceWidth6 "5.0 mil") (offset "0 mil") (traceCount "1") (impedance nil)))
+    (sync ((syncFreq "100e6") (syncInitState "1") (syncPattern "10") (syncEdgeSwitch "rise")))
+    (IbisIOMacro ((temperature "27") (bufferModel "CDSDefaultIO") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (HiClampTerm ((threshVoltage "0.7 V") (voltage "5 V") (maxDelay "0.1 ns")))
+    (IbisIO ((temperature "27") (bufferModel "CDSDefaultIO") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (Cable (length("1 m")))
+    (Connector nil)
+    (DiffOutputPkg ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput") (bufferModelInverting "CDSDefaultOutput") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (threshOutputHighMin "4.5 V") (threshOutputHighTyp "4.8 V") (threshOutputHighMax "5.1 V") (threshOutputLowMin "-5.2 V") (threshOutputLowTyp "-4.8 V") (threshOutputLowMax "-4.5 V") (spice nil)))
+    (Resistor ((resistance "50 ohm") (orientation "0")))
+    (IbisOutput ((temperature "27") (bufferModel "CDSDefaultOutput") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (LowClampTerm ((threshVoltage "0.7 V") (voltage "0 V") (maxDelay "0.1 ns")))
+    (clocked ((clockRise "1e-09") (clockFall "1e-09") (clockFreq "100e6") (clockInitState "0") (clockDutyCycle "0.5") (clockJitter "0")))
+    (DualClampTerm ((threshVoltageHigh "0.7 V") (threshVoltageLow "0.7 V") (voltageHigh "5 V") (voltageLow "0 V") (maxDelay "0.1 ns")))
+    (DiffIO ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput") (bufferModelInverting "CDSDefaultOutput") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (threshInputHighMin "0 V") (threshInputHighTyp "6e-2 V") (threshInputHighMax "2e-1 V") (threshInputLowMin "-3e-1 V") (threshInputLowTyp "-8e-2 V") (threshInputLowMax "0 V") (threshOutputHighMin "4.5 V") (threshOutputHighTyp "4.8 V") (threshOutputHighMax "5.1 V") (threshOutputLowMin "-5.2 V") (threshOutputLowTyp "-4.8 V") (threshOutputLowMax "-4.5 V") (spice nil)))
+    (DiffIOPkg ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput") (bufferModelInverting "CDSDefaultOutput") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (threshInputHighMin "0 V") (threshInputHighTyp "6e-2 V") (threshInputHighMax "2e-1 V") (threshInputLowMin "-3e-1 V") (threshInputLowTyp "-8e-2 V") (threshInputLowMax "0 V") (threshOutputHighMin "4.5 V") (threshOutputHighTyp "4.8 V") (threshOutputHighMax "5.1 V") (threshOutputLowMin "-5.2 V") (threshOutputLowTyp "-4.8 V") (threshOutputLowMax "-4.5 V") (spice nil)))
+    (IbisOutput_OpenPullUp ((temperature "27") (bufferModel "CDSDefaultOutput") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (IbisIO_OpenPullUp ((temperature "27") (bufferModel "CDSDefaultIO") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (periodic ((periodicFreq "100e6") (periodicPattern "10") (periodicJitter "0")))
+    (ShuntTerm ((resistance "50 ohm") (voltage "5 V") (maxDelay "0.1 ns")))
+    (CurrentProbe nil)
+    (Diode ((threshVoltage "0.7 V")))
+    (ESpiceDevice nil)
+    (RLGC (length("1000 mil")))
+    (IbisIO_OpenPullDown ((temperature "27") (bufferModel "CDSDefaultIO") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (Via ((model "Unknown")))
+    (Capacitor ((capacitance "10 pF") (orientation "0")))
+    (IbisInput ((temperature "27") (bufferModel "CDSDefaultInput") (cycle "1")))
+    (IbisIOPkg ((temperature "27") (bufferModel "CDSDefaultIO") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (IbisOutputPkg ((temperature "27") (bufferModel "CDSDefaultOutput") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil)))
+    (TheveninTerm ((resistanceHigh "180 ohm") (resistanceLow "270 ohm") (voltageHigh "5 V") (voltageLow "0 V") (maxDelay "0.1 ns")))
+    (RCTerm ((resistance "50 ohm") (capacitance "20 pF") (voltage "5 V") (maxDelay "0.1 ns")))
+    (Inductor ((inductance "5 nH") (orientation "0")))
+    (TLine ((diffImpedance "100 ohm") (diffPropDelay "0.5 ns") (diffVelocity "5600 mil/ns") (impedance "60 ohm") length("2800 mil") (propDelay "0.5 ns") (velocity "5600 mil/ns") (traceCount "1") (traceGeometry "Microstrip") (impedanceMin nil) (impedanceMax nil) (lengthMin nil) (lengthMax nil) (propDelayMin nil) (propDelayMax nil) (impedanceSweepCount nil) (propDelaySweepCount nil) (velocitySweepCount nil) (lengthSweepCount nil) (matchSetName nil)))
+    (SeriesTerm ((resistance "22 ohm") (maxDelay "0.1 ns")))
+    (idlCircuit ((allDrivers "active") (ftsMode '("Typ")) (rcvrSelect "all") (simMode "Reflection") (tlineDelayMode "time") (userRevision "1.0")))
+    (DiffInputPkg ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput") (bufferModelInverting "CDSDefaultOutput") (threshInputHighMin "0 V") (threshInputHighTyp "6e-2 V") (threshInputHighMax "2e-1 V") (threshInputLowMin "-3e-1 V") (threshInputLowTyp "-8e-2 V") (threshInputLowMax "0 V") (cycle "1")))
+    (DiffInput ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput") (bufferModelInverting "CDSDefaultOutput") (threshInputHighMin "0 V") (threshInputHighTyp "6e-2 V") (threshInputHighMax "2e-1 V") (threshInputLowMin "-3e-1 V") (threshInputLowTyp "-8e-2 V") (threshInputLowMax "0 V") (cycle "1")))
+    (Source ((voltage "5 V")))
+    (IbisInputPkg ((temperature "27") (bufferModel "CDSDefaultInput") (cycle "1")))
+  )
+)

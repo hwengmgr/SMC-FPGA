@@ -1,0 +1,5031 @@
+(PropertyFile "1.0" 
+ (Creator " HDL Direct 15.70-s009 29-Jul-2008" )
+ (Created "Wed Jan 12 10:57:09 2011" )
+ (Cell "pcb734_220_51" 
+  (View "sch_1" 
+   (Inst "page4_I96" 
+    (Pr 
+     ("SIZE" "8" )
+     ("CDS_LIB" "cmos" )
+     ("SEC_TYPE" "" )
+     ("ABBREV" "164245" )
+     ("TITLE" "FCT164245TSOIC" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("PART_NUMBER" "437-726-00" )
+     ("LOCATION" "U2" )
+     ("ROT" "0" )
+     ("VER" "4" )
+     ("XY" "(900,7750)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "VSS_45" 
+     (Pr 
+      ("\\$pn\\" "45" )))
+    (IPrt "VSS_39" 
+     (Pr 
+      ("\\$pn\\" "39" )))
+    (IPrt "VSS_34" 
+     (Pr 
+      ("\\$pn\\" "34" )))
+    (IPrt "VSS_28" 
+     (Pr 
+      ("\\$pn\\" "28" )))
+    (IPrt "VSS_21" 
+     (Pr 
+      ("\\$pn\\" "21" )))
+    (IPrt "VSS_15" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "VSS_10" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "VSS_4" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VDD_18" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "VDD_7" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "VDD1_42" 
+     (Pr 
+      ("\\$pn\\" "42" )))
+    (IPrt "VDD1_31" 
+     (Pr 
+      ("\\$pn\\" "31" )))
+    (IPrt "\\oe*\\" 
+     (Pr 
+      ("\\$pn\\" "48" )))
+    (IPrt "DIR" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "8" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "6" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "5" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "3" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "37" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "38" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "40" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "41" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "43" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "44" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "46" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "47" ))))
+   (Inst "page4_I97" 
+    (Pr 
+     ("SIZE" "8" )
+     ("CDS_LIB" "cmos" )
+     ("SEC_TYPE" "" )
+     ("ABBREV" "164245" )
+     ("TITLE" "FCT164245TSOIC" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("PART_NUMBER" "437-726-00" )
+     ("LOCATION" "U2" )
+     ("ROT" "0" )
+     ("VER" "4" )
+     ("XY" "(200,6550)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "VSS_45" 
+     (Pr 
+      ("\\$pn\\" "45" )))
+    (IPrt "VSS_39" 
+     (Pr 
+      ("\\$pn\\" "39" )))
+    (IPrt "VSS_34" 
+     (Pr 
+      ("\\$pn\\" "34" )))
+    (IPrt "VSS_28" 
+     (Pr 
+      ("\\$pn\\" "28" )))
+    (IPrt "VSS_21" 
+     (Pr 
+      ("\\$pn\\" "21" )))
+    (IPrt "VSS_15" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "VSS_10" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "VSS_4" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VDD_18" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "VDD_7" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "VDD1_42" 
+     (Pr 
+      ("\\$pn\\" "42" )))
+    (IPrt "VDD1_31" 
+     (Pr 
+      ("\\$pn\\" "31" )))
+    (IPrt "\\oe*\\" 
+     (Pr 
+      ("\\$pn\\" "25" )))
+    (IPrt "DIR" 
+     (Pr 
+      ("\\$pn\\" "24" )))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "9" )
+      ("\\$pn\\" "23" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "10" )
+      ("\\$pn\\" "22" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "11" )
+      ("\\$pn\\" "20" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "12" )
+      ("\\$pn\\" "19" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "13" )
+      ("\\$pn\\" "17" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "14" )
+      ("\\$pn\\" "16" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "15" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "16" )
+      ("\\$pn\\" "13" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "9" )
+      ("\\$pn\\" "26" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "10" )
+      ("\\$pn\\" "27" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "11" )
+      ("\\$pn\\" "29" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "12" )
+      ("\\$pn\\" "30" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "13" )
+      ("\\$pn\\" "32" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "14" )
+      ("\\$pn\\" "33" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "15" )
+      ("\\$pn\\" "35" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "16" )
+      ("\\$pn\\" "36" ))))
+   (Inst "page4_I98" 
+    (Pr 
+     ("SIZE" "8" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "cmos" )
+     ("ABBREV" "164245" )
+     ("TITLE" "FCT164245TSOIC" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("PART_NUMBER" "437-726-00" )
+     ("LOCATION" "U3" )
+     ("ROT" "0" )
+     ("VER" "4" )
+     ("XY" "(200,5450)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "VSS_45" 
+     (Pr 
+      ("\\$pn\\" "45" )))
+    (IPrt "VSS_39" 
+     (Pr 
+      ("\\$pn\\" "39" )))
+    (IPrt "VSS_34" 
+     (Pr 
+      ("\\$pn\\" "34" )))
+    (IPrt "VSS_28" 
+     (Pr 
+      ("\\$pn\\" "28" )))
+    (IPrt "VSS_21" 
+     (Pr 
+      ("\\$pn\\" "21" )))
+    (IPrt "VSS_15" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "VSS_10" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "VSS_4" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VDD_18" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "VDD_7" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "VDD1_42" 
+     (Pr 
+      ("\\$pn\\" "42" )))
+    (IPrt "VDD1_31" 
+     (Pr 
+      ("\\$pn\\" "31" )))
+    (IPrt "\\oe*\\" 
+     (Pr 
+      ("\\$pn\\" "48" )))
+    (IPrt "DIR" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "8" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "6" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "5" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "3" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "37" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "38" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "40" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "41" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "43" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "44" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "46" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "47" ))))
+   (Inst "page4_I99" 
+    (Pr 
+     ("SIZE" "8" )
+     ("SEC_TYPE" "" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("TITLE" "FCT164245TSOIC" )
+     ("ABBREV" "164245" )
+     ("CDS_LIB" "cmos" )
+     ("PART_NUMBER" "437-726-00" )
+     ("LOCATION" "U3" )
+     ("ROT" "0" )
+     ("VER" "4" )
+     ("XY" "(200,4050)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "VSS_45" 
+     (Pr 
+      ("\\$pn\\" "45" )))
+    (IPrt "VSS_39" 
+     (Pr 
+      ("\\$pn\\" "39" )))
+    (IPrt "VSS_34" 
+     (Pr 
+      ("\\$pn\\" "34" )))
+    (IPrt "VSS_28" 
+     (Pr 
+      ("\\$pn\\" "28" )))
+    (IPrt "VSS_21" 
+     (Pr 
+      ("\\$pn\\" "21" )))
+    (IPrt "VSS_15" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "VSS_10" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "VSS_4" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VDD_18" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "VDD_7" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "VDD1_42" 
+     (Pr 
+      ("\\$pn\\" "42" )))
+    (IPrt "VDD1_31" 
+     (Pr 
+      ("\\$pn\\" "31" )))
+    (IPrt "\\oe*\\" 
+     (Pr 
+      ("\\$pn\\" "25" )))
+    (IPrt "DIR" 
+     (Pr 
+      ("\\$pn\\" "24" )))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "9" )
+      ("\\$pn\\" "23" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "10" )
+      ("\\$pn\\" "22" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "11" )
+      ("\\$pn\\" "20" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "12" )
+      ("\\$pn\\" "19" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "13" )
+      ("\\$pn\\" "17" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "14" )
+      ("\\$pn\\" "16" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "15" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "16" )
+      ("\\$pn\\" "13" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "9" )
+      ("\\$pn\\" "26" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "10" )
+      ("\\$pn\\" "27" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "11" )
+      ("\\$pn\\" "29" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "12" )
+      ("\\$pn\\" "30" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "13" )
+      ("\\$pn\\" "32" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "14" )
+      ("\\$pn\\" "33" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "15" )
+      ("\\$pn\\" "35" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "16" )
+      ("\\$pn\\" "36" ))))
+   (Inst "page4_I100" 
+    (Pr 
+     ("SIZE" "8" )
+     ("SEC_TYPE" "" )
+     ("ABBREV" "164245" )
+     ("TITLE" "FCT164245TSOIC" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("CDS_LIB" "cmos" )
+     ("PART_NUMBER" "437-726-00" )
+     ("LOCATION" "U1" )
+     ("ROT" "0" )
+     ("VER" "4" )
+     ("XY" "(3400,7100)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "VSS_45" 
+     (Pr 
+      ("\\$pn\\" "45" )))
+    (IPrt "VSS_39" 
+     (Pr 
+      ("\\$pn\\" "39" )))
+    (IPrt "VSS_34" 
+     (Pr 
+      ("\\$pn\\" "34" )))
+    (IPrt "VSS_28" 
+     (Pr 
+      ("\\$pn\\" "28" )))
+    (IPrt "VSS_21" 
+     (Pr 
+      ("\\$pn\\" "21" )))
+    (IPrt "VSS_15" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "VSS_10" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "VSS_4" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VDD_18" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "VDD_7" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "VDD1_42" 
+     (Pr 
+      ("\\$pn\\" "42" )))
+    (IPrt "VDD1_31" 
+     (Pr 
+      ("\\$pn\\" "31" )))
+    (IPrt "\\oe*\\" 
+     (Pr 
+      ("\\$pn\\" "48" )))
+    (IPrt "DIR" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "8" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "6" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "5" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "3" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "37" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "38" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "40" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "41" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "43" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "44" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "46" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "47" ))))
+   (Inst "page4_I101" 
+    (Pr 
+     ("SIZE" "8" )
+     ("ABBREV" "164245" )
+     ("TITLE" "FCT164245TSOIC" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("CDS_LIB" "cmos" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "437-726-00" )
+     ("LOCATION" "U1" )
+     ("ROT" "0" )
+     ("VER" "4" )
+     ("XY" "(3500,4850)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "VSS_45" 
+     (Pr 
+      ("\\$pn\\" "45" )))
+    (IPrt "VSS_39" 
+     (Pr 
+      ("\\$pn\\" "39" )))
+    (IPrt "VSS_34" 
+     (Pr 
+      ("\\$pn\\" "34" )))
+    (IPrt "VSS_28" 
+     (Pr 
+      ("\\$pn\\" "28" )))
+    (IPrt "VSS_21" 
+     (Pr 
+      ("\\$pn\\" "21" )))
+    (IPrt "VSS_15" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "VSS_10" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "VSS_4" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VDD_18" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "VDD_7" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "VDD1_42" 
+     (Pr 
+      ("\\$pn\\" "42" )))
+    (IPrt "VDD1_31" 
+     (Pr 
+      ("\\$pn\\" "31" )))
+    (IPrt "\\oe*\\" 
+     (Pr 
+      ("\\$pn\\" "25" )))
+    (IPrt "DIR" 
+     (Pr 
+      ("\\$pn\\" "24" )))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "9" )
+      ("\\$pn\\" "23" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "10" )
+      ("\\$pn\\" "22" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "11" )
+      ("\\$pn\\" "20" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "12" )
+      ("\\$pn\\" "19" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "13" )
+      ("\\$pn\\" "17" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "14" )
+      ("\\$pn\\" "16" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "15" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "16" )
+      ("\\$pn\\" "13" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "9" )
+      ("\\$pn\\" "26" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "10" )
+      ("\\$pn\\" "27" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "11" )
+      ("\\$pn\\" "29" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "12" )
+      ("\\$pn\\" "30" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "13" )
+      ("\\$pn\\" "32" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "14" )
+      ("\\$pn\\" "33" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "15" )
+      ("\\$pn\\" "35" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "16" )
+      ("\\$pn\\" "36" ))))
+   (Inst "page4_I102" 
+    (Pr 
+     ("SIZE" "8" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("TITLE" "8RES" )
+     ("ABBREV" "8RES" )
+     ("CDS_LIB" "resistor" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "636-413-04" )
+     ("VALUE" "43" )
+     ("LOCATION" "RN6" )
+     ("ROT" "1" )
+     ("VER" "3" )
+     ("XY" "(-450,5400)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "10" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "13" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "15" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "16" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "8" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "7" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "6" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I103" 
+    (Pr 
+     ("SIZE" "8" )
+     ("SEC_TYPE" "" )
+     ("ABBREV" "8RES" )
+     ("TITLE" "8RES" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("CDS_LIB" "resistor" )
+     ("PART_NUMBER" "636-413-04" )
+     ("VALUE" "43" )
+     ("LOCATION" "RN7" )
+     ("ROT" "1" )
+     ("VER" "3" )
+     ("XY" "(-500,4000)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "10" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "13" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "15" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "16" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "8" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "7" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "6" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I104" 
+    (Pr 
+     ("SIZE" "8" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("PART_NUMBER" "636-413-04" )
+     ("ABBREV" "8RES" )
+     ("TITLE" "8RES" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("CDS_LIB" "resistor" )
+     ("SEC_TYPE" "" )
+     ("VALUE" "43" )
+     ("LOCATION" "RN1" )
+     ("ROT" "1" )
+     ("VER" "3" )
+     ("XY" "(2750,7050)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "10" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "13" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "15" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "16" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "8" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "7" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "6" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I105" 
+    (Pr 
+     ("SIZE" "8" )
+     ("PART_NUMBER" "636-413-04" )
+     ("CDS_LIB" "resistor" )
+     ("ABBREV" "8RES" )
+     ("TITLE" "8RES" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("SEC_TYPE" "" )
+     ("VALUE" "43" )
+     ("LOCATION" "RN2" )
+     ("ROT" "1" )
+     ("VER" "3" )
+     ("XY" "(2850,4800)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "10" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "13" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "15" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "16" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "8" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "7" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "6" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I106" 
+    (Pr 
+     ("SIZE" "8" )
+     ("PART_NUMBER" "636-413-04" )
+     ("CDS_LIB" "resistor" )
+     ("ABBREV" "8RES" )
+     ("TITLE" "8RES" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("SEC_TYPE" "" )
+     ("VALUE" "43" )
+     ("LOCATION" "RN3" )
+     ("ROT" "1" )
+     ("VER" "3" )
+     ("XY" "(4150,7050)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "10" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "13" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "15" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "16" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "8" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "7" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "6" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I226" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "636-151-00" )
+     ("WATTAGE" "?WATTS" )
+     ("TOLERANCE" "?TOL" )
+     ("CDS_LIB" "resistor" )
+     ("VERILOG_MODEL" "RES_SERIES" )
+     ("TOL_ON_OFF" "ON" )
+     ("NEGTOL" "RTOL%" )
+     ("SIZE" "1" )
+     ("ABBREV" "SR" )
+     ("TITLE" "SRES" )
+     ("VALUE" "51" )
+     ("SEC" "1" )
+     ("LOCATION" "R23" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(3000,6150)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I227" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("SIZE" "1" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C13" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2000,6400)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I230" 
+    (Pr 
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C9" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-800,7000)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I231" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C10" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(650,7000)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I234" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "capacitor" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("VALUE" "0.1UF" )
+     ("SEC" "1" )
+     ("LOCATION" "C12" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-900,4500)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I235" 
+    (Pr 
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C11" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(700,4500)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I236" 
+    (Pr 
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C8" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2550,5400)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I237" 
+    (Pr 
+     ("SIZE" "1" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "capacitor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C7" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4050,5350)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I244" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP42" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1750,6000)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I245" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP43" )
+     ("ROT" "2" )
+     ("VER" "1" )
+     ("XY" "(3650,6250)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I246" 
+    (Pr 
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP1" )
+     ("ROT" "2" )
+     ("VER" "2" )
+     ("XY" "(2500,6750)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I247" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP2" )
+     ("ROT" "2" )
+     ("VER" "2" )
+     ("XY" "(2000,6800)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I248" 
+    (Pr 
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP3" )
+     ("ROT" "2" )
+     ("VER" "2" )
+     ("XY" "(1800,6850)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I249" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP4" )
+     ("ROT" "3" )
+     ("VER" "1" )
+     ("XY" "(1800,7200)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I250" 
+    (Pr 
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP37" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1800,3950)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I251" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP38" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1400,4000)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I252" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP31" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(-1250,5100)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I253" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP32" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(-1400,5150)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I254" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP33" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(-1550,5200)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I255" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP34" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(-1850,5250)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I256" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP35" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(-2000,5300)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I257" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP36" )
+     ("ROT" "3" )
+     ("VER" "1" )
+     ("XY" "(-1950,5700)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I258" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP22" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1850,6650)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I259" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP21" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1850,6400)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I260" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP20" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1600,6250)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I261" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP23" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1700,6800)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I262" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP19" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1450,8000)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I263" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP18" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1650,7950)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I264" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP17" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1850,7800)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I265" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP16" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1900,7650)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I266" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP15" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1700,7500)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I268" 
+    (Pr 
+     ("SIZE" "8" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "resistor" )
+     ("PART_NUMBER" "636-413-04" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("ABBREV" "8RES" )
+     ("TITLE" "8RES" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("VALUE" "43" )
+     ("LOCATION" "RN4" )
+     ("ROT" "5" )
+     ("VER" "3" )
+     ("XY" "(200,7750)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "10" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "13" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "15" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "16" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "8" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "7" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "6" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I269" 
+    (Pr 
+     ("SIZE" "8" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "resistor" )
+     ("PART_NUMBER" "636-413-04" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("ABBREV" "8RES" )
+     ("TITLE" "8RES" )
+     ("HAS_FIXED_SIZE" "8" )
+     ("VALUE" "43" )
+     ("LOCATION" "RN5" )
+     ("ROT" "5" )
+     ("VER" "3" )
+     ("XY" "(-500,6550)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "B" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "9" )))
+    (IPrt "B" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "10" )))
+    (IPrt "B" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "11" )))
+    (IPrt "B" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "12" )))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "13" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "14" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "15" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "16" )))
+    (IPrt "A" 
+     (Rg 7 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "8" )))
+    (IPrt "A" 
+     (Rg 6 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "7" )))
+    (IPrt "A" 
+     (Rg 5 )
+     (Pr 
+      ("SEC" "3" )
+      ("\\$pn\\" "6" )))
+    (IPrt "A" 
+     (Rg 4 )
+     (Pr 
+      ("SEC" "4" )
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("SEC" "5" )
+      ("\\$pn\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("SEC" "6" )
+      ("\\$pn\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "7" )
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "8" )
+      ("\\$pn\\" "1" ))))
+   (Inst "page4_I270" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "cmos" )
+     ("TAG" "DTG" )
+     ("TITLE" "TC7SZU04F" )
+     ("ABBREV" "TC7SZU04F" )
+     ("PART_NUMBER" "437-739-01" )
+     ("SEC" "1" )
+     ("LOCATION" "U5" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(2400,6150)" )
+     ("PHYS_PAGE" "3" ))
+    (IPrt "\\y*\\" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VSS" 
+     (Pr 
+      ("\\$pn\\" "3" )))
+    (IPrt "VDD1" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "2" ))))
+   (Inst "page6_I24" 
+    (Pr 
+     ("SIZE" "2" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "741-645-00" )
+     ("ABBREV" "NC7WZ17" )
+     ("TITLE" "NC7WZ17" )
+     ("HAS_FIXED_SIZE" "2" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "cmos" )
+     ("LOCATION" "U8" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1800,6500)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Y" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "6" )))
+    (IPrt "Y" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "4" )))
+    (IPrt "VCC" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "GND" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "1" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "3" ))))
+   (Inst "page6_I25" 
+    (Pr 
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("CDS_LIB" "capacitor" )
+     ("SEC_TYPE" "" )
+     ("TAG" "DTG" )
+     ("SIZE" "1" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("VALUE" "0.1UF" )
+     ("SEC" "1" )
+     ("LOCATION" "C3" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1450,6750)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I26" 
+    (Pr 
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("SEC_TYPE" "" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "636-151-00" )
+     ("CDS_LIB" "resistor" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("VALUE" "51" )
+     ("SEC" "1" )
+     ("LOCATION" "R10" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(2300,6400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I94" 
+    (Pr 
+     ("CDS_LIB" "array" )
+     ("CDS_LMAN_SYM_OUTLINE" "-550,850,500,-700" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "613-560-00" )
+     ("SEC" "1" )
+     ("CDS_LOCATION" "GA1" )
+     ("\\$location\\" "GA1" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-600,7200)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "\\tsp_on_request*\\" 
+     (Pr 
+      ("\\$pn\\" "69" )))
+    (IPrt "\\tsp_on*\\" 
+     (Pr 
+      ("\\$pn\\" "125" )))
+    (IPrt "\\tsp_off*\\" 
+     (Pr 
+      ("\\$pn\\" "68" )))
+    (IPrt "\\smc_ready*\\" 
+     (Pr 
+      ("\\$pn\\" "97" )))
+    (IPrt "\\smc_en_tsp_on*\\" 
+     (Pr 
+      ("\\$pn\\" "127" )))
+    (IPrt "\\pwrclr*\\" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "PSEN" 
+     (Pr 
+      ("\\$pn\\" "29" )))
+    (IPrt "\\pdu_k1_on/jag_k1_on\\" 
+     (Pr 
+      ("\\$pn\\" "140" )))
+    (IPrt "\\pdu_48v_on/jaj_48v_on\\" 
+     (Pr 
+      ("\\$pn\\" "134" )))
+    (IPrt "LED_CATHODE" 
+     (Pr 
+      ("\\$pn\\" "142" )))
+    (IPrt "K1_ON_CNTL" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "\\cntl_jag_switched_ac*\\" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "\\cntl_jag_48vdc_on*\\" 
+     (Pr 
+      ("\\$pn\\" "6" )))
+    (IPrt "\\cntl_bc_switched_ac*\\" 
+     (Pr 
+      ("\\$pn\\" "8" )))
+    (IPrt "\\cntl_bc_48vdc_on*\\" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "\\aduc_wr*\\" 
+     (Pr 
+      ("\\$pn\\" "16" )))
+    (IPrt "\\aduc_rd*\\" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "AD15" 
+     (Pr 
+      ("\\$pn\\" "59" )))
+    (IPrt "AD14" 
+     (Pr 
+      ("\\$pn\\" "58" )))
+    (IPrt "AD13" 
+     (Pr 
+      ("\\$pn\\" "57" )))
+    (IPrt "AD12" 
+     (Pr 
+      ("\\$pn\\" "55" )))
+    (IPrt "AD11" 
+     (Pr 
+      ("\\$pn\\" "53" )))
+    (IPrt "AD10" 
+     (Pr 
+      ("\\$pn\\" "51" )))
+    (IPrt "AD09" 
+     (Pr 
+      ("\\$pn\\" "50" )))
+    (IPrt "AD08" 
+     (Pr 
+      ("\\$pn\\" "49" )))
+    (IPrt "AD07" 
+     (Pr 
+      ("\\$pn\\" "48" )))
+    (IPrt "AD06" 
+     (Pr 
+      ("\\$pn\\" "47" )))
+    (IPrt "AD05" 
+     (Pr 
+      ("\\$pn\\" "46" )))
+    (IPrt "AD04" 
+     (Pr 
+      ("\\$pn\\" "45" )))
+    (IPrt "AD03" 
+     (Pr 
+      ("\\$pn\\" "44" )))
+    (IPrt "AD02" 
+     (Pr 
+      ("\\$pn\\" "43" )))
+    (IPrt "AD01" 
+     (Pr 
+      ("\\$pn\\" "42" )))
+    (IPrt "AD0" 
+     (Pr 
+      ("\\$pn\\" "41" )))
+    (IPrt "\\48v_on_cntl\\" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "VCCO_3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCINT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCAUX" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TMS" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_DATA_IN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_BLOWER" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TCK" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SUSPEND" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SUPPORT_CABINET_FAN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPARE_FAN_INPUT_3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPARE_FAN_INPUT_2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPAER_FAN_INPUT_4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPAER_FAN_INPUT_1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\prog_b*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VBC" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VAC" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VAB" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_MAINT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_jag_thermal_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_JAG_48V_GOOD" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_I2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_I1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_FREQ" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\io/gclk14\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\io/gclk8\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_ovr_tmp*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_output_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_ac_pwr_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DC90_48V_ON" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_phase_loss*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ovr_tmp*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_output_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN1_TACH" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN1_STATE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN0_TACH" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN0_STATE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ac_pwr_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ac_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SC_LONBUS_DATA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "EX_LONBUS_DATA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_DATA_OUT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDO" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SC_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "EX_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DONE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_dc90_48v_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" ))))
+   (Inst "page6_I95" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "array" )
+     ("CDS_LMAN_SYM_OUTLINE" "-500,1100,500,-1150" )
+     ("PART_NUMBER" "613-560-00" )
+     ("SEC" "2" )
+     ("CDS_LOCATION" "GA1" )
+     ("\\$location\\" "GA1" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(-50,4600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TH_LONBUS_DATA_OUT" 
+     (Pr 
+      ("\\$pn\\" "98" )))
+    (IPrt "TH_LONBUS_DATA_IN" 
+     (Pr 
+      ("\\$pn\\" "101" )))
+    (IPrt "TH_LONBUS_CNTL" 
+     (Pr 
+      ("\\$pn\\" "99" )))
+    (IPrt "TH_BLOWER" 
+     (Pr 
+      ("\\$pn\\" "82" )))
+    (IPrt "SUPPORT_CABINET_FAN" 
+     (Pr 
+      ("\\$pn\\" "83" )))
+    (IPrt "SPARE_FAN_INPUT_3" 
+     (Pr 
+      ("\\$pn\\" "87" )))
+    (IPrt "SPARE_FAN_INPUT_2" 
+     (Pr 
+      ("\\$pn\\" "85" )))
+    (IPrt "SPAER_FAN_INPUT_4" 
+     (Pr 
+      ("\\$pn\\" "88" )))
+    (IPrt "SPAER_FAN_INPUT_1" 
+     (Pr 
+      ("\\$pn\\" "84" )))
+    (IPrt "SC_LONBUS_DATA" 
+     (Pr 
+      ("\\$pn\\" "105" )))
+    (IPrt "SC_LONBUS_CNTL" 
+     (Pr 
+      ("\\$pn\\" "104" )))
+    (IPrt "PDU_VBC" 
+     (Pr 
+      ("\\$pn\\" "138" )))
+    (IPrt "PDU_VAC" 
+     (Pr 
+      ("\\$pn\\" "139" )))
+    (IPrt "PDU_VAB" 
+     (Pr 
+      ("\\$pn\\" "135" )))
+    (IPrt "PDU_V2" 
+     (Pr 
+      ("\\$pn\\" "131" )))
+    (IPrt "PDU_V1" 
+     (Pr 
+      ("\\$pn\\" "132" )))
+    (IPrt "PDU_V0" 
+     (Pr 
+      ("\\$pn\\" "117" )))
+    (IPrt "PDU_MAINT" 
+     (Pr 
+      ("\\$pn\\" "20" )))
+    (IPrt "\\pdu_jag_thermal_fault*\\" 
+     (Pr 
+      ("\\$pn\\" "113" )))
+    (IPrt "PDU_JAG_48V_GOOD" 
+     (Pr 
+      ("\\$pn\\" "120" )))
+    (IPrt "PDU_I2" 
+     (Pr 
+      ("\\$pn\\" "124" )))
+    (IPrt "PDU_I1" 
+     (Pr 
+      ("\\$pn\\" "114" )))
+    (IPrt "PDU_FREQ" 
+     (Pr 
+      ("\\$pn\\" "130" )))
+    (IPrt "EX_LONBUS_DATA" 
+     (Pr 
+      ("\\$pn\\" "103" )))
+    (IPrt "EX_LONBUS_CNTL" 
+     (Pr 
+      ("\\$pn\\" "102" )))
+    (IPrt "\\dc90_ovr_tmp*\\" 
+     (Pr 
+      ("\\$pn\\" "24" )))
+    (IPrt "\\dc90_output_fault*\\" 
+     (Pr 
+      ("\\$pn\\" "25" )))
+    (IPrt "\\dc90_ac_pwr_fault*\\" 
+     (Pr 
+      ("\\$pn\\" "19" )))
+    (IPrt "DC90_48V_ON" 
+     (Pr 
+      ("\\$pn\\" "21" )))
+    (IPrt "\\cntl_dc90_48v_on*\\" 
+     (Pr 
+      ("\\$pn\\" "115" )))
+    (IPrt "\\bc_phase_loss*\\" 
+     (Pr 
+      ("\\$pn\\" "123" )))
+    (IPrt "\\bc_ovr_tmp*\\" 
+     (Pr 
+      ("\\$pn\\" "116" )))
+    (IPrt "\\bc_output_fault*\\" 
+     (Pr 
+      ("\\$pn\\" "27" )))
+    (IPrt "BC_FAN1_TACH" 
+     (Pr 
+      ("\\$pn\\" "31" )))
+    (IPrt "BC_FAN1_STATE" 
+     (Pr 
+      ("\\$pn\\" "33" )))
+    (IPrt "BC_FAN0_TACH" 
+     (Pr 
+      ("\\$pn\\" "30" )))
+    (IPrt "BC_FAN0_STATE" 
+     (Pr 
+      ("\\$pn\\" "32" )))
+    (IPrt "\\bc_ac_pwr_fault*\\" 
+     (Pr 
+      ("\\$pn\\" "121" )))
+    (IPrt "\\bc_ac_on*\\" 
+     (Pr 
+      ("\\$pn\\" "28" )))
+    (IPrt "VCCO_3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCINT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCAUX" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_off*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TMS" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TCK" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SUSPEND" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\smc_ready*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\smc_en_tsp_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pwrclr*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PSEN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\prog_b*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_k1_on/jag_k1_on\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_48v_on/jaj_48v_on\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\io/gclk14\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\io/gclk8\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\aduc_wr*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\aduc_rd*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD15" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD14" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD13" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD12" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD11" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD10" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD09" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD08" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD07" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD06" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD05" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD04" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD03" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD02" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD01" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_on_request*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDO" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "LED_CATHODE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "K1_ON_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DONE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_jag_switched_ac*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_jag_48vdc_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_bc_switched_ac*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_bc_48vdc_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\48v_on_cntl\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" ))))
+   (Inst "page6_I96" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("CDS_LMAN_SYM_OUTLINE" "-350,450,300,-750" )
+     ("CDS_LIB" "array" )
+     ("PART_NUMBER" "613-560-00" )
+     ("SEC" "3" )
+     ("CDS_LOCATION" "GA1" )
+     ("\\$location\\" "GA1" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(5000,5950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "VCCO_3" 
+     (Rg 1 )
+     (Pr 
+      ("\\$pn\\" "23" )))
+    (IPrt "VCCO_3" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "14" )))
+    (IPrt "VCCO_2" 
+     (Rg 1 )
+     (Pr 
+      ("\\$pn\\" "61" )))
+    (IPrt "VCCO_2" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "40" )))
+    (IPrt "VCCO_1" 
+     (Rg 1 )
+     (Pr 
+      ("\\$pn\\" "95" )))
+    (IPrt "VCCO_1" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "86" )))
+    (IPrt "VCCO_0" 
+     (Rg 1 )
+     (Pr 
+      ("\\$pn\\" "136" )))
+    (IPrt "VCCO_0" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "119" )))
+    (IPrt "VCCINT" 
+     (Rg 3 )
+     (Pr 
+      ("\\$pn\\" "94" )))
+    (IPrt "VCCINT" 
+     (Rg 2 )
+     (Pr 
+      ("\\$pn\\" "52" )))
+    (IPrt "VCCINT" 
+     (Rg 1 )
+     (Pr 
+      ("\\$pn\\" "22" )))
+    (IPrt "VCCINT" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "122" )))
+    (IPrt "VCCAUX" 
+     (Rg 3 )
+     (Pr 
+      ("\\$pn\\" "66" )))
+    (IPrt "VCCAUX" 
+     (Rg 2 )
+     (Pr 
+      ("\\$pn\\" "36" )))
+    (IPrt "VCCAUX" 
+     (Rg 1 )
+     (Pr 
+      ("\\$pn\\" "133" )))
+    (IPrt "VCCAUX" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "108" )))
+    (IPrt "GND" 
+     (Rg 12 )
+     (Pr 
+      ("\\$pn\\" "89" )))
+    (IPrt "GND" 
+     (Rg 11 )
+     (Pr 
+      ("\\$pn\\" "81" )))
+    (IPrt "GND" 
+     (Rg 10 )
+     (Pr 
+      ("\\$pn\\" "65" )))
+    (IPrt "GND" 
+     (Rg 9 )
+     (Pr 
+      ("\\$pn\\" "56" )))
+    (IPrt "GND" 
+     (Rg 8 )
+     (Pr 
+      ("\\$pn\\" "34" )))
+    (IPrt "GND" 
+     (Rg 7 )
+     (Pr 
+      ("\\$pn\\" "26" )))
+    (IPrt "GND" 
+     (Rg 6 )
+     (Pr 
+      ("\\$pn\\" "17" )))
+    (IPrt "GND" 
+     (Rg 5 )
+     (Pr 
+      ("\\$pn\\" "137" )))
+    (IPrt "GND" 
+     (Rg 4 )
+     (Pr 
+      ("\\$pn\\" "128" )))
+    (IPrt "GND" 
+     (Rg 3 )
+     (Pr 
+      ("\\$pn\\" "118" )))
+    (IPrt "GND" 
+     (Rg 2 )
+     (Pr 
+      ("\\$pn\\" "106" )))
+    (IPrt "GND" 
+     (Rg 1 )
+     (Pr 
+      ("\\$pn\\" "100" )))
+    (IPrt "GND" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "9" )))
+    (IPrt "\\tsp_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_off*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TMS" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_DATA_IN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_BLOWER" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TCK" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SUSPEND" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SUPPORT_CABINET_FAN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPARE_FAN_INPUT_3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPARE_FAN_INPUT_2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPAER_FAN_INPUT_4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPAER_FAN_INPUT_1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\smc_ready*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\smc_en_tsp_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pwrclr*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PSEN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\prog_b*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VBC" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VAC" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VAB" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_MAINT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_k1_on/jag_k1_on\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_jag_thermal_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_JAG_48V_GOOD" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_I2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_I1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_FREQ" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_48v_on/jaj_48v_on\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "M0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\io/gclk14\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\io/gclk8\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_ovr_tmp*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_output_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_ac_pwr_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DC90_48V_ON" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_phase_loss*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ovr_tmp*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_output_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN1_TACH" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN1_STATE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN0_TACH" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN0_STATE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ac_pwr_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ac_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\aduc_wr*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\aduc_rd*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD15" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD14" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD13" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD12" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD11" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD10" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD09" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD08" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SC_LONBUS_DATA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "EX_LONBUS_DATA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD07" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD06" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD05" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD04" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD03" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD02" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD01" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_on_request*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_DATA_OUT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDO" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SC_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "LED_CATHODE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "K1_ON_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "EX_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DONE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_jag_switched_ac*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_jag_48vdc_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_dc90_48v_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_bc_switched_ac*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_bc_48vdc_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\48v_on_cntl\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" ))))
+   (Inst "page6_I97" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "array" )
+     ("CDS_LMAN_SYM_OUTLINE" "-300,450,300,-500" )
+     ("PART_NUMBER" "613-560-00" )
+     ("SEC" "4" )
+     ("CDS_LOCATION" "GA1" )
+     ("\\$location\\" "GA1" )
+     ("ROT" "0" )
+     ("VER" "4" )
+     ("XY" "(3200,5750)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TMS" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "TDO" 
+     (Pr 
+      ("\\$pn\\" "107" )))
+    (IPrt "TDI" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "TCK" 
+     (Pr 
+      ("\\$pn\\" "109" )))
+    (IPrt "SUSPEND" 
+     (Pr 
+      ("\\$pn\\" "74" )))
+    (IPrt "\\prog_b*\\" 
+     (Pr 
+      ("\\$pn\\" "144" )))
+    (IPrt "M2" 
+     (Pr 
+      ("\\$pn\\" "39" )))
+    (IPrt "M1" 
+     (Pr 
+      ("\\$pn\\" "37" )))
+    (IPrt "M0" 
+     (Pr 
+      ("\\$pn\\" "38" )))
+    (IPrt "\\io/gclk14\\" 
+     (Pr 
+      ("\\$pn\\" "54" )))
+    (IPrt "\\io/gclk8\\" 
+     (Pr 
+      ("\\$pn\\" "129" )))
+    (IPrt "DONE" 
+     (Pr 
+      ("\\$pn\\" "73" )))
+    (IPrt "VCCO_3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCO_0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCINT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VCCAUX" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_off*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_DATA_IN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_BLOWER" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SUPPORT_CABINET_FAN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPARE_FAN_INPUT_3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPARE_FAN_INPUT_2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPAER_FAN_INPUT_4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SPAER_FAN_INPUT_1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\smc_ready*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\smc_en_tsp_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pwrclr*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PSEN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VBC" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VAC" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_VAB" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_V0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_MAINT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_k1_on/jag_k1_on\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_jag_thermal_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_JAG_48V_GOOD" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_I2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_I1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PDU_FREQ" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pdu_48v_on/jaj_48v_on\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_ovr_tmp*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_output_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\dc90_ac_pwr_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DC90_48V_ON" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_phase_loss*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ovr_tmp*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_output_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN1_TACH" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN1_STATE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN0_TACH" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "BC_FAN0_STATE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ac_pwr_fault*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\bc_ac_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\aduc_wr*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\aduc_rd*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD15" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD14" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD13" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD12" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD11" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD10" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD09" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD08" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SC_LONBUS_DATA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "EX_LONBUS_DATA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD07" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD06" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD05" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD04" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD03" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD02" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD01" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tsp_on_request*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_DATA_OUT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TH_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "SC_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "LED_CATHODE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "K1_ON_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "EX_LONBUS_CNTL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_jag_switched_ac*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_jag_48vdc_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_dc90_48v_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_bc_switched_ac*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\cntl_bc_48vdc_on*\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\48v_on_cntl\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" ))))
+   (Inst "page6_I211" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "analog" )
+     ("TITLE" "LP3891ESX" )
+     ("ABBREV" "LP3891ESX" )
+     ("REMOVE" "EXCLUDE" )
+     ("PART_NUMBER" "741-890-12" )
+     ("SEC" "1" )
+     ("LOCATION" "U4" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4600,7800)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "\\shdn*\\" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "OUTPUT" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "INPUT" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "GND_3" 
+     (Pr 
+      ("\\$pn\\" "3" )))
+    (IPrt "GNDTAB" 
+     (Pr 
+      ("\\$pn\\" "6" )))
+    (IPrt "BIAS" 
+     (Pr 
+      ("\\$pn\\" "5" ))))
+   (Inst "page6_I223" 
+    (Pr 
+     ("PART_NUMBER" "636-700-00" )
+     ("CDS_LIB" "resistor" )
+     ("TOL_ON_OFF" "ON" )
+     ("NEGTOL" "RTOL%" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("SIZE" "1" )
+     ("ABBREV" "PR" )
+     ("TITLE" "PRES" )
+     ("WATTAGE" "?WATTS" )
+     ("TOLERANCE" "?TOL" )
+     ("VALUE" "1K" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R25" )
+     ("ROT" "1" )
+     ("VER" "7" )
+     ("XY" "(2350,5600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I224" 
+    (Pr 
+     ("PART_NUMBER" "636-700-00" )
+     ("TITLE" "PRES" )
+     ("ABBREV" "PR" )
+     ("SIZE" "1" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("NEGTOL" "RTOL%" )
+     ("TOL_ON_OFF" "ON" )
+     ("CDS_LIB" "resistor" )
+     ("WATTAGE" "?WATTS" )
+     ("TOLERANCE" "?TOL" )
+     ("VALUE" "1K" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R26" )
+     ("ROT" "1" )
+     ("VER" "7" )
+     ("XY" "(2350,5500)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I225" 
+    (Pr 
+     ("PART_NUMBER" "636-700-00" )
+     ("TOLERANCE" "?TOL" )
+     ("WATTAGE" "?WATTS" )
+     ("CDS_LIB" "resistor" )
+     ("TOL_ON_OFF" "ON" )
+     ("NEGTOL" "RTOL%" )
+     ("VERILOG_MODEL" "RES_PULL" )
+     ("SIZE" "1" )
+     ("ABBREV" "PR" )
+     ("TITLE" "PRES" )
+     ("VALUE" "1K" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R24" )
+     ("ROT" "0" )
+     ("VER" "7" )
+     ("XY" "(2550,5350)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I243" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("SIZE" "1" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C6" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4200,7600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I251" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP11" )
+     ("ROT" "7" )
+     ("VER" "2" )
+     ("XY" "(2200,6000)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I255" 
+    (Pr 
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP10" )
+     ("ROT" "7" )
+     ("VER" "2" )
+     ("XY" "(3650,5700)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I256" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-656-00" )
+     ("SIZE" "1" )
+     ("TITLE" "POLCAP" )
+     ("ABBREV" "POLCAP" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "10UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C5" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3850,7650)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "POS" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "NEG" 
+     (Pr 
+      ("\\$pn\\" "2" ))))
+   (Inst "page6_I257" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("ABBREV" "POLCAP" )
+     ("TITLE" "POLCAP" )
+     ("SIZE" "1" )
+     ("PART_NUMBER" "111-656-00" )
+     ("TAG" "DTG" )
+     ("VALUE" "10UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C4" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(5300,7650)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "POS" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "NEG" 
+     (Pr 
+      ("\\$pn\\" "2" ))))
+   (Inst "page6_I260" 
+    (Pr 
+     ("SIZE" "2" )
+     ("HAS_FIXED_SIZE" "2" )
+     ("TITLE" "NC7WZ17" )
+     ("ABBREV" "NC7WZ17" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "741-645-00" )
+     ("CDS_LIB" "cmos" )
+     ("SEC_TYPE" "" )
+     ("LOCATION" "U6" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1300,4500)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Y" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "6" )))
+    (IPrt "Y" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "4" )))
+    (IPrt "VCC" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "GND" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "1" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "3" ))))
+   (Inst "page6_I261" 
+    (Pr 
+     ("CDS_LIB" "resistor" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "636-151-00" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("VALUE" "51" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R3" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(1800,4600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I262" 
+    (Pr 
+     ("CDS_LIB" "resistor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "636-151-00" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("VALUE" "51" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R2" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(1800,4400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I263" 
+    (Pr 
+     ("PART_NUMBER" "629-000-00" )
+     ("SIZE" "1" )
+     ("TITLE" "RES" )
+     ("ABBREV" "R" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "resistor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("LOAD" "OPEN" )
+     ("VALUE" "0" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R7" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(1800,4900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I264" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("CDS_LIB" "resistor" )
+     ("PART_NUMBER" "629-000-00" )
+     ("LOAD" "OPEN" )
+     ("VALUE" "0" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R6" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(1800,4150)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I270" 
+    (Pr 
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("CDS_LIB" "resistor" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "629-000-00" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("VALUE" "0" )
+     ("LOAD" "OPEN" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R9" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(4450,4900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I273" 
+    (Pr 
+     ("CDS_LIB" "resistor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "636-151-00" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("VALUE" "51" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R5" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(4450,4600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I274" 
+    (Pr 
+     ("CDS_LIB" "resistor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "636-151-00" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("VALUE" "51" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R4" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(4450,4400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I275" 
+    (Pr 
+     ("PART_NUMBER" "629-000-00" )
+     ("SIZE" "1" )
+     ("TITLE" "RES" )
+     ("ABBREV" "R" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("CDS_LIB" "resistor" )
+     ("VALUE" "0" )
+     ("LOAD" "OPEN" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R8" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(4450,4150)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I280" 
+    (Pr 
+     ("SIZE" "2" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "741-645-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "cmos" )
+     ("HAS_FIXED_SIZE" "2" )
+     ("TITLE" "NC7WZ17" )
+     ("ABBREV" "NC7WZ17" )
+     ("LOCATION" "U7" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3950,4500)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Y" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "6" )))
+    (IPrt "Y" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "4" )))
+    (IPrt "VCC" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "GND" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("SEC" "1" )
+      ("\\$pn\\" "1" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("SEC" "2" )
+      ("\\$pn\\" "3" ))))
+   (Inst "page6_I281" 
+    (Pr 
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("SIZE" "1" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("CDS_LIB" "capacitor" )
+     ("PART_NUMBER" "111-479-00" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C1" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(1050,4800)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I282" 
+    (Pr 
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("SIZE" "1" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("CDS_LIB" "capacitor" )
+     ("PART_NUMBER" "111-479-00" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C2" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(3700,4800)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I283" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP8" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(2400,4700)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I284" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP9" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(2400,4250)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I285" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP6" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(5150,4700)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I286" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_LIB" "parts" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP7" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(5150,4300)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I287" 
+    (Pr 
+     ("PART_NUMBER" "629-000-00" )
+     ("SIZE" "1" )
+     ("TITLE" "RES" )
+     ("ABBREV" "R" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("CDS_LIB" "resistor" )
+     ("VALUE" "0" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R21" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(-1400,3900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I288" 
+    (Pr 
+     ("CDS_LIB" "resistor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("TAG" "DTG" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("PART_NUMBER" "629-000-00" )
+     ("VALUE" "0" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R20" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(-900,4000)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I290" 
+    (Pr 
+     ("SEC_TYPE" "" )
+     ("LOAD" "OPEN" )
+     ("CDS_LIB" "resistor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-75,25,75,-25" )
+     ("TAG" "DTG" )
+     ("ABBREV" "R" )
+     ("TITLE" "RES" )
+     ("SIZE" "1" )
+     ("PART_NUMBER" "629-000-00" )
+     ("VALUE" "0" )
+     ("SEC" "1" )
+     ("LOCATION" "R22" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(2000,5450)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I291" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP12" )
+     ("ROT" "7" )
+     ("VER" "2" )
+     ("XY" "(1850,5850)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I292" 
+    (Pr 
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP44" )
+     ("ROT" "7" )
+     ("VER" "2" )
+     ("XY" "(-900,3450)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I293" 
+    (Pr 
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP46" )
+     ("ROT" "7" )
+     ("VER" "2" )
+     ("XY" "(-1650,3400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I294" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP48" )
+     ("ROT" "7" )
+     ("VER" "2" )
+     ("XY" "(-1900,3500)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I295" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP45" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(800,3400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I296" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP47" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1400,3400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I297" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP50" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(1700,3700)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I298" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP49" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(2000,3700)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I299" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP24" )
+     ("ROT" "5" )
+     ("VER" "1" )
+     ("XY" "(900,7950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I300" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP25" )
+     ("ROT" "5" )
+     ("VER" "1" )
+     ("XY" "(1100,7900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I301" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP26" )
+     ("ROT" "5" )
+     ("VER" "1" )
+     ("XY" "(1250,7850)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I302" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "359-537-00" )
+     ("ABBREV" "TP" )
+     ("TITLE" "TESTPOINT" )
+     ("REMOVE" "EXCLUDE" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP27" )
+     ("ROT" "5" )
+     ("VER" "1" )
+     ("XY" "(1450,7800)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I304" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP28" )
+     ("ROT" "7" )
+     ("VER" "1" )
+     ("XY" "(1100,7400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I305" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP30" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(1700,3900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I307" 
+    (Pr 
+     ("CDS_LIB" "parts" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP51" )
+     ("ROT" "7" )
+     ("VER" "2" )
+     ("XY" "(2550,3900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I341" 
+    (Pr 
+     ("CDS_LIB" "analog" )
+     ("PART_NUMBER" "752-355-00" )
+     ("TITLE" "BSP123_E6327" )
+     ("ABBREV" "BSP123_E6327" )
+     ("NEEDS_NO_SIZE" "TRUE" )
+     ("USED" "D" )
+     ("USEG" "G" )
+     ("USES" "S" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "K1" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1850,7600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "S" 
+     (Pr 
+      ("\\$pn\\" "3" )))
+    (IPrt "G" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "D2" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "D" 
+     (Pr 
+      ("\\$pn\\" "2" ))))
+   (Inst "page6_I342" 
+    (Pr 
+     ("REMOVE" "EXCLUDE" )
+     ("TITLE" "TESTPOINT" )
+     ("ABBREV" "TP" )
+     ("PART_NUMBER" "359-537-00" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "parts" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "TP29" )
+     ("ROT" "7" )
+     ("VER" "1" )
+     ("XY" "(3100,7600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "TP" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I344" 
+    (Pr 
+     ("TOLERANCE" "?TOL" )
+     ("WATTAGE" "?WATTS" )
+     ("PART_NUMBER" "654-001-12" )
+     ("TAG" "DTG" )
+     ("CDS_LIB" "resistor" )
+     ("TITLE" "SRES" )
+     ("ABBREV" "SR" )
+     ("SIZE" "1" )
+     ("NEGTOL" "RTOL%" )
+     ("TOL_ON_OFF" "ON" )
+     ("VERILOG_MODEL" "RES_SERIES" )
+     ("VALUE" "2K" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "R1" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2000,7900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I347" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C14" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2650,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I348" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C15" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2800,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I349" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C16" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2950,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I350" 
+    (Pr 
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C17" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3100,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I351" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C18" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3400,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I352" 
+    (Pr 
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C19" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3550,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I353" 
+    (Pr 
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C20" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3700,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I354" 
+    (Pr 
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C21" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3850,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I355" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C22" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4000,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I356" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C23" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4150,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I357" 
+    (Pr 
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C24" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4300,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I358" 
+    (Pr 
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C25" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4450,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I359" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C26" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4600,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I360" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C27" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4750,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I361" 
+    (Pr 
+     ("CDS_LIB" "capacitor" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("SIZE" "1" )
+     ("TAG" "DTG" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TITLE" "CAP" )
+     ("ABBREV" "CAP" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C28" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4900,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I362" 
+    (Pr 
+     ("ABBREV" "CAP" )
+     ("TITLE" "CAP" )
+     ("PART_NUMBER" "111-479-00" )
+     ("TAG" "DTG" )
+     ("SIZE" "1" )
+     ("CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25" )
+     ("CDS_LIB" "capacitor" )
+     ("VALUE" "0.1UF" )
+     ("CDS_SEC" "1" )
+     ("\\$sec\\" "1" )
+     ("LOCATION" "C29" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(5050,6950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "B" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I365" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("CDS_LIB" "connector" )
+     ("TITLE" "CONN10" )
+     ("ABBREV" "CONN" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "359-788-00" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("SEC" "1" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1600,5600)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page6_I366" 
+    (Pr 
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "connector" )
+     ("ABBREV" "CONN" )
+     ("TITLE" "CONN10" )
+     ("TAG" "DTG" )
+     ("SEC" "2" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1600,5300)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "2" ))))
+   (Inst "page6_I367" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("TITLE" "CONN10" )
+     ("ABBREV" "CONN" )
+     ("CDS_LIB" "connector" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC" "3" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3850,5950)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "3" ))))
+   (Inst "page6_I368" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("TITLE" "CONN10" )
+     ("ABBREV" "CONN" )
+     ("CDS_LIB" "connector" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC" "4" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1600,5500)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "4" ))))
+   (Inst "page6_I369" 
+    (Pr 
+     ("LOAD" "OPEN" )
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "connector" )
+     ("ABBREV" "CONN" )
+     ("TITLE" "CONN10" )
+     ("TAG" "DTG" )
+     ("SEC" "5" )
+     ("LOCATION" "J1" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1600,5900)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "5" ))))
+   (Inst "page6_I370" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("TITLE" "CONN10" )
+     ("ABBREV" "CONN" )
+     ("CDS_LIB" "connector" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC" "6" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1600,5400)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "6" ))))
+   (Inst "page6_I371" 
+    (Pr 
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "connector" )
+     ("ABBREV" "CONN" )
+     ("TITLE" "CONN10" )
+     ("TAG" "DTG" )
+     ("SEC" "7" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3750,5200)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "7" ))))
+   (Inst "page6_I372" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("TITLE" "CONN10" )
+     ("ABBREV" "CONN" )
+     ("CDS_LIB" "connector" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC" "8" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3750,5300)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "8" ))))
+   (Inst "page6_I373" 
+    (Pr 
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC_TYPE" "" )
+     ("CDS_LIB" "connector" )
+     ("ABBREV" "CONN" )
+     ("TITLE" "CONN10" )
+     ("TAG" "DTG" )
+     ("SEC" "9" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1600,5700)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "9" ))))
+   (Inst "page6_I374" 
+    (Pr 
+     ("TAG" "DTG" )
+     ("TITLE" "CONN10" )
+     ("ABBREV" "CONN" )
+     ("CDS_LIB" "connector" )
+     ("SEC_TYPE" "" )
+     ("PART_NUMBER" "359-788-00" )
+     ("SEC" "10" )
+     ("LOCATION" "J1" )
+     ("LOAD" "OPEN" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1600,5200)" )
+     ("PHYS_PAGE" "4" ))
+    (IPrt "Z" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "10" )))))))

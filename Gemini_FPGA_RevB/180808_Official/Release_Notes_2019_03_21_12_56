@@ -1,0 +1,140 @@
+Version: 03_21_2019_12_56
+
+Linux Release directory:    /hwnet/design_release/hydra/REL_03_21_2019_12_56
+Windows Release directory:  \\ter.teradyne.com\hwnet\design_release\hydra\REL_03_21_2019_12_56
+
+Released by: moriara
+
+------  User release notes  ------------------------------------------------
+
+--------------------------------------------------
+# Label used to generate bitfile:                                          
+--------------------------------------------------
+  V__HYDRA-JUL_28_2018-REL_0_4_1
+
+--------------------------------------------------
+# Notes:
+--------------------------------------------------
+Releasing bitfile generated on 7/31/2018
+--------------------------------------------------
+# Changes since last release
+--------------------------------------------------
+  See Notes above.
+
+--------------------------------------------------
+# Known Issues
+--------------------------------------------------
+
+----------------------------------------------------------------------------
+
+IGXL Version: 80010005
+Build TimeStamp: 7E33AB38
+
+ERROR: idl_release check failed.  No idl link will be provided.
+
+GVP View name: moriara_hydra_work0
+
+Base labels:
+   V__HYDRA-JAN_27_2018-REL_0_2_0
+
+Note: No private checked out files
+
+Note: No ungathered files found
+
+------  Contents of /vobs/dragon/gemini/hydra//.GVP/hydra_cs.tpl  ------------------------------------------------
+
+
+# ----------------------------------------------------------------------------
+# This is the project config spec template file. It is used to specify the
+# source, label, and branch requirements for a project. The template is
+# made up of three fields, element, label, and integration branch.
+# The file is read from top to bottom and this is the order in which each of
+# the elements is output to the config spec file. Each item should be
+# separated by a comma.
+#
+# The integration branch is the location where GVP is to merge the passing
+# gather groups during a validate. DO NOT fill in the integration branch for
+# other projects that you are just pointing to.
+#
+# The special string V_GVP_LABEL is expanded with the project label.
+#
+# Be sure to fill in the following gvp project variable to your project
+# value. This helps gvp determine what the project is.
+# ------------------------------------------------------------------------------
+GVP_PROJECT /vobs/dragon/gemini/hydra:hydra
+
+#  Element,                              Label,                Integration Branch
+# -------------------------------------------------------------------------------
+/vobs/dragon/gemini/hydra/docs/...,  V_GVP_LABEL,        main,b_docs
+/vobs/dragon/gemini/hydra/...,       V_GVP_LABEL,        main
+
+# sim_lsf, IManagers, and regression scripts are in verif_lib
+/vobs/jaguar/dig_ip/verif_lib/...,         V__VERIF_LIB-JUL_12_2013-REL_0_577_0
+
+# Most of TVM make files and bases classes reside in dig_ip/tvm
+/vobs/jaguar/dig_ip/tvm/...,               V__TVM-APR_12_2016-REL_0_411_0
+/vobs/jaguar/dig_ip/tvm/...,               V__TVM-APR_12_2016-REL_0_411_0
+
+# GVP triggers
+/vobs/jaguar/release_process/...,          V_HW_TRIGGERS_1.0
+
+# Needs for old gvp projects that use soft-link from
+#    /vobs/jaguar/fdv_shared/gvp/<project> -> /tnet/<site>/hwnet/simdata/gvp/<project>
+/vobs/jaguar/fdv_shared/gvp/...,           V__GVP_PROJECTS-JAN_24_2013-REL_0_165_0
+
+/vobs/tools/hw_tools/release_bitfile/...,  RELEASE_BITFILE_RELEASE_REV_0.0.14
+/vobs/tools/hw_tools/release_server/...,   RELEASE_SERVER_RELEASE_REV_1.3.0
+/vobs/tools/hw_tools/idl_release/...,      IDL_RELEASE_RELEASE_REV_0.2.1
+
+------  Release Config file  ------------------------------------------------
+
+# Bit file release process configuration file
+# This file is updated prior to release of bitfiles with appropriate
+# target directory etc.
+
+# Project name. Defines the name of the chip begin released
+chip_spec_name: hydra
+project_name: hydra
+vob_path: /vobs/dragon/gemini/hydra/
+
+# Bitfiles to release. File names (with paths if not local) to all of the 
+# files being released into the bitfiles directories.
+# Release_notes.txt released automatically. 
+bit_files_to_release: 
+- /vobs/dragon/gemini/hydra/impl/output_files/hydra.pof
+- /vobs/dragon/gemini/hydra/impl/output_files/hydra.sof
+
+# Design files to release. List of files (with path of not local) or 
+# directories that should be released to the design snapshot area.
+design_files_to_release: 
+- /vobs/dragon/gemini/hydra/impl/output_files/hydra.pin
+# Should design archive be tarred/gzipped? 1 = yes; 0 = no 
+design_tgz: 0 
+
+# Email addresses to send notification to when a release is done. 
+# Subject of email will include the base_release_dir and version. Body of 
+# email will be the release notes. 
+email_addresses: 
+- adam.moriarty@teradyne.com
+
+# Release link. If this param is present, create/update a link of the given 
+# name to the version being released.
+release_link: current 
+
+# IGXL version file. Path to file name containing the IGXL (functional 
+# version) definition. 
+igxl_version_file: /vobs/dragon/gemini/hydra/impl/release/current_bitfile_rev.txt
+
+# IGXL version parameter. Name of the parameter containing the IGXL 
+# (functional version) value. 
+igxl_version_param: FUNC_VER 
+
+# Build timestamp file. Path to the file containing the build time stamp 
+# value.
+build_ts_file: /vobs/dragon/gemini/hydra/impl/release/current_bitfile_rev.txt
+
+# Build timestamp parameter. Name of the parameter containing the build 
+# time stamp. This will become required when all version formats are ironed out.
+build_ts_param: HEX_TDS
+
+-----------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+How to make SMC FPGA
+
+1) from the idl directory, run the idl compiler with the following switches:
+
+-file smc_fpga.idl -verilog -vba -verification -proj saratoga
+
+Leave the created files in the idl directory.
+
+2) from the syn directory, run synplify. It should ue the smc_fpga.prj file
+as input. The path to the saratoga.vh file may need to be modified for
+the actual path on the users system. In tsc, the file can be found in:
+
+lib/tech_indep/verilog/include
+
+The smc_fpga.sdc file should be used as the constraints file. This sets
+the pinout for the part.
+
+3) copy the smc_fpga.qdf output file (presently would be in the 
+syn/pasic3 directory) to a PAR directory. Run the quicklogic tools.
+
+Use File | Import | QDF to import the smc_fpga.qdf file. Run the tools.
+
+The output smc_fpga.chp file is used to program parts.
+
+Notes on simulation:
+
+The sim directory contains a testbench that can be used to test out the
+design. The verilog project will need to use files from the rtl and idl
+directories. It will also need a paht to include the saratoga.vh
+mentioned above.

@@ -1,0 +1,7 @@
+
+Logical and Physical Net Conflicts 
+----------------------------------
+
+DRAWING = @PCB734_220_51.PCB734_220_51(SCH_1)
+NET_NAME = SMC_MON_PDU_JAG_THERMAL_FAULT_3.3V*
+   PNN = SMC_MON_PDU_JAG_THERMAL_FAULT_3

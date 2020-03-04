@@ -1,0 +1,11 @@
+// Project Settings
++libext+.v+
+-y ../idl
++incdir+../idl
++typdelays
+
+// Input Files
+smc_fpga_tf.v
+../rtl/smc_fpga.v
+../rtl/edgesr.v
+

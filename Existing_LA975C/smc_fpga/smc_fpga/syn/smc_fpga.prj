@@ -1,0 +1,44 @@
+#-- Synplicity, Inc.
+#-- Version 6.2.4
+#-- Project file f:\work_area\smc_fpga_orig\syn\smc_fpga.prj
+#-- Written on Tue Mar 19 14:18:35 2002
+
+
+#add_file options
+add_file -verilog "../rtl/smc_fpga.v"
+add_file -verilog "../idl/smc_fpga_idl_rtl.v"
+add_file -verilog "../rtl/edgesr.v"
+add_file -constraint "smc_fpga.sdc"
+set_option -include_path "../idl/;f:/work_area/lib_mar18/lib/tech_indep/verilog/include/"
+
+#reporting options
+
+
+#implementation: "pasic3"
+impl -add pasic3
+
+#device options
+set_option -technology PASIC3
+set_option -part QL3012
+set_option -package pl84
+set_option -speed_grade -0
+
+#compilation/mapping options
+set_option -default_enum_encoding default
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -top_module "smc_fpga"
+
+#map options
+set_option -frequency 11.000
+set_option -fanout_limit 16
+
+#simulation options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "pasic3/smc_fpga.qdf"

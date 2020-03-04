@@ -1,0 +1,769 @@
+$ Start of Compile
+#Mon Aug 16 17:08:30 2004
+
+Synplicity Verilog Compiler, version Compilers 2.6.0, Build 102R, built Jan 27 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+@I::"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v"
+@I:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\..\idl\smc_fpga_idl_decls.i"
+@I:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\..\idl\smc_fpga_idl_conn.i"
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":412:15:412:29|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":494:15:494:29|Unrecognized synthesis directive async_set_reset
+@I::"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v"
+@I:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":"F:\work_area\smc_fpga_bc2\smc_fpga\idl\saratoga.vh"
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":602:12:602:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":629:12:629:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":656:12:656:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":683:12:683:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":710:12:710:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":737:12:737:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":764:12:764:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":791:12:791:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":818:12:818:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":845:12:845:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":872:12:872:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":899:12:899:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":926:12:926:26|Unrecognized synthesis directive async_set_reset
+@W: CS141 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":953:12:953:26|Unrecognized synthesis directive async_set_reset
+@I::"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\edgesr.v"
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module smc_fpga
+Synthesizing module smc_fpga_idl_rtl
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":957:6:957:7|Latch generated from always block for signal V48_ENABLE, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":930:6:930:7|Latch generated from always block for signal K1_ENABLE, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":903:6:903:7|Latch generated from always block for signal B_DC90_48V_Enable, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":876:6:876:7|Latch generated from always block for signal AUX_FAN_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":849:6:849:7|Latch generated from always block for signal AUX_0_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":822:6:822:7|Latch generated from always block for signal AUX_1_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":795:6:795:7|Latch generated from always block for signal AUX_2_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":768:6:768:7|Latch generated from always block for signal AUX_3_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":741:6:741:7|Latch generated from always block for signal CLR_MAINT_REG, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":714:6:714:7|Latch generated from always block for signal CLR_CTRS, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":687:6:687:7|Latch generated from always block for signal CLR_REGS, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":660:6:660:7|Latch generated from always block for signal CLR_LOCK_OUT, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":633:6:633:7|Latch generated from always block for signal CTR_CTL, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":606:6:606:7|Latch generated from always block for signal GEN_FREQ_CTR_MUX[4:0], probably caused by a missing assignment in an if or case stmt
+@W: CL159 :"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":60:16:60:22|Input I_wrstb is unused
+Synthesizing module edgesr
+Synthesizing module freq_ctr
+	CTRWIDTH=32'b00000000000000000000000000010001
+	all_ones=32'b00000000000000011111111111111111
+   Generated name = freq_ctr_17_131071
+Synthesizing module freq_ctr
+	CTRWIDTH=32'b00000000000000000000000000010111
+	all_ones=32'b00000000011111111111111111111111
+   Generated name = freq_ctr_23_8388607
+Synthesizing module freq_ctr
+	CTRWIDTH=32'b00000000000000000000000000011000
+	all_ones=32'b00000000111111111111111111111111
+   Generated name = freq_ctr_24_16777215
+Synthesizing module state_mon
+Synthesizing module tach_freq_ctr
+Synthesizing module smc_fpga
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":248:6:248:7|Latch generated from always block for signal addr[15:8], probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":236:6:236:7|Latch generated from always block for signal addr[7:0], probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":497:1:497:2|Latch generated from always block for signal V48_ON, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":481:1:481:2|Latch generated from always block for signal SMC_CNTRL_JAG_48VDC_ON, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":468:1:468:2|Latch generated from always block for signal B_CNTRL_BC_48VDC, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":455:1:455:2|Latch generated from always block for signal B_CNTRL_BC_48VDC_DC90, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":442:1:442:2|Latch generated from always block for signal SMC_CNTRL_JAG_SWITCHED_AC, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":428:1:428:2|Latch generated from always block for signal B_SMC_CNTRL_BC_SWITCHED_AC, probably caused by a missing assignment in an if or case stmt
+@W: CL118 :"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":415:1:415:2|Latch generated from always block for signal K1_ON, probably caused by a missing assignment in an if or case stmt
+@END
+Process took 0h:0m:3s realtime, 0h:0m:3s cputime
+###########################################################[
+Synplicity QuickLogic Technology Mapper, version 7.3.5, Build 222R, built Feb  5 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 16
+Reading constraint file: F:\work_area\smc_fpga_bc2\smc_fpga\syn\smc_fpga.sdc
+Adding property ql_placement, value "io5", to instance OC_B_CNTRL_BC_48VDC_DC90
+Adding property ql_placement, value "io31", to instance OC_B_CNTRL_BC_48VDC
+Adding property ql_placement, value "io49", to instance OC_SMC_CNTRL_JAG_SWITCHED_AC
+Adding property ql_placement, value "io50", to instance OC_SMC_CNTRL_JAG_48VDC_ON
+Adding property ql_placement, value "io80", to instance OC_B_SMC_CNTRL_BC_SWITCHED_AC
+Adding property ql_placement, value "io83", to instance OC_48v_on
+Adding property ql_placement, value "io3", to instance OC_k1_on
+Adding property ql_padtype, value "CLOCK", to port I_ale
+Adding property ql_placement, value "io66", to port I_ale
+Adding property ql_placement, value "io72", to port IN_wr
+Adding property ql_placement, value "io56", to port IN_rd
+Adding property ql_placement, value "io81", to port IN_psen
+Adding property ql_placement, value "io22", to port I_clk
+Adding property ql_placement, value "io83", to port OC_48v_on
+Adding property ql_placement, value "io3", to port OC_k1_on
+Adding property ql_placement, value "io27", to port I_main_blower_mon
+Adding property ql_placement, value "io17", to port I_V0_mon
+Adding property ql_placement, value "io16", to port I_I1_mon
+Adding property ql_placement, value "io13", to port I_I2_mon
+Adding property ql_placement, value "io8", to port I_maint_mon
+Adding property ql_padtype, value "INPUT", to port I_reset_N
+Adding property ql_placement, value "io64", to port I_reset_N
+Adding property ql_placement, value "io6", to port I_SMC_MON_DC90_OUTPUT_FAULT
+Adding property ql_placement, value "io1", to port I_SMC_MON_DC90_AC_PWR_FAULT
+Adding property ql_placement, value "io2", to port I_SMC_MON_DC90_OVR_TMP
+Adding property ql_placement, value "io20", to port I_SMC_MON_DC90_48V_ON
+Adding property ql_placement, value "io32", to port I_SMC_MON_BC_OUTPUT_FAULT
+Adding property ql_placement, value "io29", to port I_SMC_MON_BC_AC_PWR_FAULT
+Adding property ql_placement, value "io30", to port I_SMC_MON_BC_OVR_TMP
+Adding property ql_placement, value "io34", to port I_SMC_MON_BC_PHASE_LOSS
+Adding property ql_placement, value "io78", to port I_SMC_MON_BC_AC_ON
+Adding property ql_placement, value "io74", to port I_SMC_MON_PDU_JAG_THERMAL_FAULT
+Adding property ql_placement, value "io38", to port I_SMC_MON_BC_FAN0_STATE
+Adding property ql_placement, value "io73", to port I_SMC_MON_PDU_JAG_48V_GOOD
+Adding property ql_placement, value "io39", to port I_SMC_MON_BC_FAN1_STATE
+Adding property ql_placement, value "io35", to port I_SMC_MON_BC_FAN0_TACH
+Adding property ql_placement, value "io37", to port I_SMC_MON_BC_FAN1_TACH
+Adding property ql_placement, value "io5", to port OC_B_CNTRL_BC_48VDC_DC90
+Adding property ql_placement, value "io31", to port OC_B_CNTRL_BC_48VDC
+Adding property ql_placement, value "io49", to port OC_SMC_CNTRL_JAG_SWITCHED_AC
+Adding property ql_placement, value "io50", to port OC_SMC_CNTRL_JAG_48VDC_ON
+Adding property ql_placement, value "io80", to port OC_B_SMC_CNTRL_BC_SWITCHED_AC
+Adding property ql_placement, value "io69", to port bit BI_port0[0]
+Adding property ql_placement, value "io71", to port bit BI_port0[1]
+Adding property ql_placement, value "io62", to port bit BI_port0[2]
+Adding property ql_placement, value "io70", to port bit BI_port0[3]
+Adding property ql_placement, value "io68", to port bit BI_port0[4]
+Adding property ql_placement, value "io60", to port bit BI_port0[5]
+Adding property ql_placement, value "io59", to port bit BI_port0[6]
+Adding property ql_placement, value "io58", to port bit BI_port0[7]
+Adding property ql_placement, value "io48", to port bit I_port2[0]
+Adding property ql_placement, value "io43", to port bit I_port2[1]
+Adding property ql_placement, value "io44", to port bit I_port2[2]
+Adding property ql_placement, value "io55", to port bit I_port2[3]
+Adding property ql_placement, value "io57", to port bit I_port2[4]
+Adding property ql_placement, value "io51", to port bit I_port2[5]
+Adding property ql_placement, value "io47", to port bit I_port2[6]
+Adding property ql_placement, value "io45", to port bit I_port2[7]
+Adding property ql_placement, value "io84", to port bit I_monitors[0]
+Adding property ql_placement, value "io18", to port bit I_monitors[1]
+Adding property ql_placement, value "io15", to port bit I_monitors[2]
+Adding property ql_placement, value "io28", to port bit I_monitors[3]
+Adding property ql_placement, value "io42", to port bit I_monitors[4]
+Adding property ql_placement, value "io9", to port bit I_monitors[5]
+Adding property ql_placement, value "io12", to port bit I_monitors[6]
+Adding property ql_placement, value "io14", to port bit I_monitors[7]
+Adding property ql_placement, value "io7", to port bit I_monitors[8]
+Adding property ql_placement, value "io54", to port bit I_monitors[9]
+Adding property ql_placement, value "io41", to port bit I_monitors[10]
+Automatic dissolve at startup in view:work.smc_fpga(verilog) of tach1_sr(edgesr)
+Automatic dissolve at startup in view:work.smc_fpga(verilog) of tach0_sr(edgesr)
+Automatic dissolve at startup in view:work.smc_fpga(verilog) of gen_freq_sr(edgesr)
+Automatic dissolve at startup in view:work.smc_fpga(verilog) of main_sr(edgesr)
+Automatic dissolve at startup in view:work.smc_fpga(verilog) of i2_sr(edgesr)
+Automatic dissolve at startup in view:work.smc_fpga(verilog) of i1_sr(edgesr)
+Automatic dissolve at startup in view:work.smc_fpga(verilog) of v0_sr(edgesr)
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance MAIN_ctr.O_data[6] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance MAIN_ctr.O_data[5] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance MAIN_ctr.O_data[4] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance MAIN_ctr.O_data[3] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance MAIN_ctr.O_data[2] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance MAIN_ctr.O_data[1] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance MAIN_ctr.O_data[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance I2_ctr.O_data[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance I1_ctr.O_data[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"f:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":685:3:685:8|Removing sequential instance V0_ctr.O_data[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN132 :"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":441:3:441:8|Removing user instance idl_regs.AC_ENABLE_ON,  because it is equivalent to instance idl_regs.K1_ENABLE_ON
+Fanout correction:
+Buffering source of net N_339, loads 20, segments 4
+Replicating source of net I_reset_N_i, loads 321, segments 22
+Buffering source of net V0_ctr.N_110, loads 17, segments 4
+Buffering source of net I1_ctr.N_110, loads 17, segments 4
+Buffering source of net I2_ctr.N_110, loads 17, segments 4
+Buffering source of net MAIN_ctr.N_148, loads 23, segments 4
+Buffering source of net gen_freq_ctr.N_154, loads 24, segments 4
+Buffering source of net gen_freq_ctr.N_74, loads 24, segments 4
+Replicating source of net CLR_REGS, loads 131, segments 10
+Replicating source of net CLR_REGS_rep1, loads 23, segments 3
+Replicating source of net I_reset_N_i_rep1, loads 27, segments 3
+Buffering source of net N_338, loads 20, segments 4
+Replicating source of net CLR_REGS_rep1_rep1, loads 17, segments 3
+Buffering source of net idl_regs.CLR_LOCK_OUT_wstb, loads 17, segments 4
+Replicating source of net I_reset_N_i_rep1_rep1, loads 18, segments 3
+Added 18 cells via buffering
+Added 38 cells (0 were register bits) via replication
+@W: BN115 :|Removing instance I_245_rep1_rep1 of view:pASIC1.Q_INV(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":687:6:687:7|Removing instance I_288 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":687:6:687:7|Removing instance I_287 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":687:6:687:7|Removing instance idl_regs.O_CLR_REGS_rep1_rep1 of view:pASIC1.Q_XLATR(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_284 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_283 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_245_rep1 of view:pASIC1.Q_INV(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":687:6:687:7|Removing instance idl_regs.O_CLR_REGS_rep1 of view:pASIC1.Q_XLATR(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":687:6:687:7|Removing instance idl_regs.O_CLR_REGS of view:pASIC1.Q_XLATR(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_280 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_279 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_276 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_275 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_272 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_271 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_268 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_267 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_264 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_263 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_260 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_259 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_245 of view:pASIC1.Q_INV(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_256 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+@W: BN115 :|Removing instance I_255 of view:pASIC1.Q_BUF1(Netlist_representation) because there are no references to its outputs 
+---------------------------------------
+Resource Usage Report
+Part: ql3012
+
+Area estimate:  1096 Cells
+Register count: 301
+Latch count:    56
+I/O cells:      60
+
+Details:
+Q_CKPAD:          2
+Q_HINPAD:         1
+Q_INPAD:         42
+Q_IOPAD:          8
+Q_OUTPAD:         7
+
+AND2I0:         291 (area 1)
+AND2I1:         192 (area 1)
+AND2I2:          28 (area 1)
+AND3I0:          51 (area 1)
+AND3I1:           7 (area 1)
+AND3I3:           3 (area 1)
+AND4I3:          12 (area 1)
+AND4I4:           1 (area 1)
+AND5I4:           2 (area 1)
+AND6I3:           5 (area 1)
+AND6I6:           2 (area 1)
+MUX2X0:         121 (area 1)
+MUX2X1:           2 (area 1)
+MUX2X2:           1 (area 1)
+MUX2X3:           2 (area 1)
+MUX4X0:           1 (area 1)
+OR2I1:           18 (area 1)
+OR2I2:           20 (area 1)
+OR3I0:            8 (area 1)
+OR3I1:            6 (area 1)
+OR3I2:            2 (area 1)
+OR3I3:           29 (area 1)
+OR4I1:           12 (area 1)
+OR4I2:            1 (area 1)
+OR4I3:            1 (area 1)
+OR4I4:            1 (area 1)
+OR5I2:            3 (area 1)
+OR6I3:            9 (area 1)
+Q_AND2:          84 (area 0.3)
+Q_BUF1:          18 (area 0.3)
+Q_DFF:          301
+Q_INCSKIP:        5 (area 1)
+Q_INCSKIP2:      17 (area 1)
+Q_INCX:         139 (area 1)
+Q_INV:           37 (area 0.2)
+Q_MUX4:           2 (area 1)
+Q_XLATR:         56 (area 1)
+XOR2I0:           8 (area 1)
+
+Found clock smc_fpga|I_ale with period 90.91ns 
+Found clock smc_fpga|I_clk with period 90.91ns 
+@W:|Net N_340 appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":589:15:589:40|Net K1_ON_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":510:36:510:82|Net B_SMC_CNTRL_BC_SWITCHED_AC_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":505:35:505:80|Net SMC_CNTRL_JAG_SWITCHED_AC_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":515:31:515:72|Net B_CNTRL_BC_48VDC_DC90_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":520:26:520:62|Net B_CNTRL_BC_48VDC_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":500:32:500:74|Net SMC_CNTRL_JAG_48VDC_ON_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":594:16:594:42|Net V48_ON_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1165:15:1165:32|Net V0_LO_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1153:15:1153:32|Net I1_HI_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1157:15:1157:32|Net I1_LO_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1145:15:1145:32|Net I2_HI_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1149:15:1149:32|Net I2_LO_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1137:24:1137:50|Net MAIN_BLOWER_HI_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1141:24:1141:50|Net MAIN_BLOWER_LO_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1125:25:1125:52|Net GEN_FREQ_CTR_HI_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1133:25:1133:52|Net GEN_FREQ_CTR_LO_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1117:25:1117:52|Net BC_TACH0_CTR_HI_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1121:25:1121:52|Net BC_TACH0_CTR_LO_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1109:25:1109:52|Net BC_TACH1_CTR_HI_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1113:25:1113:52|Net BC_TACH1_CTR_LO_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":557:19:557:48|Net idl_regs.AUX_3_CTL_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":561:19:561:48|Net idl_regs.AUX_2_CTL_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":565:19:565:48|Net idl_regs.AUX_1_CTL_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":569:19:569:48|Net idl_regs.AUX_0_CTL_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":573:21:573:52|Net idl_regs.AUX_FAN_CTL_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":533:26:533:62|Net GEN_FREQ_CTR_MUX_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":1161:15:1161:32|Net V0_HI_rstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":537:17:537:44|Net idl_regs.CTR_CTL_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":541:22:541:54|Net idl_regs.CLR_LOCK_OUT_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":577:27:577:64|Net idl_regs.B_DC90_48V_Enable_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":581:19:581:48|Net idl_regs.K1_ENABLE_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"f:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":585:20:585:50|Net idl_regs.V48_ENABLE_wstb appears to be a clock source which was not identified. Assuming default frequency. 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Aug 16 17:08:57 2004
+#
+
+
+Top view:               smc_fpga
+Requested Frequency:    11.0 MHz
+Wire load mode:         top
+Wire load model:        pASIC3
+Paths requested:        5
+Constraint File(s):    F:\work_area\smc_fpga_bc2\smc_fpga\syn\smc_fpga.sdc
+                       
+@N: MT195 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT196 |Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 53.621
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+smc_fpga|I_ale     11.0 MHz      28.2 MHz      90.909        35.412        55.497     inferred     Inferred_clkgroup_1
+smc_fpga|I_clk     11.0 MHz      50.4 MHz      90.909        19.828        71.081     inferred     Inferred_clkgroup_0
+System             11.0 MHz      26.8 MHz      90.909        37.288        53.621     system       default_clkgroup   
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------
+smc_fpga|I_ale  smc_fpga|I_ale  |  No paths    -       |  90.909      55.497  |  No paths    -      |  No paths    -    
+smc_fpga|I_ale  smc_fpga|I_clk  |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+smc_fpga|I_clk  smc_fpga|I_clk  |  90.909      71.081  |  No paths    -       |  No paths    -      |  No paths    -    
+========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port                                Starting                     User           Arrival     Required           
+Name                                Reference                    Constraint     Time        Time         Slack 
+                                    Clock                                                                      
+---------------------------------------------------------------------------------------------------------------
+BI_port0[0]                         System (rising)              NA             0.000       82.770       82.770
+BI_port0[1]                         System (rising)              NA             0.000       83.772       83.772
+BI_port0[2]                         System (rising)              NA             0.000       88.610       88.610
+BI_port0[3]                         System (rising)              NA             0.000       88.610       88.610
+BI_port0[4]                         System (rising)              NA             0.000       88.907       88.907
+BI_port0[5]                         smc_fpga|I_ale (falling)     0.000          0.000       89.205       57.380
+BI_port0[6]                         smc_fpga|I_ale (falling)     0.000          0.000       89.205       57.380
+BI_port0[7]                         smc_fpga|I_ale (falling)     0.000          0.000       89.205       57.380
+IN_psen                             System (rising)              NA             0.000       81.476       81.476
+IN_rd                               System (rising)              NA             0.000       58.298       58.298
+IN_wr                               smc_fpga|I_clk (rising)      0.000          0.000       82.792       82.792
+I_I1_mon                            smc_fpga|I_clk (rising)      0.000          0.000       89.205       89.205
+I_I2_mon                            smc_fpga|I_clk (rising)      0.000          0.000       89.205       89.205
+I_SMC_MON_BC_AC_ON                  System (rising)              NA             0.000       82.472       82.472
+I_SMC_MON_BC_AC_PWR_FAULT           System (rising)              NA             0.000       78.540       78.540
+I_SMC_MON_BC_FAN0_STATE             System (rising)              NA             0.000       81.181       81.181
+I_SMC_MON_BC_FAN0_TACH              smc_fpga|I_clk (rising)      0.000          0.000       84.372       84.372
+I_SMC_MON_BC_FAN1_STATE             System (rising)              NA             0.000       78.630       78.630
+I_SMC_MON_BC_FAN1_TACH              smc_fpga|I_clk (rising)      0.000          0.000       84.557       84.557
+I_SMC_MON_BC_OUTPUT_FAULT           System (rising)              NA             0.000       82.282       82.282
+I_SMC_MON_BC_OVR_TMP                System (rising)              NA             0.000       79.113       79.113
+I_SMC_MON_BC_PHASE_LOSS             System (rising)              NA             0.000       79.113       79.113
+I_SMC_MON_DC90_48V_ON               System (rising)              NA             0.000       78.991       78.991
+I_SMC_MON_DC90_AC_PWR_FAULT         System (rising)              NA             0.000       78.477       78.477
+I_SMC_MON_DC90_OUTPUT_FAULT         System (rising)              NA             0.000       82.312       82.312
+I_SMC_MON_DC90_OVR_TMP              System (rising)              NA             0.000       78.991       78.991
+I_SMC_MON_PDU_JAG_48V_GOOD          System (rising)              NA             0.000       80.056       80.056
+I_SMC_MON_PDU_JAG_THERMAL_FAULT     System (rising)              NA             0.000       81.636       81.636
+I_V0_mon                            smc_fpga|I_clk (rising)      0.000          0.000       89.205       89.205
+I_ale                               NA                           NA             NA          NA           NA    
+I_clk                               NA                           NA             NA          NA           NA    
+I_main_blower_mon                   smc_fpga|I_clk (rising)      0.000          0.000       89.205       89.205
+I_maint_mon                         smc_fpga|I_clk (rising)      0.000          0.000       89.205       89.205
+I_monitors[0]                       smc_fpga|I_clk (rising)      0.000          0.000       81.251       81.251
+I_monitors[1]                       smc_fpga|I_clk (rising)      0.000          0.000       82.700       82.700
+I_monitors[2]                       smc_fpga|I_clk (rising)      0.000          0.000       81.251       81.251
+I_monitors[3]                       System (rising)              NA             0.000       82.402       82.402
+I_monitors[4]                       smc_fpga|I_clk (rising)      0.000          0.000       81.251       81.251
+I_monitors[5]                       smc_fpga|I_clk (rising)      0.000          0.000       82.700       82.700
+I_monitors[6]                       smc_fpga|I_clk (rising)      0.000          0.000       81.251       81.251
+I_monitors[7]                       smc_fpga|I_clk (rising)      0.000          0.000       82.700       82.700
+I_monitors[8]                       smc_fpga|I_clk (rising)      0.000          0.000       80.442       80.442
+I_monitors[9]                       System (rising)              NA             0.000       78.695       78.695
+I_monitors[10]                      smc_fpga|I_clk (rising)      0.000          0.000       78.968       78.968
+I_port2[0]                          System (rising)              NA             0.000       89.205       89.205
+I_port2[1]                          System (rising)              NA             0.000       89.205       89.205
+I_port2[2]                          System (rising)              NA             0.000       89.205       89.205
+I_port2[3]                          System (rising)              NA             0.000       89.205       89.205
+I_port2[4]                          System (rising)              NA             0.000       89.205       89.205
+I_port2[5]                          System (rising)              NA             0.000       89.205       89.205
+I_port2[6]                          System (rising)              NA             0.000       89.205       89.205
+I_port2[7]                          System (rising)              NA             0.000       89.205       89.205
+I_reset_N                           NA                           NA             NA          NA           NA    
+===============================================================================================================
+
+
+Output Ports: 
+
+Port                              Starting                    User           Arrival     Required           
+Name                              Reference                   Constraint     Time        Time         Slack 
+                                  Clock                                                                     
+------------------------------------------------------------------------------------------------------------
+BI_port0[0]                       System (rising)             NA             37.288      90.909       53.621
+BI_port0[1]                       System (rising)             NA             34.665      90.909       56.245
+BI_port0[2]                       System (rising)             NA             34.987      90.909       55.922
+BI_port0[3]                       System (rising)             NA             34.987      90.909       55.922
+BI_port0[4]                       System (rising)             NA             34.987      90.909       55.922
+BI_port0[5]                       System (rising)             NA             35.405      90.909       55.504
+BI_port0[6]                       System (rising)             NA             35.405      90.909       55.504
+BI_port0[7]                       System (rising)             NA             35.405      90.909       55.504
+OC_48v_on                         smc_fpga|I_clk (rising)     NA             6.892       90.909       84.017
+OC_B_CNTRL_BC_48VDC               System (rising)             NA             5.994       90.909       84.915
+OC_B_CNTRL_BC_48VDC_DC90          System (rising)             NA             5.994       90.909       84.915
+OC_B_SMC_CNTRL_BC_SWITCHED_AC     System (rising)             NA             5.994       90.909       84.915
+OC_SMC_CNTRL_JAG_48VDC_ON         System (rising)             NA             5.994       90.909       84.915
+OC_SMC_CNTRL_JAG_SWITCHED_AC      System (rising)             NA             5.994       90.909       84.915
+OC_k1_on                          smc_fpga|I_clk (rising)     NA             6.892       90.909       84.017
+============================================================================================================
+
+
+
+====================================
+Detailed Report for Clock: smc_fpga|I_ale
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                       Arrival           
+Instance          Reference          Type        Pin             Net             Time        Slack 
+                  Clock                                                                            
+---------------------------------------------------------------------------------------------------
+addr[6]           smc_fpga|I_ale     Q_XLATR     QZ              addr[6]         1.834       55.497
+addr[7]           smc_fpga|I_ale     Q_XLATR     QZ              addr[7]         1.834       55.901
+addr[5]           smc_fpga|I_ale     Q_XLATR     QZ              addr[5]         2.740       57.691
+addr[3]           smc_fpga|I_ale     Q_XLATR     QZ              addr[3]         2.740       57.776
+addr[4]           smc_fpga|I_ale     Q_XLATR     QZ              addr[4]         2.132       57.951
+addr[0]           smc_fpga|I_ale     Q_XLATR     QZ              addr[0]         2.740       58.352
+addr[1]           smc_fpga|I_ale     Q_XLATR     QZ              addr[1]         3.634       60.341
+addr[2]           smc_fpga|I_ale     Q_XLATR     QZ              addr[2]         3.038       60.770
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[5]     BI_port0[5]     0.000       89.205
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[6]     BI_port0[6]     0.000       89.205
+===================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                       Required           
+Instance          Reference          Type        Pin             Net             Time         Slack 
+                  Clock                                                                             
+----------------------------------------------------------------------------------------------------
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[0]     BI_port0[0]     90.909       55.497
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[5]     BI_port0[5]     90.909       57.380
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[6]     BI_port0[6]     90.909       57.380
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[7]     BI_port0[7]     90.909       57.380
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[2]     BI_port0[2]     90.909       57.798
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[3]     BI_port0[3]     90.909       57.798
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[4]     BI_port0[4]     90.909       57.798
+BI_port0[7:0]     smc_fpga|I_ale     Port        BI_port0[1]     BI_port0[1]     90.909       58.120
+addr[5]           smc_fpga|I_ale     Q_XLATR     QD              N_334           90.909       89.205
+addr[6]           smc_fpga|I_ale     Q_XLATR     QD              N_333           90.909       89.205
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        90.909
+    = Required time:                         90.909
+
+    - Propagation time:                      35.412
+    = Slack (non-critical) :                 55.497
+
+    Number of logic level(s):                12
+    Starting point:                          addr[6] / QZ
+    Ending point:                            BI_port0[7:0] / BI_port0[0]
+    The start point is clocked by            smc_fpga|I_ale [falling] on pin QC
+    The end   point is clocked by            smc_fpga|I_ale [falling]
+
+Instance / Net                                               Pin             Pin               Arrival     No. of    
+Name                                             Type        Name            Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+addr[6]                                          Q_XLATR     QZ              Out     1.834     1.834       -         
+addr[6]                                          Net         -               -       -         -           2         
+idl_regs.N_926_i                                 AND6I6      E               In      0.000     1.834       -         
+idl_regs.N_926_i                                 AND6I6      Q               Out     3.327     5.161       -         
+idl_regs.N_926_i                                 Net         -               -       -         -           2         
+idl_regs.O_B_CNTRL_BC_48VDC_wstb_0_a3_0_a2_1     AND2I1      A               In      0.000     5.161       -         
+idl_regs.O_B_CNTRL_BC_48VDC_wstb_0_a3_0_a2_1     AND2I1      Q               Out     1.985     7.146       -         
+idl_regs.N_876                                   Net         -               -       -         -           2         
+idl_regs.O_V48_ON_wstb_0_a3_0_a2_1               AND2I1      A               In      0.000     7.146       -         
+idl_regs.O_V48_ON_wstb_0_a3_0_a2_1               AND2I1      Q               Out     2.590     9.736       -         
+idl_regs.N_877                                   Net         -               -       -         -           3         
+idl_regs.r_data_0_0_a2_15[1]                     AND2I0      B               In      0.000     9.736       -         
+idl_regs.r_data_0_0_a2_15[1]                     AND2I0      Q               Out     1.889     11.625      -         
+idl_regs.N_880                                   Net         -               -       -         -           2         
+idl_regs.r_data_0_0_a2_6[1]                      AND2I0      B               In      0.000     11.625      -         
+idl_regs.r_data_0_0_a2_6[1]                      AND2I0      Q               Out     5.539     17.164      -         
+idl_regs.N_888                                   Net         -               -       -         -           8         
+idl_regs.O_BC_TACH1_CTR_LO_rstb_0_a2_1_a2_0      AND2I0      B               In      0.000     17.164      -         
+idl_regs.O_BC_TACH1_CTR_LO_rstb_0_a2_1_a2_0      AND2I0      Q               Out     3.049     20.213      -         
+idl_regs.N_899                                   Net         -               -       -         -           4         
+BC_TACH1_CTR_LO_rstb_i                           OR2I2       B               In      0.000     20.213      -         
+BC_TACH1_CTR_LO_rstb_i                           OR2I2       Q               Out     5.634     25.847      -         
+BC_TACH1_CTR_LO_rstb                             Net         -               -       -         -           8         
+noalloc_rdata_i_a8_9[0]                          AND2I1      B               In      0.000     25.847      -         
+noalloc_rdata_i_a8_9[0]                          AND2I1      Q               Out     1.965     27.813      -         
+N_224                                            Net         -               -       -         -           1         
+noalloc_rdata_i_o2_15[0]                         AND2I2      A               In      0.000     27.813      -         
+noalloc_rdata_i_o2_15[0]                         AND2I2      Q               Out     1.854     29.667      -         
+noalloc_rdata_i_o2_15_i[0]                       Net         -               -       -         -           1         
+noalloc_rdata_i_o2[0]                            OR4I1       D               In      0.000     29.667      -         
+noalloc_rdata_i_o2[0]                            OR4I1       Q               Out     1.467     31.133      -         
+N_258                                            Net         -               -       -         -           1         
+idl_regs.r_data_i_i[0]                           OR6I3       B               In      0.000     31.133      -         
+idl_regs.r_data_i_i[0]                           OR6I3       Q               Out     1.822     32.956      -         
+idl_rdata[0]                                     Net         -               -       -         -           1         
+BI_port0_p[0]                                    Q_IOPAD     D               In      0.000     32.956      -         
+BI_port0_p[0]                                    Q_IOPAD     P               Out     2.456     35.412      -         
+BI_port0[0]                                      Net         -               -       -         -           1         
+BI_port0[7:0]                                    Port        BI_port0[0]     Out     0.000     35.412      -         
+=====================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: smc_fpga|I_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                           Arrival           
+Instance                      Reference          Type      Pin     Net                           Time        Slack 
+                              Clock                                                                                
+-------------------------------------------------------------------------------------------------------------------
+MAIN_ctr.ctr_reg[8]           smc_fpga|I_clk     Q_DFF     QZ      MAIN_ctr.ctr_reg[8]           2.740       71.081
+MAIN_ctr.ctr_reg[7]           smc_fpga|I_clk     Q_DFF     QZ      MAIN_ctr.ctr_reg[7]           2.740       71.146
+MAIN_ctr.ctr_reg[11]          smc_fpga|I_clk     Q_DFF     QZ      MAIN_ctr.ctr_reg[11]          2.740       71.175
+tach0_freq_ctr.ctr_reg[0]     smc_fpga|I_clk     Q_DFF     QZ      tach0_freq_ctr.ctr_reg[0]     3.038       71.198
+tach1_freq_ctr.ctr_reg[0]     smc_fpga|I_clk     Q_DFF     QZ      tach1_freq_ctr.ctr_reg[0]     3.038       71.198
+tach0_freq_ctr.ctr_reg[1]     smc_fpga|I_clk     Q_DFF     QZ      tach0_freq_ctr.ctr_reg[1]     2.740       71.400
+tach1_freq_ctr.ctr_reg[1]     smc_fpga|I_clk     Q_DFF     QZ      tach1_freq_ctr.ctr_reg[1]     2.740       71.400
+MAIN_ctr.ctr_reg[12]          smc_fpga|I_clk     Q_DFF     QZ      MAIN_ctr.ctr_reg[12]          2.443       71.407
+MAIN_ctr.ctr_reg[20]          smc_fpga|I_clk     Q_DFF     QZ      MAIN_ctr.ctr_reg[20]          2.740       71.457
+tach0_freq_ctr.ctr_reg[8]     smc_fpga|I_clk     Q_DFF     QZ      tach0_freq_ctr.ctr_reg[8]     2.740       71.524
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                               Required           
+Instance                Reference          Type      Pin     Net               Time         Slack 
+                        Clock                                                                     
+--------------------------------------------------------------------------------------------------
+MAIN_ctr.O_data[7]      smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_8      90.909       71.081
+MAIN_ctr.O_data[8]      smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_9      90.909       71.081
+MAIN_ctr.O_data[9]      smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_10     90.909       71.081
+MAIN_ctr.O_data[10]     smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_11     90.909       71.081
+MAIN_ctr.O_data[11]     smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_12     90.909       71.081
+MAIN_ctr.O_data[12]     smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_13     90.909       71.081
+MAIN_ctr.O_data[13]     smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_14     90.909       71.081
+MAIN_ctr.O_data[14]     smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_15     90.909       71.081
+MAIN_ctr.O_data[15]     smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_16     90.909       71.081
+MAIN_ctr.O_data[16]     smc_fpga|I_clk     Q_DFF     QD      MAIN_ctr.N_17     90.909       71.081
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        90.909
+    - Setup time:                            0.000
+    = Required time:                         90.909
+
+    - Propagation time:                      19.828
+    = Slack (non-critical) :                 71.081
+
+    Number of logic level(s):                6
+    Starting point:                          MAIN_ctr.ctr_reg[8] / QZ
+    Ending point:                            MAIN_ctr.O_data[7] / QD
+    The start point is clocked by            smc_fpga|I_clk [rising] on pin QC
+    The end   point is clocked by            smc_fpga|I_clk [rising] on pin QC
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+MAIN_ctr.ctr_reg[8]                     Q_DFF      QZ       Out     2.740     2.740       -         
+MAIN_ctr.ctr_reg[8]                     Net        -        -       -         -           5         
+MAIN_ctr.un1_I_clr_regs_i_a2_0_7        AND2I0     A        In      0.000     2.740       -         
+MAIN_ctr.un1_I_clr_regs_i_a2_0_7        AND2I0     Q        Out     1.196     3.937       -         
+MAIN_ctr.un1_I_clr_regs_i_a2_0_7        Net        -        -       -         -           1         
+MAIN_ctr.un1_I_clr_regs_i_a2_0_13       OR3I3      A        In      0.000     3.937       -         
+MAIN_ctr.un1_I_clr_regs_i_a2_0_13       OR3I3      Q        Out     1.353     5.290       -         
+MAIN_ctr.un1_I_clr_regs_i_a2_0_13_i     Net        -        -       -         -           1         
+MAIN_ctr.un1_I_clr_regs_i_a2_0          OR6I3      C        In      0.000     5.290       -         
+MAIN_ctr.un1_I_clr_regs_i_a2_0          OR6I3      Q        Out     1.861     7.150       -         
+MAIN_ctr.N_146_i                        Net        -        -       -         -           1         
+MAIN_ctr.un1_I_clr_regs_i_o2            OR3I2      C        In      0.000     7.150       -         
+MAIN_ctr.un1_I_clr_regs_i_o2            OR3I2      Q        Out     1.102     8.253       -         
+MAIN_ctr.N_149                          Net        -        -       -         -           1         
+MAIN_ctr.un1_I_clr_regs_i               OR2I1      B        In      0.000     8.253       -         
+MAIN_ctr.un1_I_clr_regs_i               OR2I1      Q        Out     9.965     18.218      -         
+MAIN_ctr.N_71                           Net        -        -       -         -           16        
+MAIN_ctr.O_data_0[7]                    MUX2X0     S        In      0.000     18.218      -         
+MAIN_ctr.O_data_0[7]                    MUX2X0     Q        Out     1.610     19.828      -         
+MAIN_ctr.N_8                            Net        -        -       -         -           1         
+MAIN_ctr.O_data[7]                      Q_DFF      QD       In      0.000     19.828      -         
+====================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                              Arrival           
+Instance                     Reference     Type        Pin       Net               Time        Slack 
+                             Clock                                                                   
+-----------------------------------------------------------------------------------------------------
+addr[9]                      System        Q_XLATR     QZ        addr[9]           2.132       53.621
+addr[13]                     System        Q_XLATR     QZ        addr[13]          2.132       53.719
+addr[12]                     System        Q_XLATR     QZ        addr[12]          2.132       53.802
+addr[15]                     System        Q_XLATR     QZ        addr[15]          2.132       53.830
+addr[14]                     System        Q_XLATR     QZ        addr[14]          2.132       56.013
+addr[11]                     System        Q_XLATR     QZ        addr[11]          2.132       56.019
+addr[10]                     System        Q_XLATR     QZ        addr[10]          2.132       56.061
+IN_rd                        System        Port        IN_rd     IN_rd             0.000       58.298
+addr[8]                      System        Q_XLATR     QZ        addr[8]           2.740       59.327
+idl_regs.O_CLR_REGS_rep3     System        Q_XLATR     QZ        CLR_REGS_rep3     6.042       71.341
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                 Required           
+Instance               Reference     Type      Pin             Net              Time         Slack 
+                       Clock                                                                       
+---------------------------------------------------------------------------------------------------
+BI_port0[7:0]          System        Port      BI_port0[0]     BI_port0[0]      90.909       53.621
+BI_port0[7:0]          System        Port      BI_port0[5]     BI_port0[5]      90.909       55.504
+BI_port0[7:0]          System        Port      BI_port0[6]     BI_port0[6]      90.909       55.504
+BI_port0[7:0]          System        Port      BI_port0[7]     BI_port0[7]      90.909       55.504
+BI_port0[7:0]          System        Port      BI_port0[2]     BI_port0[2]      90.909       55.922
+BI_port0[7:0]          System        Port      BI_port0[3]     BI_port0[3]      90.909       55.922
+BI_port0[7:0]          System        Port      BI_port0[4]     BI_port0[4]      90.909       55.922
+BI_port0[7:0]          System        Port      BI_port0[1]     BI_port0[1]      90.909       56.245
+MAIN_ctr.O_data[7]     System        Q_DFF     QD              MAIN_ctr.N_8     90.909       71.341
+MAIN_ctr.O_data[8]     System        Q_DFF     QD              MAIN_ctr.N_9     90.909       71.341
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        90.909
+    = Required time:                         90.909
+
+    - Propagation time:                      37.288
+    = Slack (critical) :                     53.621
+
+    Number of logic level(s):                13
+    Starting point:                          addr[9] / QZ
+    Ending point:                            BI_port0[7:0] / BI_port0[0]
+    The start point is clocked by            System [falling] on pin QC
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                               Pin             Pin               Arrival     No. of    
+Name                                             Type        Name            Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+addr[9]                                          Q_XLATR     QZ              Out     2.132     2.132       -         
+addr[9]                                          Net         -               -       -         -           3         
+idl_regs.O_address_match_0_i_o2_0                OR4I4       A               In      0.000     2.132       -         
+idl_regs.O_address_match_0_i_o2_0                OR4I4       Q               Out     1.744     3.876       -         
+idl_regs.O_address_match_0_i_o2_0                Net         -               -       -         -           1         
+idl_regs.N_926_i                                 AND6I6      D               In      0.000     3.876       -         
+idl_regs.N_926_i                                 AND6I6      Q               Out     3.161     7.037       -         
+idl_regs.N_926_i                                 Net         -               -       -         -           2         
+idl_regs.O_B_CNTRL_BC_48VDC_wstb_0_a3_0_a2_1     AND2I1      A               In      0.000     7.037       -         
+idl_regs.O_B_CNTRL_BC_48VDC_wstb_0_a3_0_a2_1     AND2I1      Q               Out     1.985     9.022       -         
+idl_regs.N_876                                   Net         -               -       -         -           2         
+idl_regs.O_V48_ON_wstb_0_a3_0_a2_1               AND2I1      A               In      0.000     9.022       -         
+idl_regs.O_V48_ON_wstb_0_a3_0_a2_1               AND2I1      Q               Out     2.590     11.612      -         
+idl_regs.N_877                                   Net         -               -       -         -           3         
+idl_regs.r_data_0_0_a2_15[1]                     AND2I0      B               In      0.000     11.612      -         
+idl_regs.r_data_0_0_a2_15[1]                     AND2I0      Q               Out     1.889     13.501      -         
+idl_regs.N_880                                   Net         -               -       -         -           2         
+idl_regs.r_data_0_0_a2_6[1]                      AND2I0      B               In      0.000     13.501      -         
+idl_regs.r_data_0_0_a2_6[1]                      AND2I0      Q               Out     5.539     19.040      -         
+idl_regs.N_888                                   Net         -               -       -         -           8         
+idl_regs.O_BC_TACH1_CTR_LO_rstb_0_a2_1_a2_0      AND2I0      B               In      0.000     19.040      -         
+idl_regs.O_BC_TACH1_CTR_LO_rstb_0_a2_1_a2_0      AND2I0      Q               Out     3.049     22.089      -         
+idl_regs.N_899                                   Net         -               -       -         -           4         
+BC_TACH1_CTR_LO_rstb_i                           OR2I2       B               In      0.000     22.089      -         
+BC_TACH1_CTR_LO_rstb_i                           OR2I2       Q               Out     5.634     27.723      -         
+BC_TACH1_CTR_LO_rstb                             Net         -               -       -         -           8         
+noalloc_rdata_i_a8_9[0]                          AND2I1      B               In      0.000     27.723      -         
+noalloc_rdata_i_a8_9[0]                          AND2I1      Q               Out     1.965     29.689      -         
+N_224                                            Net         -               -       -         -           1         
+noalloc_rdata_i_o2_15[0]                         AND2I2      A               In      0.000     29.689      -         
+noalloc_rdata_i_o2_15[0]                         AND2I2      Q               Out     1.854     31.543      -         
+noalloc_rdata_i_o2_15_i[0]                       Net         -               -       -         -           1         
+noalloc_rdata_i_o2[0]                            OR4I1       D               In      0.000     31.543      -         
+noalloc_rdata_i_o2[0]                            OR4I1       Q               Out     1.467     33.009      -         
+N_258                                            Net         -               -       -         -           1         
+idl_regs.r_data_i_i[0]                           OR6I3       B               In      0.000     33.009      -         
+idl_regs.r_data_i_i[0]                           OR6I3       Q               Out     1.822     34.832      -         
+idl_rdata[0]                                     Net         -               -       -         -           1         
+BI_port0_p[0]                                    Q_IOPAD     D               In      0.000     34.832      -         
+BI_port0_p[0]                                    Q_IOPAD     P               Out     2.456     37.288      -         
+BI_port0[0]                                      Net         -               -       -         -           1         
+BI_port0[7:0]                                    Port        BI_port0[0]     Out     0.000     37.288      -         
+=====================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Wrote QDIF file 'F:\work_area\smc_fpga_bc2\smc_fpga\syn\d4\smc_fpga.qdf' part='ql3012' grade='-0' package='pl84'.
+Mapper successful!
+Process took 0h:0m:27s realtime, 0h:0m:27s cputime
+###########################################################]

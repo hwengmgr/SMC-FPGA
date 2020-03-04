@@ -1,0 +1,4796 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 12-Jan-2011 AT 10:58:24 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PCB734_220_51';
+ POST_TIME='12-Jan-2011 AT 10:58:24';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I281@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i281@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i281@capacitor.cap(chips)',
+ PATH='I281',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1050,4800)',
+ VER='1',
+ ROT='1',
+ LOCATION='C1',
+ VALUE='0.1UF',
+ PART_NUMBER='111-479-00',
+ CDS_LIB='capacitor',
+ TAG='DTG',
+ SIZE='1',
+ ABBREV='CAP',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C2 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I282@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i282@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i282@capacitor.cap(chips)',
+ PATH='I282',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3700,4800)',
+ VER='1',
+ ROT='1',
+ LOCATION='C2',
+ VALUE='0.1UF',
+ PART_NUMBER='111-479-00',
+ CDS_LIB='capacitor',
+ TAG='DTG',
+ SIZE='1',
+ ABBREV='CAP',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C3 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I25@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i25@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i25@capacitor.cap(chips)',
+ PATH='I25',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1450,6750)',
+ VER='1',
+ ROT='0',
+ LOCATION='C3',
+ SEC='1',
+ VALUE='0.1UF',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ SIZE='1',
+ TAG='DTG',
+ SEC_TYPE='',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C4 'POLCAP-111-656-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I257@CAPACITOR.POLCAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i257@capacitor.polcap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i257@capacitor.polcap(chips)',
+ PATH='I257',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(5300,7650)',
+ VER='1',
+ ROT='0',
+ LOCATION='C4',
+ VALUE='10UF',
+ TAG='DTG',
+ PART_NUMBER='111-656-00',
+ SIZE='1',
+ ABBREV='POLCAP',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/polcap/chips/chips.prt';
+
+PART_NAME
+ C5 'POLCAP-111-656-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I256@CAPACITOR.POLCAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i256@capacitor.polcap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i256@capacitor.polcap(chips)',
+ PATH='I256',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3850,7650)',
+ VER='1',
+ ROT='0',
+ LOCATION='C5',
+ VALUE='10UF',
+ CDS_LIB='capacitor',
+ ABBREV='POLCAP',
+ SIZE='1',
+ PART_NUMBER='111-656-00',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/polcap/chips/chips.prt';
+
+PART_NAME
+ C6 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I243@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i243@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i243@capacitor.cap(chips)',
+ PATH='I243',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4200,7600)',
+ VER='1',
+ ROT='0',
+ LOCATION='C6',
+ VALUE='0.1UF',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ SIZE='1',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C7 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I237@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i237@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i237@capacitor.cap(chips)',
+ PATH='I237',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4050,5350)',
+ VER='1',
+ ROT='0',
+ LOCATION='C7',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C8 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I236@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i236@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i236@capacitor.cap(chips)',
+ PATH='I236',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2550,5400)',
+ VER='1',
+ ROT='0',
+ LOCATION='C8',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C9 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I230@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i230@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i230@capacitor.cap(chips)',
+ PATH='I230',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-800,7000)',
+ VER='1',
+ ROT='0',
+ LOCATION='C9',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C10 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I231@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i231@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i231@capacitor.cap(chips)',
+ PATH='I231',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(650,7000)',
+ VER='1',
+ ROT='0',
+ LOCATION='C10',
+ VALUE='0.1UF',
+ ABBREV='CAP',
+ SIZE='1',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C11 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I235@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i235@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i235@capacitor.cap(chips)',
+ PATH='I235',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(700,4500)',
+ VER='1',
+ ROT='0',
+ LOCATION='C11',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ SIZE='1',
+ ABBREV='CAP',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C12 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I234@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i234@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i234@capacitor.cap(chips)',
+ PATH='I234',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-900,4500)',
+ VER='1',
+ ROT='0',
+ LOCATION='C12',
+ SEC='1',
+ VALUE='0.1UF',
+ SIZE='1',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ CDS_LIB='capacitor',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C13 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I227@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i227@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i227@capacitor.cap(chips)',
+ PATH='I227',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2000,6400)',
+ VER='1',
+ ROT='0',
+ LOCATION='C13',
+ VALUE='0.1UF',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ SIZE='1',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C14 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I347@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i347@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i347@capacitor.cap(chips)',
+ PATH='I347',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2650,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C14',
+ VALUE='0.1UF',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C15 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I348@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i348@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i348@capacitor.cap(chips)',
+ PATH='I348',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2800,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C15',
+ VALUE='0.1UF',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C16 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I349@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i349@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i349@capacitor.cap(chips)',
+ PATH='I349',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2950,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C16',
+ VALUE='0.1UF',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C17 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I350@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i350@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i350@capacitor.cap(chips)',
+ PATH='I350',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3100,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C17',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C18 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I351@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i351@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i351@capacitor.cap(chips)',
+ PATH='I351',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3400,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C18',
+ VALUE='0.1UF',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C19 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I352@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i352@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i352@capacitor.cap(chips)',
+ PATH='I352',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3550,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C19',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C20 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I353@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i353@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i353@capacitor.cap(chips)',
+ PATH='I353',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3700,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C20',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C21 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I354@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i354@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i354@capacitor.cap(chips)',
+ PATH='I354',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3850,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C21',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C22 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I355@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i355@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i355@capacitor.cap(chips)',
+ PATH='I355',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4000,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C22',
+ VALUE='0.1UF',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C23 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I356@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i356@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i356@capacitor.cap(chips)',
+ PATH='I356',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4150,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C23',
+ VALUE='0.1UF',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C24 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I357@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i357@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i357@capacitor.cap(chips)',
+ PATH='I357',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4300,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C24',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C25 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I358@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i358@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i358@capacitor.cap(chips)',
+ PATH='I358',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4450,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C25',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C26 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I359@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i359@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i359@capacitor.cap(chips)',
+ PATH='I359',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4600,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C26',
+ VALUE='0.1UF',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ SIZE='1',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C27 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I360@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i360@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i360@capacitor.cap(chips)',
+ PATH='I360',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4750,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C27',
+ VALUE='0.1UF',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ SIZE='1',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C28 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I361@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i361@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i361@capacitor.cap(chips)',
+ PATH='I361',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4900,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C28',
+ VALUE='0.1UF',
+ ABBREV='CAP',
+ PART_NUMBER='111-479-00',
+ TAG='DTG',
+ SIZE='1',
+ CDS_LIB='capacitor',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ C29 'CAP-111-479-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I362@CAPACITOR.CAP(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i362@capacitor.cap(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i362@capacitor.cap(chips)',
+ PATH='I362',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(5050,6950)',
+ VER='1',
+ ROT='0',
+ LOCATION='C29',
+ VALUE='0.1UF',
+ CDS_LIB='capacitor',
+ SIZE='1',
+ TAG='DTG',
+ PART_NUMBER='111-479-00',
+ ABBREV='CAP',
+ PRIM_FILE='n:/dtg/library/hdl/capacitor/cap/chips/chips.prt';
+
+PART_NAME
+ GA1 'SMC_FPGA-613-560-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I94@ARRAY.SMC_FPGA(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i94@\array\.smc_fpga(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i94@\array\.smc_fpga(chips)',
+ PATH='I94',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(-600,7200)',
+ VER='1',
+ ROT='0',
+ SEC='1',
+ PART_NUMBER='613-560-00',
+ SEC_TYPE='',
+ CDS_LIB='array',
+ PRIM_FILE='n:/dtg/library/hdl/array/smc_fpga/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I95@ARRAY.SMC_FPGA(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i95@\array\.smc_fpga(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i95@\array\.smc_fpga(chips)',
+ PATH='I95',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(-50,4600)',
+ VER='2',
+ ROT='0',
+ SEC='2',
+ PART_NUMBER='613-560-00',
+ CDS_LIB='array',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/array/smc_fpga/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I96@ARRAY.SMC_FPGA(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i96@\array\.smc_fpga(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96@\array\.smc_fpga(chips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(5000,5950)',
+ VER='3',
+ ROT='0',
+ SEC='3',
+ PART_NUMBER='613-560-00',
+ CDS_LIB='array',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/array/smc_fpga/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I97@ARRAY.SMC_FPGA(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i97@\array\.smc_fpga(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97@\array\.smc_fpga(chips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3200,5750)',
+ VER='4',
+ ROT='0',
+ SEC='4',
+ PART_NUMBER='613-560-00',
+ CDS_LIB='array',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/array/smc_fpga/chips/chips.prt';
+
+PART_NAME
+ J1 'CONN10-359-788-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I365@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i365@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i365@connector.conn10(chips)',
+ PATH='I365',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1600,5600)',
+ VER='1',
+ ROT='0',
+ SEC='1',
+ LOAD='OPEN',
+ LOCATION='J1',
+ PART_NUMBER='359-788-00',
+ SEC_TYPE='',
+ ABBREV='CONN',
+ CDS_LIB='connector',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I366@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i366@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i366@connector.conn10(chips)',
+ PATH='I366',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1600,5300)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='2',
+ TAG='DTG',
+ ABBREV='CONN',
+ CDS_LIB='connector',
+ SEC_TYPE='',
+ PART_NUMBER='359-788-00',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I367@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i367@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i367@connector.conn10(chips)',
+ PATH='I367',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3850,5950)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='3',
+ PART_NUMBER='359-788-00',
+ SEC_TYPE='',
+ CDS_LIB='connector',
+ ABBREV='CONN',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I368@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i368@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i368@connector.conn10(chips)',
+ PATH='I368',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1600,5500)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='4',
+ PART_NUMBER='359-788-00',
+ SEC_TYPE='',
+ CDS_LIB='connector',
+ ABBREV='CONN',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I369@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i369@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i369@connector.conn10(chips)',
+ PATH='I369',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1600,5900)',
+ VER='1',
+ ROT='0',
+ LOCATION='J1',
+ SEC='5',
+ TAG='DTG',
+ ABBREV='CONN',
+ CDS_LIB='connector',
+ SEC_TYPE='',
+ PART_NUMBER='359-788-00',
+ LOAD='OPEN',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I370@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i370@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i370@connector.conn10(chips)',
+ PATH='I370',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1600,5400)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='6',
+ PART_NUMBER='359-788-00',
+ SEC_TYPE='',
+ CDS_LIB='connector',
+ ABBREV='CONN',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I371@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i371@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i371@connector.conn10(chips)',
+ PATH='I371',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3750,5200)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='7',
+ TAG='DTG',
+ ABBREV='CONN',
+ CDS_LIB='connector',
+ SEC_TYPE='',
+ PART_NUMBER='359-788-00',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I372@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i372@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i372@connector.conn10(chips)',
+ PATH='I372',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3750,5300)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='8',
+ PART_NUMBER='359-788-00',
+ SEC_TYPE='',
+ CDS_LIB='connector',
+ ABBREV='CONN',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 9
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I373@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i373@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i373@connector.conn10(chips)',
+ PATH='I373',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1600,5700)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='9',
+ TAG='DTG',
+ ABBREV='CONN',
+ CDS_LIB='connector',
+ SEC_TYPE='',
+ PART_NUMBER='359-788-00',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+SECTION_NUMBER 10
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I374@CONNECTOR.CONN10(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i374@connector.conn10(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i374@connector.conn10(chips)',
+ PATH='I374',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1600,5200)',
+ VER='1',
+ ROT='0',
+ LOAD='OPEN',
+ LOCATION='J1',
+ SEC='10',
+ PART_NUMBER='359-788-00',
+ SEC_TYPE='',
+ CDS_LIB='connector',
+ ABBREV='CONN',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/connector/conn10/chips/chips.prt';
+
+PART_NAME
+ K1 'BSP123_E6327-752-355-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I341@ANALOG.BSP123_E6327(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i341@analog.bsp123_e6327(chip~
+s)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i341@analog.bsp123_e6327(chip~
+s)',
+ PATH='I341',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1850,7600)',
+ VER='1',
+ ROT='0',
+ LOCATION='K1',
+ USES='S',
+ USEG='G',
+ USED='D',
+ ABBREV='BSP123_E6327',
+ PART_NUMBER='752-355-00',
+ CDS_LIB='analog',
+ PRIM_FILE='n:/dtg/library/hdl/analog/bsp123_e6327/chips/chips.prt';
+
+PART_NAME
+ R1 'SRES-654-001-12,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I344@RESISTOR.SRES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i344@resistor.sres(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i344@resistor.sres(chips)',
+ PATH='I344',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2000,7900)',
+ VER='1',
+ ROT='0',
+ LOCATION='R1',
+ VALUE='2K',
+ VERILOG_MODEL='RES_SERIES',
+ TOL_ON_OFF='ON',
+ NEGTOL='RTOL%',
+ SIZE='1',
+ ABBREV='SR',
+ CDS_LIB='resistor',
+ TAG='DTG',
+ PART_NUMBER='654-001-12',
+ WATTAGE='?WATTS',
+ TOLERANCE='?TOL',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/sres/chips/chips.prt';
+
+PART_NAME
+ R2 'RES-636-151-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I262@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i262@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i262@resistor.res(chips)',
+ PATH='I262',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1800,4400)',
+ VER='2',
+ ROT='0',
+ LOCATION='R2',
+ VALUE='51',
+ SIZE='1',
+ ABBREV='R',
+ PART_NUMBER='636-151-00',
+ TAG='DTG',
+ CDS_LIB='resistor',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R3 'RES-636-151-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I261@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i261@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i261@resistor.res(chips)',
+ PATH='I261',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1800,4600)',
+ VER='2',
+ ROT='0',
+ LOCATION='R3',
+ VALUE='51',
+ SIZE='1',
+ ABBREV='R',
+ PART_NUMBER='636-151-00',
+ TAG='DTG',
+ CDS_LIB='resistor',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R4 'RES-636-151-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I274@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i274@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i274@resistor.res(chips)',
+ PATH='I274',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4450,4400)',
+ VER='2',
+ ROT='0',
+ LOCATION='R4',
+ VALUE='51',
+ SIZE='1',
+ ABBREV='R',
+ PART_NUMBER='636-151-00',
+ TAG='DTG',
+ CDS_LIB='resistor',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R5 'RES-636-151-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I273@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i273@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i273@resistor.res(chips)',
+ PATH='I273',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4450,4600)',
+ VER='2',
+ ROT='0',
+ LOCATION='R5',
+ VALUE='51',
+ SIZE='1',
+ ABBREV='R',
+ PART_NUMBER='636-151-00',
+ TAG='DTG',
+ CDS_LIB='resistor',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R6 'RES-629-000-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I264@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i264@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i264@resistor.res(chips)',
+ PATH='I264',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1800,4150)',
+ VER='2',
+ ROT='0',
+ LOCATION='R6',
+ VALUE='0',
+ LOAD='OPEN',
+ PART_NUMBER='629-000-00',
+ CDS_LIB='resistor',
+ SIZE='1',
+ ABBREV='R',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R7 'RES-629-000-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I263@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i263@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i263@resistor.res(chips)',
+ PATH='I263',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1800,4900)',
+ VER='2',
+ ROT='0',
+ LOCATION='R7',
+ VALUE='0',
+ LOAD='OPEN',
+ CDS_LIB='resistor',
+ TAG='DTG',
+ ABBREV='R',
+ SIZE='1',
+ PART_NUMBER='629-000-00',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R8 'RES-629-000-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I275@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i275@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i275@resistor.res(chips)',
+ PATH='I275',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4450,4150)',
+ VER='2',
+ ROT='0',
+ LOCATION='R8',
+ LOAD='OPEN',
+ VALUE='0',
+ CDS_LIB='resistor',
+ TAG='DTG',
+ ABBREV='R',
+ SIZE='1',
+ PART_NUMBER='629-000-00',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R9 'RES-629-000-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I270@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i270@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i270@resistor.res(chips)',
+ PATH='I270',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4450,4900)',
+ VER='2',
+ ROT='0',
+ LOCATION='R9',
+ LOAD='OPEN',
+ VALUE='0',
+ ABBREV='R',
+ PART_NUMBER='629-000-00',
+ TAG='DTG',
+ CDS_LIB='resistor',
+ SIZE='1',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R10 'RES-636-151-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I26@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i26@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i26@resistor.res(chips)',
+ PATH='I26',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2300,6400)',
+ VER='2',
+ ROT='0',
+ LOCATION='R10',
+ SEC='1',
+ VALUE='51',
+ SIZE='1',
+ ABBREV='R',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-151-00',
+ TAG='DTG',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R20 'RES-629-000-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I288@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i288@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i288@resistor.res(chips)',
+ PATH='I288',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(-900,4000)',
+ VER='2',
+ ROT='0',
+ LOCATION='R20',
+ VALUE='0',
+ PART_NUMBER='629-000-00',
+ SIZE='1',
+ ABBREV='R',
+ TAG='DTG',
+ CDS_LIB='resistor',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R21 'RES-629-000-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I287@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i287@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i287@resistor.res(chips)',
+ PATH='I287',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(-1400,3900)',
+ VER='2',
+ ROT='0',
+ LOCATION='R21',
+ VALUE='0',
+ CDS_LIB='resistor',
+ TAG='DTG',
+ ABBREV='R',
+ SIZE='1',
+ PART_NUMBER='629-000-00',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R22 'RES-629-000-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I290@RESISTOR.RES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i290@resistor.res(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i290@resistor.res(chips)',
+ PATH='I290',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2000,5450)',
+ VER='2',
+ ROT='0',
+ LOCATION='R22',
+ SEC='1',
+ VALUE='0',
+ PART_NUMBER='629-000-00',
+ SIZE='1',
+ ABBREV='R',
+ TAG='DTG',
+ CDS_LIB='resistor',
+ LOAD='OPEN',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/res/chips/chips.prt';
+
+PART_NAME
+ R23 'SRES-636-151-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I226@RESISTOR.SRES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i226@resistor.sres(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i226@resistor.sres(chips)',
+ PATH='I226',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3000,6150)',
+ VER='1',
+ ROT='1',
+ LOCATION='R23',
+ SEC='1',
+ VALUE='51',
+ ABBREV='SR',
+ SIZE='1',
+ NEGTOL='RTOL%',
+ TOL_ON_OFF='ON',
+ VERILOG_MODEL='RES_SERIES',
+ CDS_LIB='resistor',
+ TOLERANCE='?TOL',
+ WATTAGE='?WATTS',
+ PART_NUMBER='636-151-00',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/sres/chips/chips.prt';
+
+PART_NAME
+ R24 'PRES-636-700-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I225@RESISTOR.PRES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i225@resistor.pres(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i225@resistor.pres(chips)',
+ PATH='I225',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2550,5350)',
+ VER='7',
+ ROT='0',
+ LOCATION='R24',
+ VALUE='1K',
+ ABBREV='PR',
+ SIZE='1',
+ VERILOG_MODEL='RES_PULL',
+ NEGTOL='RTOL%',
+ TOL_ON_OFF='ON',
+ CDS_LIB='resistor',
+ WATTAGE='?WATTS',
+ TOLERANCE='?TOL',
+ PART_NUMBER='636-700-00',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/pres/chips/chips.prt';
+
+PART_NAME
+ R25 'PRES-636-700-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I223@RESISTOR.PRES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i223@resistor.pres(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i223@resistor.pres(chips)',
+ PATH='I223',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2350,5600)',
+ VER='7',
+ ROT='1',
+ LOCATION='R25',
+ VALUE='1K',
+ TOLERANCE='?TOL',
+ WATTAGE='?WATTS',
+ ABBREV='PR',
+ SIZE='1',
+ VERILOG_MODEL='RES_PULL',
+ NEGTOL='RTOL%',
+ TOL_ON_OFF='ON',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-700-00',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/pres/chips/chips.prt';
+
+PART_NAME
+ R26 'PRES-636-700-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I224@RESISTOR.PRES(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i224@resistor.pres(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i224@resistor.pres(chips)',
+ PATH='I224',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2350,5500)',
+ VER='7',
+ ROT='1',
+ LOCATION='R26',
+ VALUE='1K',
+ TOLERANCE='?TOL',
+ WATTAGE='?WATTS',
+ CDS_LIB='resistor',
+ TOL_ON_OFF='ON',
+ NEGTOL='RTOL%',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='1',
+ ABBREV='PR',
+ PART_NUMBER='636-700-00',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/pres/chips/chips.prt';
+
+PART_NAME
+ RN1 '8RES-636-413-04,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(7)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(7)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(6)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(6)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(5)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(5)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(4)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(4)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(3)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(3)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(2)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(2)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(1)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(1)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I104@RESISTOR.8RES(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i104(0)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i104(0)@resistor.\8res\(chips~
+)',
+ PATH='I104',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2750,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN1',
+ VALUE='43',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ PART_NUMBER='636-413-04',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+PART_NAME
+ RN2 '8RES-636-413-04,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(7)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(7)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(6)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(6)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(5)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(5)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(4)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(4)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(3)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(3)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(2)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(2)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(1)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(1)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I105@RESISTOR.8RES(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i105(0)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i105(0)@resistor.\8res\(chips~
+)',
+ PATH='I105',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2850,4800)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN2',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+PART_NAME
+ RN3 '8RES-636-413-04,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(7)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(7)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(6)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(6)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(5)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(5)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(4)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(4)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(3)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(3)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(2)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(2)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(1)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(1)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I106@RESISTOR.8RES(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i106(0)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i106(0)@resistor.\8res\(chips~
+)',
+ PATH='I106',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(4150,7050)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN3',
+ VALUE='43',
+ SEC_TYPE='',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ CDS_LIB='resistor',
+ PART_NUMBER='636-413-04',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+PART_NAME
+ RN4 '8RES-636-413-04,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(7)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(7)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(6)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(6)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(5)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(5)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(4)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(4)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(3)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(3)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(2)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(2)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(1)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(1)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I268@RESISTOR.8RES(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i268(0)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i268(0)@resistor.\8res\(chips~
+)',
+ PATH='I268',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,7750)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN4',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+PART_NAME
+ RN5 '8RES-636-413-04,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(7)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(7)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(6)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(6)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(5)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(5)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(4)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(4)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(3)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(3)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(2)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(2)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(1)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(1)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I269@RESISTOR.8RES(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i269(0)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i269(0)@resistor.\8res\(chips~
+)',
+ PATH='I269',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,6550)',
+ VER='3',
+ ROT='5',
+ LOCATION='RN5',
+ VALUE='43',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ VERILOG_MODEL='RES_PULL',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+PART_NAME
+ RN6 '8RES-636-413-04,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(7)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(7)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(6)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(6)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(5)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(5)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(4)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(4)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(3)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(3)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(2)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(2)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(1)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(1)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I102@RESISTOR.8RES(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i102(0)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i102(0)@resistor.\8res\(chips~
+)',
+ PATH='I102',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-450,5400)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN6',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ SEC_TYPE='',
+ CDS_LIB='resistor',
+ ABBREV='8RES',
+ HAS_FIXED_SIZE='8',
+ VERILOG_MODEL='RES_PULL',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+PART_NAME
+ RN7 '8RES-636-413-04,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(7)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(7)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(6)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(6)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(5)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(5)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(4)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(4)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(3)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(3)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(2)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(2)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(1)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(1)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I103@RESISTOR.8RES(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i103(0)@resistor.\8res\(chips~
+)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i103(0)@resistor.\8res\(chips~
+)',
+ PATH='I103',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-500,4000)',
+ VER='3',
+ ROT='1',
+ LOCATION='RN7',
+ VALUE='43',
+ PART_NUMBER='636-413-04',
+ CDS_LIB='resistor',
+ VERILOG_MODEL='RES_PULL',
+ HAS_FIXED_SIZE='8',
+ ABBREV='8RES',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/resistor/8res/chips/chips.prt';
+
+PART_NAME
+ TP1 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I246@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i246@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i246@parts.testpoint(chips)',
+ PATH='I246',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2500,6750)',
+ VER='2',
+ ROT='2',
+ LOCATION='TP1',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP2 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I247@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i247@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i247@parts.testpoint(chips)',
+ PATH='I247',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2000,6800)',
+ VER='2',
+ ROT='2',
+ LOCATION='TP2',
+ CDS_LIB='parts',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP3 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I248@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i248@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i248@parts.testpoint(chips)',
+ PATH='I248',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(1800,6850)',
+ VER='2',
+ ROT='2',
+ LOCATION='TP3',
+ CDS_LIB='parts',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP4 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I249@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i249@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i249@parts.testpoint(chips)',
+ PATH='I249',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(1800,7200)',
+ VER='1',
+ ROT='3',
+ LOCATION='TP4',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP6 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I285@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i285@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i285@parts.testpoint(chips)',
+ PATH='I285',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(5150,4700)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP6',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP7 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I286@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i286@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i286@parts.testpoint(chips)',
+ PATH='I286',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(5150,4300)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP7',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ CDS_LIB='parts',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP8 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I283@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i283@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i283@parts.testpoint(chips)',
+ PATH='I283',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2400,4700)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP8',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP9 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I284@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i284@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i284@parts.testpoint(chips)',
+ PATH='I284',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2400,4250)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP9',
+ CDS_LIB='parts',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP10 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I255@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i255@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i255@parts.testpoint(chips)',
+ PATH='I255',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3650,5700)',
+ VER='2',
+ ROT='7',
+ LOCATION='TP10',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ TAG='DTG',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP11 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I251@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i251@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i251@parts.testpoint(chips)',
+ PATH='I251',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2200,6000)',
+ VER='2',
+ ROT='7',
+ LOCATION='TP11',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP12 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I291@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i291@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i291@parts.testpoint(chips)',
+ PATH='I291',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1850,5850)',
+ VER='2',
+ ROT='7',
+ LOCATION='TP12',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP15 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I266@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i266@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i266@parts.testpoint(chips)',
+ PATH='I266',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1700,7500)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP15',
+ CDS_LIB='parts',
+ PART_NUMBER='359-537-00',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP16 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I265@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i265@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i265@parts.testpoint(chips)',
+ PATH='I265',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1900,7650)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP16',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP17 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I264@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i264@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i264@parts.testpoint(chips)',
+ PATH='I264',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1850,7800)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP17',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP18 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I263@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i263@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i263@parts.testpoint(chips)',
+ PATH='I263',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1650,7950)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP18',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP19 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I262@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i262@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i262@parts.testpoint(chips)',
+ PATH='I262',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1450,8000)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP19',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP20 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I260@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i260@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i260@parts.testpoint(chips)',
+ PATH='I260',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1600,6250)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP20',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP21 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I259@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i259@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i259@parts.testpoint(chips)',
+ PATH='I259',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1850,6400)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP21',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP22 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I258@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i258@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i258@parts.testpoint(chips)',
+ PATH='I258',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1850,6650)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP22',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP23 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I261@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i261@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i261@parts.testpoint(chips)',
+ PATH='I261',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1700,6800)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP23',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP24 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I299@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i299@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i299@parts.testpoint(chips)',
+ PATH='I299',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(900,7950)',
+ VER='1',
+ ROT='5',
+ LOCATION='TP24',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP25 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I300@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i300@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i300@parts.testpoint(chips)',
+ PATH='I300',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1100,7900)',
+ VER='1',
+ ROT='5',
+ LOCATION='TP25',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP26 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I301@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i301@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i301@parts.testpoint(chips)',
+ PATH='I301',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1250,7850)',
+ VER='1',
+ ROT='5',
+ LOCATION='TP26',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP27 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I302@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i302@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i302@parts.testpoint(chips)',
+ PATH='I302',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1450,7800)',
+ VER='1',
+ ROT='5',
+ LOCATION='TP27',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP28 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I304@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i304@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i304@parts.testpoint(chips)',
+ PATH='I304',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1100,7400)',
+ VER='1',
+ ROT='7',
+ LOCATION='TP28',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP29 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I342@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i342@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i342@parts.testpoint(chips)',
+ PATH='I342',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3100,7600)',
+ VER='1',
+ ROT='7',
+ LOCATION='TP29',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP30 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I305@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i305@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i305@parts.testpoint(chips)',
+ PATH='I305',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1700,3900)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP30',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP31 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I252@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i252@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i252@parts.testpoint(chips)',
+ PATH='I252',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1250,5100)',
+ VER='1',
+ ROT='1',
+ LOCATION='TP31',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP32 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I253@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i253@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i253@parts.testpoint(chips)',
+ PATH='I253',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1400,5150)',
+ VER='1',
+ ROT='1',
+ LOCATION='TP32',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP33 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I254@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i254@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i254@parts.testpoint(chips)',
+ PATH='I254',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1550,5200)',
+ VER='1',
+ ROT='1',
+ LOCATION='TP33',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP34 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I255@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i255@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i255@parts.testpoint(chips)',
+ PATH='I255',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1850,5250)',
+ VER='1',
+ ROT='1',
+ LOCATION='TP34',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP35 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I256@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i256@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i256@parts.testpoint(chips)',
+ PATH='I256',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-2000,5300)',
+ VER='1',
+ ROT='1',
+ LOCATION='TP35',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP36 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I257@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i257@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i257@parts.testpoint(chips)',
+ PATH='I257',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1950,5700)',
+ VER='1',
+ ROT='3',
+ LOCATION='TP36',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ CDS_LIB='parts',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP37 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I250@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i250@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i250@parts.testpoint(chips)',
+ PATH='I250',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1800,3950)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP37',
+ CDS_LIB='parts',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP38 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I251@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i251@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i251@parts.testpoint(chips)',
+ PATH='I251',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(-1400,4000)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP38',
+ PART_NUMBER='359-537-00',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ TAG='DTG',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP42 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I244@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i244@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i244@parts.testpoint(chips)',
+ PATH='I244',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(1750,6000)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP42',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP43 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I245@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i245@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i245@parts.testpoint(chips)',
+ PATH='I245',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3650,6250)',
+ VER='1',
+ ROT='2',
+ LOCATION='TP43',
+ TAG='DTG',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP44 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I292@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i292@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i292@parts.testpoint(chips)',
+ PATH='I292',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(-900,3450)',
+ VER='2',
+ ROT='7',
+ LOCATION='TP44',
+ CDS_LIB='parts',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP45 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I295@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i295@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i295@parts.testpoint(chips)',
+ PATH='I295',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(800,3400)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP45',
+ CDS_LIB='parts',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP46 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I293@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i293@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i293@parts.testpoint(chips)',
+ PATH='I293',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(-1650,3400)',
+ VER='2',
+ ROT='7',
+ LOCATION='TP46',
+ CDS_LIB='parts',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP47 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I296@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i296@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i296@parts.testpoint(chips)',
+ PATH='I296',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1400,3400)',
+ VER='1',
+ ROT='0',
+ LOCATION='TP47',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP48 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I294@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i294@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i294@parts.testpoint(chips)',
+ PATH='I294',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(-1900,3500)',
+ VER='2',
+ ROT='7',
+ LOCATION='TP48',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP49 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I298@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i298@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i298@parts.testpoint(chips)',
+ PATH='I298',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2000,3700)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP49',
+ CDS_LIB='parts',
+ REMOVE='EXCLUDE',
+ ABBREV='TP',
+ PART_NUMBER='359-537-00',
+ TAG='DTG',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP50 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I297@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i297@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i297@parts.testpoint(chips)',
+ PATH='I297',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1700,3700)',
+ VER='3',
+ ROT='0',
+ LOCATION='TP50',
+ CDS_LIB='parts',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP51 'TESTPOINT-359-537-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I307@PARTS.TESTPOINT(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i307@parts.testpoint(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i307@parts.testpoint(chips)',
+ PATH='I307',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(2550,3900)',
+ VER='2',
+ ROT='7',
+ LOCATION='TP51',
+ ABBREV='TP',
+ REMOVE='EXCLUDE',
+ TAG='DTG',
+ PART_NUMBER='359-537-00',
+ CDS_LIB='parts',
+ PRIM_FILE='n:/dtg/library/hdl/parts/testpoint/chips/chips.prt';
+
+PART_NAME
+ U1 'FCT164245TSOIC-437-726-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(7)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(7)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(6)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(6)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(5)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(5)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(4)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(4)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(3)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(3)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(2)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(2)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(1)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(1)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I100@CMOS.FCT164245TSOIC(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i100(0)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i100(0)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I100',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3400,7100)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 9
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(7)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(7)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 10
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(6)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(6)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 11
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(5)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(5)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 12
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(4)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(4)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 13
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(3)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(3)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 14
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(2)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(2)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 15
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(1)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(1)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 16
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I101@CMOS.FCT164245TSOIC(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i101(0)@cmos.fct164245tsoic(c~
+hips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i101(0)@cmos.fct164245tsoic(c~
+hips)',
+ PATH='I101',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(3500,4850)',
+ VER='4',
+ ROT='0',
+ LOCATION='U1',
+ PART_NUMBER='437-726-00',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+PART_NAME
+ U2 'FCT164245TSOIC-437-726-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(7)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(7)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(6)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(6)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(5)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(5)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(4)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(4)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(3)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(3)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(2)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(2)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(1)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(1)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I96@CMOS.FCT164245TSOIC(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i96(0)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i96(0)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I96',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(900,7750)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 9
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(7)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(7)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 10
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(6)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(6)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 11
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(5)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(5)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 12
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(4)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(4)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 13
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(3)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(3)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 14
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(2)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(2)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 15
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(1)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(1)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 16
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I97@CMOS.FCT164245TSOIC(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i97(0)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i97(0)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I97',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,6550)',
+ VER='4',
+ ROT='0',
+ LOCATION='U2',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+PART_NAME
+ U3 'FCT164245TSOIC-437-726-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(7)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(7)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(6)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(6)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(5)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(5)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(4)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(4)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(3)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(3)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(2)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(2)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(1)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(1)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I98@CMOS.FCT164245TSOIC(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i98(0)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i98(0)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I98',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,5450)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ HAS_FIXED_SIZE='8',
+ ABBREV='164245',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 9
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(7):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(7)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(7)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 10
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(6):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(6)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(6)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 11
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(5):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(5)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(5)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 12
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(4):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(4)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(4)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 13
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(3):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(3)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(3)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 14
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(2):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(2)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(2)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 15
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(1)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(1)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+SECTION_NUMBER 16
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I99@CMOS.FCT164245TSOIC(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i99(0)@cmos.fct164245tsoic(ch~
+ips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i99(0)@cmos.fct164245tsoic(ch~
+ips)',
+ PATH='I99',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(200,4050)',
+ VER='4',
+ ROT='0',
+ LOCATION='U3',
+ PART_NUMBER='437-726-00',
+ CDS_LIB='cmos',
+ ABBREV='164245',
+ HAS_FIXED_SIZE='8',
+ SEC_TYPE='',
+ SIZE='8',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/fct164245tsoic/chips/chips.prt';
+
+PART_NAME
+ U4 'LP3891ESX-741-890-12,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I211@ANALOG.LP3891ESX(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i211@analog.lp3891esx(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i211@analog.lp3891esx(chips)',
+ PATH='I211',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(4600,7800)',
+ VER='1',
+ ROT='0',
+ LOCATION='U4',
+ SEC='1',
+ PART_NUMBER='741-890-12',
+ REMOVE='EXCLUDE',
+ ABBREV='LP3891ESX',
+ CDS_LIB='analog',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/analog/lp3891esx/chips/chips.prt';
+
+PART_NAME
+ U5 'TC7SZU04F-437-739-01,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4_I270@CMOS.TC7SZU04F(CHIPS)':
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i270@cmos.tc7szu04f(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page3_i270@cmos.tc7szu04f(chips)',
+ PATH='I270',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE4',
+ PHYS_PAGE='3',
+ XY='(2400,6150)',
+ VER='2',
+ ROT='0',
+ LOCATION='U5',
+ SEC='1',
+ PART_NUMBER='437-739-01',
+ ABBREV='TC7SZU04F',
+ TAG='DTG',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/tc7szu04f/chips/chips.prt';
+
+PART_NAME
+ U6 'NC7WZ17-741-645-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I260@CMOS.NC7WZ17(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i260(1)@cmos.nc7wz17(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i260(1)@cmos.nc7wz17(chips)',
+ PATH='I260',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1300,4500)',
+ VER='1',
+ ROT='0',
+ LOCATION='U6',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ PART_NUMBER='741-645-00',
+ TAG='DTG',
+ ABBREV='NC7WZ17',
+ HAS_FIXED_SIZE='2',
+ SIZE='2',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/nc7wz17/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I260@CMOS.NC7WZ17(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i260(0)@cmos.nc7wz17(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i260(0)@cmos.nc7wz17(chips)',
+ PATH='I260',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1300,4500)',
+ VER='1',
+ ROT='0',
+ LOCATION='U6',
+ SEC_TYPE='',
+ CDS_LIB='cmos',
+ PART_NUMBER='741-645-00',
+ TAG='DTG',
+ ABBREV='NC7WZ17',
+ HAS_FIXED_SIZE='2',
+ SIZE='2',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/nc7wz17/chips/chips.prt';
+
+PART_NAME
+ U7 'NC7WZ17-741-645-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I280@CMOS.NC7WZ17(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i280(1)@cmos.nc7wz17(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i280(1)@cmos.nc7wz17(chips)',
+ PATH='I280',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3950,4500)',
+ VER='1',
+ ROT='0',
+ LOCATION='U7',
+ ABBREV='NC7WZ17',
+ HAS_FIXED_SIZE='2',
+ CDS_LIB='cmos',
+ TAG='DTG',
+ PART_NUMBER='741-645-00',
+ SEC_TYPE='',
+ SIZE='2',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/nc7wz17/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I280@CMOS.NC7WZ17(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i280(0)@cmos.nc7wz17(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i280(0)@cmos.nc7wz17(chips)',
+ PATH='I280',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(3950,4500)',
+ VER='1',
+ ROT='0',
+ LOCATION='U7',
+ ABBREV='NC7WZ17',
+ HAS_FIXED_SIZE='2',
+ CDS_LIB='cmos',
+ TAG='DTG',
+ PART_NUMBER='741-645-00',
+ SEC_TYPE='',
+ SIZE='2',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/nc7wz17/chips/chips.prt';
+
+PART_NAME
+ U8 'NC7WZ17-741-645-00,DTG':;
+
+SECTION_NUMBER 1
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I24@CMOS.NC7WZ17(CHIPS)'(1):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i24(1)@cmos.nc7wz17(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i24(1)@cmos.nc7wz17(chips)',
+ PATH='I24',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1800,6500)',
+ VER='1',
+ ROT='0',
+ LOCATION='U8',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ HAS_FIXED_SIZE='2',
+ ABBREV='NC7WZ17',
+ PART_NUMBER='741-645-00',
+ TAG='DTG',
+ SIZE='2',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/nc7wz17/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6_I24@CMOS.NC7WZ17(CHIPS)'(0):
+ C_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page6_i24(0)@cmos.nc7wz17(chips)',
+ P_PATH='@pcb734_220_51.pcb734_220_51(sch_1):page4_i24(0)@cmos.nc7wz17(chips)',
+ PATH='I24',
+ DRAWING='@PCB734_220_51.PCB734_220_51(SCH_1):PAGE6',
+ PHYS_PAGE='4',
+ XY='(1800,6500)',
+ VER='1',
+ ROT='0',
+ LOCATION='U8',
+ CDS_LIB='cmos',
+ SEC_TYPE='',
+ HAS_FIXED_SIZE='2',
+ ABBREV='NC7WZ17',
+ PART_NUMBER='741-645-00',
+ TAG='DTG',
+ SIZE='2',
+ PRIM_FILE='n:/dtg/library/hdl/cmos/nc7wz17/chips/chips.prt';
+
+END.

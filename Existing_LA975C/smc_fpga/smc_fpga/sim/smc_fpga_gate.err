@@ -1,0 +1,11 @@
+warning# 1.364    line  688    file F:\work_area\smc_fpga_bc2\smc_fpga\sim\smc_fpga_tf.v
+initial $recordvars();
+                  ^ `$recordvars` has not been found
+	in any "veriusertfs[]" table - ignoring calls
+	To load "veriusertfs[]" refer to "pliload" command
+	Hints:
+	Have you linked your dll library file with a ".def" file?
+	Is your "veriusertfs" table NOT declared static?
+	Are your "tfcall" routines NOT declared static?
+	Is your "endofcompile_routines" table NOT declared static?
+	Do these names appear under EXTERN in your .def file?

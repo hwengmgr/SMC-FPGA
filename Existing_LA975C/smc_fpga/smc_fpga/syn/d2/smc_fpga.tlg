@@ -1,0 +1,40 @@
+Selecting top level module smc_fpga
+Synthesizing module smc_fpga_idl_rtl
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":907:6:907:7|Latch generated from always block for signal V48_ENABLE, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":880:6:880:7|Latch generated from always block for signal K1_ENABLE, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":853:6:853:7|Latch generated from always block for signal B_DC90_48V_Enable, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":826:6:826:7|Latch generated from always block for signal AUX_FAN_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":799:6:799:7|Latch generated from always block for signal AUX_0_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":772:6:772:7|Latch generated from always block for signal AUX_1_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":745:6:745:7|Latch generated from always block for signal AUX_2_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":718:6:718:7|Latch generated from always block for signal AUX_3_CTL[1:0], probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":691:6:691:7|Latch generated from always block for signal CLR_MAINT_REG, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":664:6:664:7|Latch generated from always block for signal CLR_CTRS, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":637:6:637:7|Latch generated from always block for signal CLR_REGS, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":610:6:610:7|Latch generated from always block for signal CLR_LOCK_OUT, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":583:6:583:7|Latch generated from always block for signal CTR_CTL, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\idl\smc_fpga_idl_rtl.v":556:6:556:7|Latch generated from always block for signal GEN_FREQ_CTR_MUX[4:0], probably caused by a missing assignment in an if or case stmt
+Synthesizing module edgesr
+Synthesizing module freq_ctr
+	CTRWIDTH=32'b00000000000000000000000000010001
+	all_ones=32'b00000000000000011111111111111111
+   Generated name = freq_ctr_17_131071
+Synthesizing module freq_ctr
+	CTRWIDTH=32'b00000000000000000000000000010111
+	all_ones=32'b00000000011111111111111111111111
+   Generated name = freq_ctr_23_8388607
+Synthesizing module freq_ctr
+	CTRWIDTH=32'b00000000000000000000000000011000
+	all_ones=32'b00000000111111111111111111111111
+   Generated name = freq_ctr_24_16777215
+Synthesizing module state_mon
+Synthesizing module smc_fpga
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":235:6:235:7|Latch generated from always block for signal addr[15:8], probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":223:6:223:7|Latch generated from always block for signal addr[7:0], probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":463:1:463:2|Latch generated from always block for signal V48_ON, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":447:1:447:2|Latch generated from always block for signal SMC_CNTRL_JAG_48VDC_ON, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":434:1:434:2|Latch generated from always block for signal B_CNTRL_BC_48VDC, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":421:1:421:2|Latch generated from always block for signal B_CNTRL_BC_48VDC_DC90, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":408:1:408:2|Latch generated from always block for signal SMC_CNTRL_JAG_SWITCHED_AC, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":394:1:394:2|Latch generated from always block for signal B_SMC_CNTRL_BC_SWITCHED_AC, probably caused by a missing assignment in an if or case stmt
+@W:"F:\work_area\smc_fpga_bc2\smc_fpga\rtl\smc_fpga.v":381:1:381:2|Latch generated from always block for signal K1_ON, probably caused by a missing assignment in an if or case stmt

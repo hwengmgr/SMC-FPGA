@@ -1,0 +1,157 @@
+
+
+    Cadence Design Systems, Inc.
+    Packager-XL 15.70-s006 WIN32 3-Jan-2008 12:00:00 IST
+    (C) Copyright 1994, Cadence Design Systems, Inc.
+
+    Run on Wed Jan 12 10:58:27 2011
+
+
+ **********************************************
+ *  Processing project file and command line  *
+ **********************************************
+
+
+
+    ANNOTATE  'BODY' 'PIN'
+    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'MERGE_NC_PINS' 'MERGE_POWER_PINS'
+                   'NC_PINS' 'PINCOUNT' 'POWER_GROUP' 'POWER_PINS'
+    COMP_INST_PROP  'GROUP' 'REUSE_ID' 'REUSE_INSTANCE' 'REUSE_NAME' 'ROOM'
+                    'ISRFELEMENT' 'RFELEMENTTYPE' 'RFLAYER' 'RFLAYER1'
+                    'RFLAYER2' 'RFLAYER3' 'RFLAYER4' 'RFLAYER5' 'RFLAYER6'
+                    'RFLAYER7' 'RFLAYER8' 'RFLAYER9' 'RFLAYER10' 'RFLAYER11'
+                    'RFLAYER12' 'RFLAYER13' 'RFLAYER14' 'RFLAYER15' 'RFLAYER16'
+                    'RFCOUPLINGMODE' 'RFFLIPMODE' 'RFANGLE' 'RFANGLE1' 'RFWIDTH'
+                    'RFWIDTH1' 'RFWIDTH2' 'RFWIDTH3' 'RFWIDTH4' 'RFWIDTH5'
+                    'RFWIDTH6' 'RFWIDTH7' 'RFWIDTH8' 'RFWIDTH9' 'RFWIDTH10'
+                    'RFWIDTH11' 'RFWIDTH12' 'RFWIDTH13' 'RFWIDTH14' 'RFWIDTH15'
+                    'RFWIDTH16' 'RFLENGTH' 'RFLENGTH1' 'RFLENGTH2' 'RFLENGTH3'
+                    'RFLENGTH4' 'RFLENGTH5' 'RFLENGTH6' 'RFLENGTH7' 'RFLENGTH8'
+                    'RFSPACING' 'RFSPACING1' 'RFSPACING2' 'RFSPACING3'
+                    'RFSPACING4' 'RFSPACING5' 'RFSPACING6' 'RFSPACING7'
+                    'RFSPACING8' 'RFSPACING9' 'RFSPACING10' 'RFSPACING11'
+                    'RFSPACING12' 'RFSPACING13' 'RFSPACING14' 'RFSPACING15'
+                    'RFOFFSETX' 'RFOFFSETY' 'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY'
+                    'RFMITERFRACTION' 'RFBENDMODE' 'RFNUMBERLEGS'
+                    'RFNUMBERPAIRS' 'RFNUMBERTURNS' 'RFCAPACITANCE'
+                    'RFRESISTANCE' 'RFINDUCTANCE' 'RFPADSTACKNAME'
+                    'RFPADSSMNAME1' 'RFPADSSMNAME2' 'RFPADBEGINLAYER'
+                    'RFPADENDLAYER' 'RFPADLINEWIDTH1' 'RFPADLINEWIDTH2'
+                    'RFPADDIAMETER1' 'RFPADDIAMETER2' 'RFPADLENGTH1'
+                    'RFPADLENGTH2' 'RFHOLEDIAMETER' 'RFPADANGLE' 'RFDRANAME'
+                    'RFPADTYPE' 'RFUID' 'SIGNAL_MODEL' 'DEFAULT_SIGNAL_MODEL'
+                    'VOLT_TEMP_SIGNAL_MODEL'
+    SUPPRESS_GLOBAL_SHORT_CHECK OFF
+    DEBUG    0
+    DEFAULT_PHYS_DES_PREFIX U
+    FEEDBACK  'OFF'
+    MAX_ERRORS 1000
+    NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
+                     =  >  0  1  2  3  4  5  6  7  8  9
+    NET_NAME_LENGTH 31
+    NUM_OLD_VERSIONS 3
+    OPTIMIZE OFF
+    REUSE_REFDES OFF
+    OPF_OPTIMIZATION OFF
+    HARD_LOC_SEC OFF
+    FORCE_PTF_ENTRY OFF
+    REGENERATE_PHYSICAL_NET_NAME OFF
+    SCH_POWER_GROUP_WINS_OVER_PPT OFF
+    NULL_OPT_VALID OFF
+    USE_VECTOR_NOTATION ON
+    FILTER_ECS_FROM_XNET ON
+    OUTPUT  'ON'
+    PACKAGE_PROP  'GROUP' 'PART_NUMBER' 'ROOM'
+    PART_TYPE_LENGTH 30
+    PPT  n:\dtg/library/hdl/newprop.ptf 
+    REF_DES_LENGTH 31
+    REPACKAGE OFF
+    ELECTRICAL_CONSTRAINTS ON
+    OVERWRITE_CONSTRAINTS OFF
+    RUN_DIR ./worklib/pcb734_220_51/packaged/
+    STRICT_PACKAGE_PROP  'GROUP' 'PART_NUMBER'
+    USE_LIBRARY_PPT OFF
+    USE_STATE ON
+    WARNINGS ON
+    LIBRARY  'pcb734_220_51' 'standard' 'wandor' 'ttl' 'timing' 'sttl' 'shapes'
+             'resistor' 'pecl' 'parts' 'mecl3' 'mca3' 'lvds' 'lsttl' 'intrinsic'
+             'hcmos' 'forms' 'flow' 'fast' 'dmos' 'diode' 'connector' 'cmos'
+             'asttl' 'array' 'analog' 'alsttl' '8000' '2800' 'capacitor' '2500'
+             '10kh' '10k' '100k'
+    CDSPROP_FILE 
+    VIEW_PTF part_table
+    VIEW_PACKAGER packaged
+    VIEW_CONSTRAINTS constraints
+    DESIGN_LIBRARY pcb734_220_51
+    DESIGN_NAME pcb734_220_51
+    VIEW_CONFIG_PHYSICAL cfg_package
+    SD_SUFFIX_SEPARATOR _
+    STOP_PST_GEN_ON_PTF_MISMATCH OFF
+    IGNORE_PRIM_BINDING OFF
+    IMPORT_HFS_HARDSEC_ON_SWAP_PINS OFF
+    ANNOTATE_VISIBLE_SEC OFF
+    PTF_MISMATCH_EXCLUDE_INJ_PROP  'ALL'
+    CACHE_ENABLED OFF
+    CACHE_NAME cache
+    PTF_NAME cache.ptf
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+Creating Configuration "cfg_package" for Design "pcb734_220_51"
+
+Processing Constraints File ./worklib/pcb734_220_51/constraints/pcb734_220_51.~
+dcf. 
+Loading N:\cadence\spb15_7\nt\share\cdssetup\cdsprop.tmf.
+Loading N:\cadence\spb15_7\nt\share\cdssetup\cdsprop.paf.
+Loading n:/dtg/library/hdl/newprop.ptf.
+
+ *********************************
+ *  Loading the design database  *
+ *********************************
+
+Loading occurrence properties from ./worklib/pcb734_220_51/opf/props.opf.
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Loading ./worklib/pcb734_220_51/packaged/pxl.state. 
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+
+No errors detected
+No warnings detected
+    Start time   10:58:24
+    End time     10:58:32
+    Elapsed time  0:00:08
+
+ *********************************
+ *  Packager-XL execution done.  *
+ *********************************
+

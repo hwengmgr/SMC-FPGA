@@ -1,0 +1,549 @@
+$ Start of Compile
+#Wed Oct 22 11:13:14 2003
+
+Synplicity Verilog Compiler, version 7.1, Build 189R, built Aug 13 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v"
+@I::"\\viper\~klein\work_area\lbb_orig\rtl\lbb_defs.v"
+@I:"\\viper\~klein\work_area\lbb_orig\rtl\lbb_defs.v":"I:\work_area\lbb_orig\syn\qlmacros.v"
+Verilog syntax check successful!
+Selecting top level module lbb_fpga
+Synthesizing module lcell2
+Synthesizing module logic2
+Synthesizing module FRAG_A
+Synthesizing module buff
+Synthesizing module FRAG_F
+Synthesizing module FRAG_M
+Synthesizing module mux4x0
+Synthesizing module and3i3
+Synthesizing module and2i2
+Synthesizing module or4i0
+Synthesizing module or3i0
+Synthesizing module and5i5
+Synthesizing module mux2ff
+Synthesizing module mux2ff10
+Synthesizing module mux2ff4
+Synthesizing module mux2ff7
+Synthesizing module mux2ff3
+Synthesizing module mux2ff8
+Synthesizing module FRAG_Q
+Synthesizing module dffp
+Synthesizing module and2i1
+Synthesizing module dnfxcar1
+Synthesizing module and5i4
+Synthesizing module dnfxbit
+Synthesizing module dnfxct4b
+Synthesizing module dnfxct4c
+Synthesizing module dnfxct4a
+Synthesizing module dnfxct12
+Synthesizing module and3i0
+Synthesizing module ibuff
+Synthesizing module CKCELL2
+Synthesizing module ckpadff
+Synthesizing module BICELL
+Synthesizing module inpad
+Synthesizing module bufcell
+Synthesizing module gclkbuff
+Synthesizing module INCELL2
+Synthesizing module hddpadff
+Synthesizing module BICELL2
+Synthesizing module inpadff
+Synthesizing module tripad
+Synthesizing module triipad
+Synthesizing module bipadff
+Synthesizing module bipadff4
+Synthesizing module bipadff3
+Synthesizing module INCELL
+Synthesizing module hddpad
+Synthesizing module tripad8
+Synthesizing module lbb_fpga
+@N:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":794:0:794:5|Sharing sequential element tci_get_ctrl_reg.
+@N:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":919:57:919:69|Removing redundant assignment
+@END
+Process took 1.5 seconds realtime, 1.531 seconds cputime
+Synplicity QuickLogic Technology Mapper, version 7.1, Build 191R, built Aug 30 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 16
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF10(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF9(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF8(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF7(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF6(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF5(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF4(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF3(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF2(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff10(verilog) of MUXFF1(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff4(verilog) of MUXFF4(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff4(verilog) of MUXFF3(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff4(verilog) of MUXFF2(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff4(verilog) of MUXFF1(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff7(verilog) of MUXFF7(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff7(verilog) of MUXFF6(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff7(verilog) of MUXFF5(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff7(verilog) of MUXFF4(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff7(verilog) of MUXFF3(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff7(verilog) of MUXFF2(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff7(verilog) of MUXFF1(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff3(verilog) of MUXFF3(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff3(verilog) of MUXFF2(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff3(verilog) of MUXFF1(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF8(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF7(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF6(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF5(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF4(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF3(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF2(mux2ff)
+Automatic dissolve at startup in view:work.mux2ff8(verilog) of MUXFF1(mux2ff)
+Automatic dissolve at startup in view:work.dnfxct12(verilog) of QL1(dnfxct4a)
+Automatic dissolve at startup in view:work.dnfxct12(verilog) of QL2(dnfxct4c)
+Automatic dissolve at startup in view:work.dnfxct12(verilog) of QL3(dnfxct4b)
+Automatic dissolve at startup in view:work.dnfxct12(verilog) of QL4(dnfxcar1)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of OUT8_0(tripad8)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_7(bipadff3)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_6(bipadff3_BDP3_6)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_9(bipadff4)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_8(bipadff4_BDP4_8)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_5(bipadff3_BDP3_5)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_7(bipadff4_BDP4_7)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_4(bipadff3_BDP3_4)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_6(bipadff4_BDP4_6)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_5(bipadff4_BDP4_5)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_3(bipadff3_BDP3_3)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_2(bipadff3_BDP3_2)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_4(bipadff4_BDP4_4)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_3(bipadff4_BDP4_3)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_1(bipadff3_BDP3_1)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_2(bipadff4_BDP4_2)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP3_0(bipadff3_BDP3_0)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_1(bipadff4_BDP4_1)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of BDP4_0(bipadff4_BDP4_0)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of DCNT_1(dnfxct12)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of MUXFF4(mux2ff8)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of MUXFF3(mux2ff3)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of MUXFF2(mux2ff7)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of MUXFF1(mux2ff4)
+Automatic dissolve at startup in view:work.lbb_fpga(verilog) of MUXFF0(mux2ff10)
+@N|Setting default wire load to 'pASIC3' 
+Fanout correction:
+Buffering source of net tci_ad_oe_reg0, loads 10, segments 2
+Added 1 cells via buffering
+Added 0 cells (0 were register bits) via replication
+---------------------------------------
+Resource Usage Report
+Part: ql3025
+
+Area estimate:  367 Cells
+Register count: 157
+Latch count:    0
+I/O cells:      135
+
+Details:
+GCLKBUFF:         1 (area 0.5)
+bipadff:         64
+ckpadff:          1
+hddpad:           1
+hddpadff:         2
+inpad:           25
+inpadff:         12
+triipad:         14
+tripad:          15
+
+AND2I0:          68 (area 1)
+AND2I1:          68 (area 1)
+AND2I2:          16 (area 1)
+AND3I0:           1 (area 1)
+LOGIC2:          51 (area 1)
+MUX2X0:          55 (area 1)
+MUX2X3:           3 (area 1)
+OR2I0:           32 (area 1)
+OR2I1:            2 (area 1)
+OR2I2:            2 (area 1)
+Q_BUF1:           2 (area 0.3)
+Q_DECX:           5 (area 1)
+Q_DFF:          106
+Q_INV:            2 (area 0.2)
+and2i1:           2 (area 1)
+and2i2:           3 (area 1)
+and3i3:           1 (area 1)
+and5i4:           1 (area 1)
+and5i5:           1 (area 1)
+buff:            17 (area 1)
+dffp:             1 (area 1)
+dnfxbit:         12 (area 1)
+ibuff:            7 (area 1)
+mux4x0:          13 (area 1)
+or3i0:            3 (area 1)
+or4i0:            1 (area 1)
+
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":431:8:431:12|Blackbox <buff> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":540:7:540:11|Blackbox <mux4x0> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":567:7:567:11|Blackbox <and3i3> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":568:7:568:11|Blackbox <and2i2> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":720:9:720:12|Blackbox <or4i0> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":736:10:736:13|Blackbox <or3i0> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":738:10:738:14|Blackbox <and5i5> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1125:8:1125:12|Blackbox <and2i1> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1146:9:1146:15|Blackbox <ibuff> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1183:12:1183:15|Blackbox <ckpadff> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1184:12:1184:15|Blackbox <inpad> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1191:12:1191:17|Blackbox <hddpadff> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1201:12:1201:15|Blackbox <inpadff> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1217:13:1217:17|Blackbox <tripad> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1218:13:1218:18|Blackbox <triipad> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1246:12:1246:16|Blackbox <hddpad> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"i:\work_area\lbb_orig\syn\qlmacros.v":1953:9:1953:11|Blackbox <bipadff> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"i:\work_area\lbb_orig\syn\qlmacros.v":827:10:827:12|Blackbox <dnfxbit> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"i:\work_area\lbb_orig\syn\qlmacros.v":806:9:806:11|Blackbox <and5i4> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"i:\work_area\lbb_orig\syn\qlmacros.v":847:7:847:9|Blackbox <dffp> is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W:"\\viper\~klein\work_area\lbb_orig\rtl\lbb.v":1183:12:1183:15|Net clk33 appears to be a clock source which was not identified. Assuming default frequency. 
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Wed Oct 22 11:13:32 2003
+#
+
+
+Top view:              lbb_fpga
+Operating conditions:  WCCOM-2
+Wire load model:       pASIC3
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 989.678
+
+                   Requested     Estimated     Requested     Estimated                 Clock 
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type  
+---------------------------------------------------------------------------------------------
+System             1.0 MHz       96.9 MHz      1000.000      10.322        989.678     system
+=============================================================================================
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port                   Starting            User           Arrival     Required             
+Name                   Reference           Constraint     Time        Time         Slack   
+                       Clock                                                               
+-------------------------------------------------------------------------------------------
+B_LAD[0]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[1]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[2]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[3]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[4]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[5]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[6]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[7]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[8]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[9]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[10]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[11]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[12]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[13]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[14]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[15]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[16]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[17]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[18]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[19]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[20]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[21]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[22]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[23]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[24]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[25]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[26]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[27]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[28]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[29]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[30]              System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[31]              System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[0]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[1]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[2]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[3]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[4]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[5]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[6]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[7]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[8]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[9]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[10]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[11]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[12]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[13]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[14]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[15]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[16]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[17]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[18]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[19]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[20]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[21]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[22]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[23]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[24]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[25]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[26]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[27]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[28]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[29]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[30]           System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[31]           System (rising)     NA             0.000       1000.000     1000.000
+IN_ADS                 System (rising)     NA             0.000       1000.000     1000.000
+IN_ADS_A               System (rising)     NA             0.000       1000.000     1000.000
+IN_ADS_B               System (rising)     NA             0.000       1000.000     1000.000
+IN_BLAST               System (rising)     NA             0.000       1000.000     1000.000
+IN_DACK                System (rising)     NA             0.000       1000.000     1000.000
+IN_DEN                 System (rising)     NA             0.000       1000.000     1000.000
+IN_DTR                 System (rising)     NA             0.000       1000.000     1000.000
+IN_LBE[0]              System (rising)     NA             0.000       1000.000     1000.000
+IN_LBE[1]              System (rising)     NA             0.000       1000.000     1000.000
+IN_LBE[2]              System (rising)     NA             0.000       1000.000     1000.000
+IN_LBE[3]              System (rising)     NA             0.000       1000.000     1000.000
+IN_LINTo               System (rising)     NA             0.000       1000.000     1000.000
+IN_LLOCKo              System (rising)     NA             0.000       1000.000     1000.000
+IN_LSERR               System (rising)     NA             0.000       1000.000     1000.000
+IN_LWR                 System (rising)     NA             0.000       1000.000     1000.000
+IN_READYo              System (rising)     NA             0.000       1000.000     1000.000
+IN_RESET               System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA0_REQ[0]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA0_REQ[1]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA1_REQ[0]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA1_REQ[1]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA2_REQ[0]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA2_REQ[1]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA3_REQ[0]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA3_REQ[1]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA4_REQ[0]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_DMA4_REQ[1]     System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_PIO_READY       System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_TIMER_INT       System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_VALID           System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_VALID_A         System (rising)     NA             0.000       1000.000     1000.000
+IN_TCI_VALID_B         System (rising)     NA             0.000       1000.000     1000.000
+IN_WAITo               System (rising)     NA             0.000       1000.000     1000.000
+I_IDPROM_DO            System (rising)     NA             0.000       1000.000     1000.000
+I_LABS2                System (rising)     NA             0.000       1000.000     1000.000
+I_LABS3                System (rising)     NA             0.000       1000.000     1000.000
+I_LCLK                 System (rising)     NA             0.000       1000.000     1000.000
+I_LDSHOLD              System (rising)     NA             0.000       1000.000     1000.000
+I_LHOLD                System (rising)     NA             0.000       1000.000     1000.000
+I_TESTID_EN            System (rising)     NA             0.000       1000.000     1000.000
+I_TEST_TS              System (rising)     NA             0.000       1000.000     1000.000
+===========================================================================================
+
+
+Output Ports: 
+
+Port                    Starting            User           Arrival     Required             
+Name                    Reference           Constraint     Time        Time         Slack   
+                        Clock                                                               
+--------------------------------------------------------------------------------------------
+B_LAD[0]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[1]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[2]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[3]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[4]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[5]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[6]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[7]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[8]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[9]                System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[10]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[11]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[12]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[13]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[14]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[15]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[16]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[17]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[18]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[19]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[20]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[21]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[22]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[23]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[24]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[25]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[26]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[27]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[28]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[29]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[30]               System (rising)     NA             0.000       1000.000     1000.000
+B_LAD[31]               System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[0]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[1]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[2]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[3]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[4]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[5]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[6]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[7]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[8]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[9]             System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[10]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[11]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[12]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[13]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[14]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[15]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[16]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[17]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[18]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[19]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[20]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[21]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[22]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[23]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[24]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[25]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[26]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[27]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[28]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[29]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[30]            System (rising)     NA             0.000       1000.000     1000.000
+B_TCI_AD[31]            System (rising)     NA             0.000       1000.000     1000.000
+ON_BTERM                System (rising)     NA             0.000       1000.000     1000.000
+ON_DREQ                 System (rising)     NA             0.000       1000.000     1000.000
+ON_EOT                  System (rising)     NA             0.000       1000.000     1000.000
+ON_LINTi                System (rising)     NA             0.000       1000.000     1000.000
+ON_READYi               System (rising)     NA             0.000       1000.000     1000.000
+ON_S                    System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_BLOCK_SEL[0]     System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_BLOCK_SEL[1]     System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_BLOCK_SEL[2]     System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_BLOCK_SEL[3]     System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_BLOCK_SEL[4]     System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_GET_DATA         System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_GET_REG          System (rising)     NA             0.000       1000.000     1000.000
+ON_TCI_PIO_SELECT       System (rising)     NA             0.000       1000.000     1000.000
+O_IDPROM_CE             System (rising)     NA             0.000       1000.000     1000.000
+O_IDPROM_DI             System (rising)     NA             0.000       1000.000     1000.000
+O_IDPROM_SK             System (rising)     NA             0.000       1000.000     1000.000
+O_LHOLDA                System (rising)     NA             0.000       1000.000     1000.000
+O_TCI_ADDR_DATAN        System (rising)     NA             0.000       1000.000     1000.000
+O_TCI_READ_WRITEN       System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[0]             System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[1]             System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[2]             System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[3]             System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[4]             System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[5]             System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[6]             System (rising)     NA             0.000       1000.000     1000.000
+O_TESTID[7]             System (rising)     NA             0.000       1000.000     1000.000
+O_UUINPUTS              System (rising)     NA             0.000       1000.000     1000.000
+============================================================================================
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                                                Arrival            
+Instance               Type      Pin     Net                    Time        Slack  
+                                                                                   
+-----------------------------------------------------------------------------------
+dma_blk_sel[0]         Q_DFF     QZ      dma_blk_sel[0]         3.336       989.678
+dma_blk_sel[1]         Q_DFF     QZ      dma_blk_sel[1]         3.336       989.678
+dma_blk_sel[2]         Q_DFF     QZ      dma_blk_sel[2]         3.336       989.678
+dma_blk_sel[3]         Q_DFF     QZ      dma_blk_sel[3]         3.336       989.678
+dma_xfer_reg           Q_DFF     QZ      dma_xfer_reg           5.135       990.034
+dma_blk_sel[4]         Q_DFF     QZ      dma_blk_sel[4]         3.336       990.297
+lbb_intstat_reg[4]     Q_DFF     QZ      lbb_intstat_reg[4]     2.443       991.076
+lbb_intstat_reg[2]     Q_DFF     QZ      lbb_intstat_reg[2]     2.443       991.352
+lbb_intstat_reg[3]     Q_DFF     QZ      lbb_intstat_reg[3]     2.443       991.362
+lbb_intmask_reg[4]     Q_DFF     QZ      lbb_intmask_reg[4]     2.132       991.483
+===================================================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                                   Required            
+Instance               Type       Pin     Net                      Time         Slack  
+                                                                                       
+---------------------------------------------------------------------------------------
+tci_get_data_reg       Q_DFF      QD      tci_get_data_reg_3       1000.000     989.678
+dma_xfer_dly1          Q_DFF      QD      dma_xfer_dly1_3          1000.000     990.362
+dma_error_reg          Q_DFF      QD      dma_error_reg_3          1000.000     990.667
+plx_int                Q_DFF      QD      plx_int_3                1000.000     991.076
+unrec_address          Q_DFF      QD      unrec_address_3          1000.000     992.150
+AND_6                  and2i1     A       plx_dreq_ready           1000.000     992.540
+tci_pio_sel_reg        Q_DFF      QD      tci_pio_sel              1000.000     992.878
+tci_blk_sel_reg[0]     Q_DFF      QD      tci_blk_sel_reg_3[0]     1000.000     993.300
+tci_blk_sel_reg[1]     Q_DFF      QD      tci_blk_sel_reg_3[1]     1000.000     993.300
+tci_blk_sel_reg[2]     Q_DFF      QD      tci_blk_sel_reg_3[2]     1000.000     993.300
+=======================================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    - Setup time:                         0.000
+    = Required time:                      1000.000
+
+    - Propagation  time:                  10.323
+    = Slack (critical) :                  989.678
+
+    Starting point:                       dma_blk_sel[0] / QZ
+    Ending point:                         tci_get_data_reg / QD
+    The start point is clocked by         System [rising] on pin QC
+    The end   point is clocked by         System [rising] on pin QC
+
+Instance / Net                    Pin      Pin               Arrival     Fan
+Name                   Type       Name     Dir     Delay     Time        Out
+----------------------------------------------------------------------------
+dma_blk_sel[0]         Q_DFF      QZ       Out     3.336     3.336          
+dma_blk_sel[0]         Net                                               7  
+CELL20                 LOGIC2     A1       In                3.336          
+CELL20                 LOGIC2     OZ       Out     1.536     4.872          
+pre_dmawerr0           Net                                               1  
+CELL22                 LOGIC2     B1       In                4.872          
+CELL22                 LOGIC2     OZ       Out     1.536     6.409          
+pre_dmawerr            Net                                               1  
+AND_5                  AND3I0     A        In                6.409          
+AND_5                  AND3I0     Q        Out     1.954     8.363          
+dma_write_err          Net                                               4  
+dma_xfer_dly1_3        AND2I1     B        In                8.363          
+dma_xfer_dly1_3        AND2I1     Q        Out     1.275     9.638          
+dma_xfer_dly1_3        Net                                               2  
+tci_get_data_reg_3     OR2I0      A        In                9.638          
+tci_get_data_reg_3     OR2I0      Q        Out     0.684     10.323         
+tci_get_data_reg_3     Net                                               1  
+tci_get_data_reg       Q_DFF      QD       In                10.323         
+============================================================================
+
+
+
+
+##### END TIMING REPORT #####
+
+Wrote QDIF file 'F:\work_area\smc_fpga_bc2\smc_fpga\syn\orig\lbb_defs.qdf' part='ql3025' grade='-0' package='pq208'.
+Mapper successful!
+Process took 17.297 seconds realtime, 17.343 seconds cputime

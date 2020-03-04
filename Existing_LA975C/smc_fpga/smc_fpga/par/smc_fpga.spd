@@ -1,0 +1,129 @@
+; Time: Mon Sep 12 11:29:17 2005
+; SpDE Version: SpDE 9.5.1 Release Build
+; Time: Mon Sep 12 11:29:17 2005
+; Status: Load file J:\smc_fpga\par\smc_fpga.chp begin...
+; Time: Mon Sep 12 11:29:25 2005
+; Status: Load file J:\smc_fpga\par\smc_fpga.chp complete
+; Time: Mon Sep 12 11:29:25 2005
+; Status: Fragment-Level Netlister begin...
+; Time: Mon Sep 12 11:29:27 2005
+; Status: Fragment-Level Netlister complete
+; Time: Mon Sep 12 11:29:27 2005
+; Status: No constraint file loaded
+; Time: Mon Sep 12 11:29:27 2005
+; Status: No ESP Configuration file loaded
+; Time: Mon Sep 12 11:29:27 2005
+; Status: Verifier begin...
+; Time: Mon Sep 12 11:29:27 2005
+; Status: verifier: no buffer removal
+; Time: Mon Sep 12 11:29:27 2005
+; Status: verifier: no const FF removal
+; Time: Mon Sep 12 11:29:28 2005
+; Status: verifier: vrAddFF2Clock
+; Time: Mon Sep 12 11:29:28 2005
+; Status: verifier: vrAddFF2Clock
+; NNote: Net .N_616 has high I/O pad fanout of 22
+; NNote: Net .N_617 has high I/O pad fanout of 19
+; NNote: Net N_618_0 uses global clock to drive F1 logic input
+; Time: Mon Sep 12 11:29:28 2005
+; Status: Verifier complete
+; Time: Mon Sep 12 11:29:33 2005
+; Status: Fragment-Level Netlister begin...
+; Time: Mon Sep 12 11:29:34 2005
+; Status: Fragment-Level Netlister complete
+; Time: Mon Sep 12 11:29:37 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:29:37 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:29:38 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:29:54 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:29:54 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:29:55 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:30:06 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:30:06 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:30:06 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:30:27 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:30:27 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:30:27 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:30:59 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:30:59 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:31:00 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:32:32 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:32:32 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:32:32 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:33:23 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:33:23 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:33:23 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:33:39 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:33:40 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:33:40 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:38:53 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:38:53 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:38:53 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:42:54 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:42:55 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:42:55 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:43:21 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:43:21 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:43:21 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:43:33 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:43:33 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:43:33 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:46:36 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:46:36 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:46:36 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:49:35 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:49:35 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:49:35 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:51:30 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:51:30 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:51:31 2005
+; Status: Path analyzer complete
+; Time: Mon Sep 12 11:52:24 2005
+; Status: Path analyzer begin...
+; Time: Mon Sep 12 11:52:24 2005
+; Status: Path analyzer initialized
+; Time: Mon Sep 12 11:52:24 2005
+; Status: Path analyzer complete

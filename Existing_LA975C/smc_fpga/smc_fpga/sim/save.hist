@@ -1,0 +1,16 @@
+sim to 0
+scope "t.m.idl_regs "
+vprobe I_addr[15:0]
+scope "t "
+vprobe BI_port0[7:0]
+scope "t.m "
+vprobe BC_TACH0_CTR_HI[7:0]
+scope "t.m "
+vprobe BC_TACH0_CTR_LO[7:0]
+scope "t.m "
+vprobe BC_TACH1_CTR_HI[7:0]
+scope "t.m "
+vprobe BC_TACH1_CTR_LO[7:0]
+scope "t.m "
+vprobe noalloc_wdata[7:0]
+sim 

@@ -1,0 +1,46 @@
+Host command: /icd/icd_apps/verilog_exec/verilog.exe_2.6.10_ver_main_1_solaris
+Command arguments:
+    -f smc_fpga.vcf
+        +libext+.v+
+        -y ../idl
+        +incdir+../idl
+        +typdelays
+        smc_fpga_tf.v
+        ../rtl/smc_fpga.v
+        ../rtl/edgesr.v
+
+VERILOG-XL 2.6.10 log file created Jul 24, 2003  20:27:50
+VERILOG-XL 2.6.10   Jul 24, 2003  20:27:50
+
+Copyright (c) 1995 Cadence Design Systems, Inc.  All Rights Reserved.
+Unpublished -- rights reserved under the copyright laws of the United States.
+
+Copyright (c) 1995 UNIX Systems Laboratories, Inc.  Reproduced with Permission.
+
+THIS SOFTWARE AND ON-LINE DOCUMENTATION CONTAIN CONFIDENTIAL INFORMATION
+AND TRADE SECRETS OF CADENCE DESIGN SYSTEMS, INC.  USE, DISCLOSURE, OR
+REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+CADENCE DESIGN SYSTEMS, INC.
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c)(1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+                Cadence Design Systems, Inc.
+                555 River Oaks Parkway
+                San Jose, California  95134
+
+For technical assistance please contact the Cadence Response Center at
+1-800-CADENC2 or send email to crc_customers@cadence.com
+
+For more information on Cadence's Verilog-XL product line send email to
+talkverilog@cadence.com
+
+CENTAURI VERILOG $Id: veriuser.c,v 1.1 1997/02/20 07:00:10 khan Sbm $
+Compiling source file "smc_fpga_tf.v"
+
+Error!    `include file "smc_fpga_reg_def.vh" not found     [Verilog-IFNF]     
+          "smc_fpga_tf.v", 3: 

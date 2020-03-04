@@ -1,0 +1,12 @@
+@P:  Worst Slack : 76.524
+@P:  I_clk - Estimated Frequency : 69.5 MHz
+@P:  I_clk - Requested Frequency : 11.0 MHz
+@P:  I_clk - Estimated Period : 14.385
+@P:  I_clk - Requested Period : 90.909
+@P:  I_clk - Slack : 76.524
+@P:  System - Estimated Frequency : 71.8 MHz
+@P:  System - Requested Frequency : 11.0 MHz
+@P:  System - Estimated Period : 13.922
+@P:  System - Requested Period : 90.909
+@P:  System - Slack : 76.987
+@P: smc_fpga Part : ql3012'pl84'-0

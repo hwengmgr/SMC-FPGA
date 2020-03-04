@@ -1,0 +1,19 @@
+XXX-XXX-XX                                0.0000/00/0099/99/99    0                                                            
+XXX-XXX-XX        000-000-00              0.0000/00/0099/99/99    0(Created 12-JAN-2011)         BOM CHANGE HISTORY            
+XXX-XXX-XX        111-479-00             27.0000/00/0099/99/99    0C1-C3, C6-C29                 CAP .1UF 10% 16V X7R 0603 TR  
+XXX-XXX-XX        111-656-00              2.0000/00/0099/99/99    0C4-C5                         CAP 10UF 20% 10V BP ALUM SMD  
+XXX-XXX-XX        359-537-00             45.0000/00/0099/99/99    0TP1-TP4, TP6-TP12, TP15-TP38, CN TST POINT CHIP 0603 SIZE TR
+XXX-XXX-XX        359-537-00              0.0000/00/0099/99/99    0TP42-TP51                     CN TST POINT CHIP 0603 SIZE TR
+XXX-XXX-XX        359-788-00              1.0000/00/0099/99/99    0J1                            CN 10POS SHROUDED HEADER ASSY 
+XXX-XXX-XX        437-726-00              3.0000/00/0099/99/99    0U1-U3                         IC BIDIR 3.3V-5V TRANSLATOR TR
+XXX-XXX-XX        437-739-01              1.0000/00/0099/99/99    0U5                            IC ULTRA FAST SINGLE INV SOT23
+XXX-XXX-XX        613-560-00              1.0000/00/0099/99/99    0GA1                           FPGA SUPPORT CABINET SMC FPGA 
+XXX-XXX-XX        629-000-00              7.0000/00/0099/99/99    0R6-R9, R20-R22                RES FLAT CHIP 0 OHM JUMPER TR 
+XXX-XXX-XX        636-151-00              6.0000/00/0099/99/99    0R2-R5, R10, R23               RES 0603 CHIP 51R 5% .06W TR  
+XXX-XXX-XX        636-413-04              7.0000/00/0099/99/99    0RN1-RN7                       RES NET 43R 5% 8 ELEMENT SMD  
+XXX-XXX-XX        636-700-00              3.0000/00/0099/99/99    0R24-R26                       RES 1K 1% 0.1W 100PPM 0603 TR 
+XXX-XXX-XX        654-001-12              1.0000/00/0099/99/99    0R1                            RES 2K .1% 1/8W TC25 1206TR   
+XXX-XXX-XX        734-220-51              1.0000/00/0099/99/99    0(RAW PC BOARD : REV A)        BARE BOARD                    
+XXX-XXX-XX        741-645-00              3.0000/00/0099/99/99    0U6-U8                         IC DUAL BUFFER W/SCHMITT INPUT
+XXX-XXX-XX        741-890-12              1.0000/00/0099/99/99    0U4                            IC VOLT REG LDO 1.2V 800MA SMT
+XXX-XXX-XX        752-355-00              1.0000/00/0099/99/99    0K1                            MOSFET N-CHANEL SMALL SIG 100V

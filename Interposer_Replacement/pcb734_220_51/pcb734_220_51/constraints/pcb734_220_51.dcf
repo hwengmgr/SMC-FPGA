@@ -1,0 +1,50 @@
+( ConstraintFile "pcb734_220_51"
+    ( constraintHeader
+        ( deltaType
+            ( archive )
+        )
+        ( objectKey
+            ( logical )
+        )
+        ( version
+            ( 15.7 )
+        )
+        ( revisionNumber
+            ( logicalViewRevNum 10 )
+            ( physicalViewRevNum 0 )
+            ( otherViewRevNum 0 )
+        )
+        ( DictionaryExtensions
+        )
+    )
+    ( designConstraints
+        ( ruleChanges
+            ( allRules )
+            ( design "pcb734_220_51"
+                ( attribute "DESIGN_UNITS" "2"
+                    ( Units "uPrecision" "mil" 1.000000)
+                )
+            )
+        )
+    )
+    ( ObjectBaseCopy "__sch_extract"
+        ( constraintHeader
+            ( revisionNumber
+                ( logicalViewRevNum 0 )
+                ( physicalViewRevNum 0 )
+                ( otherViewRevNum 0 )
+            )
+        )
+    ( designConstraints
+        ( ruleChanges
+            ( allRules )
+            ( design "__sch_extract"
+                ( attribute "DESIGN_UNITS" "2"
+                    ( Units "uPrecision" "mil" 1.000000)
+                )
+            )
+        )
+    )
+    ( EndBaseCopy )
+    )
+)

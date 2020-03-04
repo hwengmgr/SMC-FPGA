@@ -1,0 +1,45 @@
+; Time: Tue Dec 21 19:22:42 2004
+; SpDE Version: SpDE 9.5.1 Release Build
+; Time: Tue Dec 21 19:22:42 2004
+; Status: Load file J:\smc_fpga\par\d4\smc_fpga.chp begin...
+; Time: Tue Dec 21 19:22:46 2004
+; Status: Load file J:\smc_fpga\par\d4\smc_fpga.chp complete
+; Time: Tue Dec 21 19:22:46 2004
+; Status: Fragment-Level Netlister begin...
+; Time: Tue Dec 21 19:22:48 2004
+; Status: Fragment-Level Netlister complete
+; Time: Tue Dec 21 19:22:48 2004
+; Status: No constraint file loaded
+; Time: Tue Dec 21 19:22:48 2004
+; Status: No ESP Configuration file loaded
+; Time: Tue Dec 21 19:22:48 2004
+; Status: Verifier begin...
+; Time: Tue Dec 21 19:22:48 2004
+; Status: verifier: no buffer removal
+; Time: Tue Dec 21 19:22:48 2004
+; Status: verifier: no const FF removal
+; Time: Tue Dec 21 19:22:48 2004
+; Status: verifier: vrAddFF2Clock
+; Time: Tue Dec 21 19:22:49 2004
+; Status: verifier: vrAddFF2Clock
+; NNote: Net I_alez uses global clock to drive F1 logic input
+; NNote: Net .I_reset_Nz has high input pad fanout of 27
+; NNote: Net .N_338 has high I/O pad fanout of 19
+; NNote: Net .N_339 has high I/O pad fanout of 20
+; Time: Tue Dec 21 19:22:49 2004
+; Status: Verifier complete
+; Time: Tue Dec 21 19:22:58 2004
+; Status: Fragment-Level Netlister begin...
+; Time: Tue Dec 21 19:22:59 2004
+; Status: Fragment-Level Netlister complete
+; Time: Tue Dec 21 19:23:01 2004
+; Status: Report file smc_fpga.rpt created.
+; Logic cell utilization preplacement: 320 of 320 (100.0%)
+; Logic cell utilization postplacement: 320 of 320 (100.0%)
+; IO cell utilization: 60 of 68 (88.2%)
+; Logic cell register utilization: 299 of 320 (93.4)
+; Pad cell register utilization: 2 of 140 (1.4)
+; Routing resource utilization: 10927 of 42812 (25.5)
+; ViaLink resource utilization: 9643 of 965958 (1.0)
+; Time: Tue Dec 21 19:38:18 2004
+; Status: utMemClose: Max memory used was 25000815 bytes

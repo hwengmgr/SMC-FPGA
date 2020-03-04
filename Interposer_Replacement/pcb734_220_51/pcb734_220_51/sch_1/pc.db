@@ -1,0 +1,1237 @@
+-- pcdb file, Rev:1.0 written by Design Entry HDL 15.70-s060 30-Jul-2008 on Wed Jan 12 08:36:01 2011
+#ISCELL
+  pcb734_220_51 b#20page *
+  *
+#ISCELL
+  standard drawing *
+  *
+#ISCELL
+  pcb734_220_51 b#20page_old *
+  *
+#ISCELL
+  standard drawing *
+  *
+#ISCELL
+  standard vio *
+  page7_i1
+#ISCELL
+  standard vio *
+  page7_i10
+#ISCELL
+  standard vio *
+  page7_i11
+#ISCELL
+  standard vio *
+  page7_i12
+#ISCELL
+  standard vio *
+  page7_i13
+#ISCELL
+  standard vio *
+  page7_i14
+#ISCELL
+  standard vio *
+  page7_i15
+#ISCELL
+  standard vio *
+  page7_i16
+#ISCELL
+  standard vio *
+  page7_i17
+#ISCELL
+  standard vio *
+  page7_i18
+#ISCELL
+  standard vio *
+  page7_i19
+#ISCELL
+  standard vio *
+  page7_i2
+#ISCELL
+  standard vio *
+  page7_i20
+#ISCELL
+  standard vio *
+  page7_i21
+#ISCELL
+  standard vio *
+  page7_i22
+#ISCELL
+  standard vio *
+  page7_i23
+#ISCELL
+  standard vio *
+  page7_i24
+#ISCELL
+  standard vio *
+  page7_i25
+#ISCELL
+  standard vio *
+  page7_i26
+#ISCELL
+  standard vio *
+  page7_i27
+#ISCELL
+  standard vio *
+  page7_i28
+#ISCELL
+  standard vio *
+  page7_i29
+#ISCELL
+  standard vio *
+  page7_i3
+#ISCELL
+  standard vio *
+  page7_i30
+#ISCELL
+  standard vio *
+  page7_i31
+#ISCELL
+  standard vio *
+  page7_i32
+#ISCELL
+  standard vio *
+  page7_i33
+#ISCELL
+  standard vio *
+  page7_i34
+#ISCELL
+  standard vio *
+  page7_i35
+#ISCELL
+  standard vio *
+  page7_i36
+#ISCELL
+  standard vio *
+  page7_i37
+#ISCELL
+  standard vio *
+  page7_i38
+#ISCELL
+  standard vio *
+  page7_i39
+#ISCELL
+  standard vio *
+  page7_i4
+#ISCELL
+  standard vio *
+  page7_i40
+#ISCELL
+  standard vio *
+  page7_i41
+#ISCELL
+  standard vio *
+  page7_i42
+#ISCELL
+  standard vio *
+  page7_i43
+#ISCELL
+  standard vio *
+  page7_i44
+#ISCELL
+  standard vio *
+  page7_i45
+#ISCELL
+  standard vio *
+  page7_i46
+#ISCELL
+  standard vio *
+  page7_i47
+#ISCELL
+  standard vio *
+  page7_i48
+#ISCELL
+  standard vio *
+  page7_i49
+#ISCELL
+  standard vio *
+  page7_i5
+#ISCELL
+  standard vio *
+  page7_i50
+#ISCELL
+  standard vio *
+  page7_i51
+#ISCELL
+  standard vio *
+  page7_i52
+#ISCELL
+  standard vio *
+  page7_i53
+#ISCELL
+  standard vio *
+  page7_i54
+#ISCELL
+  standard vio *
+  page7_i55
+#ISCELL
+  standard vio *
+  page7_i56
+#ISCELL
+  standard vio *
+  page7_i57
+#ISCELL
+  standard vio *
+  page7_i58
+#ISCELL
+  standard vio *
+  page7_i59
+#ISCELL
+  standard vio *
+  page7_i6
+#ISCELL
+  standard vio *
+  page7_i60
+#ISCELL
+  standard vio *
+  page7_i61
+#ISCELL
+  standard vio *
+  page7_i62
+#ISCELL
+  standard vio *
+  page7_i63
+#ISCELL
+  standard vio *
+  page7_i64
+#ISCELL
+  standard vio *
+  page7_i65
+#ISCELL
+  standard vio *
+  page7_i66
+#ISCELL
+  standard vio *
+  page7_i67
+#ISCELL
+  standard vio *
+  page7_i68
+#ISCELL
+  standard vio *
+  page7_i69
+#ISCELL
+  standard vio *
+  page7_i7
+#ISCELL
+  standard vio *
+  page7_i70
+#ISCELL
+  standard vio *
+  page7_i71
+#ISCELL
+  standard vio *
+  page7_i72
+#ISCELL
+  standard vio *
+  page7_i73
+#ISCELL
+  standard vio *
+  page7_i74
+#ISCELL
+  standard vio *
+  page7_i75
+#ISCELL
+  standard vio *
+  page7_i76
+#ISCELL
+  standard vio *
+  page7_i77
+#ISCELL
+  standard vio *
+  page7_i78
+#ISCELL
+  standard vio *
+  page7_i79
+#ISCELL
+  standard vio *
+  page7_i8
+#ISCELL
+  standard vio *
+  page7_i80
+#ISCELL
+  standard vio *
+  page7_i81
+#ISCELL
+  standard vio *
+  page7_i82
+#ISCELL
+  standard vio *
+  page7_i83
+#ISCELL
+  standard vio *
+  page7_i84
+#ISCELL
+  standard vio *
+  page7_i9
+#ISCELL
+  pcb734_220_51 b#20page_old *
+  *
+#ISCELL
+  standard drawing *
+  *
+#ISCELL
+  standard sgnd *
+  *
+#CELL
+  cmos fct164245tsoic *
+  page4_i100
+#CELL
+  cmos fct164245tsoic *
+  page4_i101
+#CELL
+  resistor 8res *
+  page4_i102
+#CELL
+  resistor 8res *
+  page4_i103
+#CELL
+  resistor 8res *
+  page4_i104
+#CELL
+  resistor 8res *
+  page4_i105
+#CELL
+  resistor 8res *
+  page4_i106
+#ISCELL
+  standard vio *
+  page4_i107
+#ISCELL
+  standard vio *
+  page4_i108
+#ISCELL
+  standard vio *
+  page4_i109
+#ISCELL
+  standard vio *
+  page4_i110
+#ISCELL
+  standard vio *
+  page4_i111
+#ISCELL
+  standard vio *
+  page4_i112
+#ISCELL
+  standard vio *
+  page4_i113
+#ISCELL
+  standard vio *
+  page4_i114
+#ISCELL
+  standard vio *
+  page4_i115
+#ISCELL
+  standard vio *
+  page4_i117
+#ISCELL
+  standard vio *
+  page4_i118
+#ISCELL
+  standard vio *
+  page4_i119
+#ISCELL
+  standard vio *
+  page4_i120
+#ISCELL
+  standard vio *
+  page4_i121
+#ISCELL
+  standard vio *
+  page4_i122
+#ISCELL
+  standard vio *
+  page4_i123
+#ISCELL
+  standard vio *
+  page4_i124
+#ISCELL
+  standard vio *
+  page4_i125
+#ISCELL
+  standard vio *
+  page4_i126
+#ISCELL
+  standard vio *
+  page4_i127
+#ISCELL
+  standard vio *
+  page4_i128
+#ISCELL
+  standard vio *
+  page4_i129
+#ISCELL
+  standard vio *
+  page4_i130
+#ISCELL
+  standard vio *
+  page4_i131
+#ISCELL
+  standard vio *
+  page4_i132
+#ISCELL
+  standard vio *
+  page4_i133
+#ISCELL
+  standard vio *
+  page4_i134
+#ISCELL
+  standard vio *
+  page4_i135
+#ISCELL
+  standard vio *
+  page4_i136
+#ISCELL
+  standard vio *
+  page4_i137
+#ISCELL
+  standard vio *
+  page4_i138
+#ISCELL
+  standard vio *
+  page4_i139
+#ISCELL
+  standard vio *
+  page4_i140
+#ISCELL
+  standard vio *
+  page4_i141
+#ISCELL
+  standard vio *
+  page4_i142
+#ISCELL
+  standard vio *
+  page4_i143
+#ISCELL
+  standard vio *
+  page4_i144
+#ISCELL
+  standard vio *
+  page4_i145
+#ISCELL
+  standard vio *
+  page4_i146
+#ISCELL
+  standard vio *
+  page4_i147
+#ISCELL
+  standard vio *
+  page4_i148
+#ISCELL
+  standard vio *
+  page4_i149
+#ISCELL
+  standard vio *
+  page4_i150
+#ISCELL
+  standard vio *
+  page4_i151
+#ISCELL
+  standard vio *
+  page4_i152
+#ISCELL
+  standard vio *
+  page4_i153
+#ISCELL
+  standard vio *
+  page4_i154
+#ISCELL
+  standard vio *
+  page4_i155
+#ISCELL
+  standard vio *
+  page4_i156
+#ISCELL
+  standard vio *
+  page4_i157
+#ISCELL
+  standard vio *
+  page4_i158
+#ISCELL
+  standard vio *
+  page4_i159
+#ISCELL
+  standard vio *
+  page4_i160
+#ISCELL
+  standard vio *
+  page4_i161
+#ISCELL
+  standard vio *
+  page4_i162
+#ISCELL
+  standard vio *
+  page4_i163
+#ISCELL
+  standard vio *
+  page4_i164
+#ISCELL
+  standard vio *
+  page4_i165
+#ISCELL
+  standard vio *
+  page4_i166
+#ISCELL
+  standard vio *
+  page4_i167
+#ISCELL
+  standard vio *
+  page4_i168
+#ISCELL
+  standard vio *
+  page4_i169
+#ISCELL
+  standard vio *
+  page4_i170
+#ISCELL
+  standard vio *
+  page4_i171
+#ISCELL
+  standard vio *
+  page4_i172
+#ISCELL
+  standard vio *
+  page4_i173
+#ISCELL
+  standard vio *
+  page4_i174
+#ISCELL
+  standard vio *
+  page4_i175
+#ISCELL
+  standard vio *
+  page4_i176
+#ISCELL
+  standard vio *
+  page4_i177
+#ISCELL
+  standard vio *
+  page4_i178
+#ISCELL
+  standard vio *
+  page4_i180
+#ISCELL
+  standard vio *
+  page4_i181
+#ISCELL
+  standard vio *
+  page4_i182
+#ISCELL
+  standard vio *
+  page4_i183
+#ISCELL
+  standard vio *
+  page4_i184
+#ISCELL
+  standard vio *
+  page4_i185
+#ISCELL
+  standard vio *
+  page4_i186
+#ISCELL
+  standard vio *
+  page4_i187
+#ISCELL
+  standard vio *
+  page4_i188
+#ISCELL
+  standard vio *
+  page4_i189
+#ISCELL
+  standard vio *
+  page4_i190
+#ISCELL
+  standard vio *
+  page4_i191
+#ISCELL
+  standard vio *
+  page4_i192
+#ISCELL
+  standard vio *
+  page4_i193
+#ISCELL
+  standard vio *
+  page4_i194
+#ISCELL
+  standard vio *
+  page4_i195
+#ISCELL
+  standard vio *
+  page4_i205
+#ISCELL
+  standard vio *
+  page4_i206
+#ISCELL
+  standard vio *
+  page4_i207
+#ISCELL
+  standard vio *
+  page4_i208
+#ISCELL
+  standard vio *
+  page4_i209
+#ISCELL
+  standard vio *
+  page4_i210
+#ISCELL
+  standard vio *
+  page4_i211
+#ISCELL
+  standard vio *
+  page4_i212
+#ISCELL
+  standard vio *
+  page4_i215
+#ISCELL
+  standard vio *
+  page4_i216
+#ISCELL
+  standard vio *
+  page4_i219
+#ISCELL
+  standard vio *
+  page4_i220
+#ISCELL
+  standard vio *
+  page4_i221
+#ISCELL
+  standard vio *
+  page4_i222
+#ISCELL
+  standard vio *
+  page4_i225
+#CELL
+  resistor sres *
+  page4_i226
+#CELL
+  capacitor cap *
+  page4_i227
+#CELL
+  capacitor cap *
+  page4_i230
+#CELL
+  capacitor cap *
+  page4_i231
+#CELL
+  capacitor cap *
+  page4_i234
+#CELL
+  capacitor cap *
+  page4_i235
+#CELL
+  capacitor cap *
+  page4_i236
+#CELL
+  capacitor cap *
+  page4_i237
+#ISCELL
+  standard vio *
+  page4_i238
+#CELL
+  parts testpoint *
+  page4_i244
+#CELL
+  parts testpoint *
+  page4_i245
+#CELL
+  parts testpoint *
+  page4_i246
+#CELL
+  parts testpoint *
+  page4_i247
+#CELL
+  parts testpoint *
+  page4_i248
+#CELL
+  parts testpoint *
+  page4_i249
+#CELL
+  parts testpoint *
+  page4_i250
+#CELL
+  parts testpoint *
+  page4_i251
+#CELL
+  parts testpoint *
+  page4_i252
+#CELL
+  parts testpoint *
+  page4_i253
+#CELL
+  parts testpoint *
+  page4_i254
+#CELL
+  parts testpoint *
+  page4_i255
+#CELL
+  parts testpoint *
+  page4_i256
+#CELL
+  parts testpoint *
+  page4_i257
+#CELL
+  parts testpoint *
+  page4_i258
+#CELL
+  parts testpoint *
+  page4_i259
+#CELL
+  parts testpoint *
+  page4_i260
+#CELL
+  parts testpoint *
+  page4_i261
+#CELL
+  parts testpoint *
+  page4_i262
+#CELL
+  parts testpoint *
+  page4_i263
+#CELL
+  parts testpoint *
+  page4_i264
+#CELL
+  parts testpoint *
+  page4_i265
+#CELL
+  parts testpoint *
+  page4_i266
+#CELL
+  resistor 8res *
+  page4_i268
+#CELL
+  resistor 8res *
+  page4_i269
+#CELL
+  cmos tc7szu04f *
+  page4_i270
+#CELL
+  cmos fct164245tsoic *
+  page4_i96
+#CELL
+  cmos fct164245tsoic *
+  page4_i97
+#CELL
+  cmos fct164245tsoic *
+  page4_i98
+#CELL
+  cmos fct164245tsoic *
+  page4_i99
+#ISCELL
+  pcb734_220_51 b#20page_old *
+  *
+#ISCELL
+  standard drawing *
+  *
+#ISCELL
+  standard sgnd *
+  *
+#ISCELL
+  standard vio *
+  page6_i100
+#ISCELL
+  standard vio *
+  page6_i101
+#ISCELL
+  standard vio *
+  page6_i102
+#ISCELL
+  standard vio *
+  page6_i103
+#ISCELL
+  standard vio *
+  page6_i104
+#ISCELL
+  standard vio *
+  page6_i105
+#ISCELL
+  standard vio *
+  page6_i106
+#ISCELL
+  standard vio *
+  page6_i107
+#ISCELL
+  standard vio *
+  page6_i108
+#ISCELL
+  standard vio *
+  page6_i109
+#ISCELL
+  standard vio *
+  page6_i110
+#ISCELL
+  standard vio *
+  page6_i111
+#ISCELL
+  standard vio *
+  page6_i112
+#ISCELL
+  standard vio *
+  page6_i113
+#ISCELL
+  standard vio *
+  page6_i114
+#ISCELL
+  standard vio *
+  page6_i115
+#ISCELL
+  standard vio *
+  page6_i116
+#ISCELL
+  standard vio *
+  page6_i117
+#ISCELL
+  standard vio *
+  page6_i118
+#ISCELL
+  standard vio *
+  page6_i119
+#ISCELL
+  standard vio *
+  page6_i120
+#ISCELL
+  standard vio *
+  page6_i121
+#ISCELL
+  standard vio *
+  page6_i122
+#ISCELL
+  standard vio *
+  page6_i123
+#ISCELL
+  standard vio *
+  page6_i124
+#ISCELL
+  standard vio *
+  page6_i125
+#ISCELL
+  standard vio *
+  page6_i126
+#ISCELL
+  standard vio *
+  page6_i127
+#ISCELL
+  standard vio *
+  page6_i128
+#ISCELL
+  standard vio *
+  page6_i129
+#ISCELL
+  standard vio *
+  page6_i130
+#ISCELL
+  standard vio *
+  page6_i131
+#ISCELL
+  standard vio *
+  page6_i134
+#ISCELL
+  standard vio *
+  page6_i135
+#ISCELL
+  standard vio *
+  page6_i136
+#ISCELL
+  standard vio *
+  page6_i137
+#ISCELL
+  standard vio *
+  page6_i160
+#ISCELL
+  standard vio *
+  page6_i177
+#ISCELL
+  standard vio *
+  page6_i178
+#ISCELL
+  standard vio *
+  page6_i180
+#ISCELL
+  standard vio *
+  page6_i181
+#ISCELL
+  standard vio *
+  page6_i182
+#ISCELL
+  standard vio *
+  page6_i183
+#ISCELL
+  standard vio *
+  page6_i184
+#ISCELL
+  standard vio *
+  page6_i185
+#ISCELL
+  standard vio *
+  page6_i186
+#ISCELL
+  standard vio *
+  page6_i187
+#ISCELL
+  standard vio *
+  page6_i188
+#ISCELL
+  standard vio *
+  page6_i189
+#ISCELL
+  standard vio *
+  page6_i190
+#ISCELL
+  standard vio *
+  page6_i191
+#ISCELL
+  standard vio *
+  page6_i192
+#ISCELL
+  standard vio *
+  page6_i193
+#ISCELL
+  standard vio *
+  page6_i194
+#ISCELL
+  standard vio *
+  page6_i195
+#ISCELL
+  standard vio *
+  page6_i196
+#ISCELL
+  standard vio *
+  page6_i197
+#ISCELL
+  standard vio *
+  page6_i198
+#ISCELL
+  standard vio *
+  page6_i199
+#ISCELL
+  standard vio *
+  page6_i200
+#ISCELL
+  standard vio *
+  page6_i201
+#ISCELL
+  standard vio *
+  page6_i202
+#ISCELL
+  standard vio *
+  page6_i205
+#ISCELL
+  standard vio *
+  page6_i208
+#ISCELL
+  standard vio *
+  page6_i209
+#CELL
+  analog lp3891esx *
+  page6_i211
+#ISCELL
+  standard vio *
+  page6_i216
+#ISCELL
+  standard vio *
+  page6_i217
+#ISCELL
+  standard vio *
+  page6_i218
+#ISCELL
+  standard vio *
+  page6_i221
+#CELL
+  resistor pres *
+  page6_i223
+#CELL
+  resistor pres *
+  page6_i224
+#CELL
+  resistor pres *
+  page6_i225
+#CELL
+  cmos nc7wz17 *
+  page6_i24
+#CELL
+  capacitor cap *
+  page6_i243
+#CELL
+  capacitor cap *
+  page6_i25
+#CELL
+  parts testpoint *
+  page6_i251
+#CELL
+  parts testpoint *
+  page6_i255
+#CELL
+  capacitor polcap *
+  page6_i256
+#CELL
+  capacitor polcap *
+  page6_i257
+#ISCELL
+  standard vio *
+  page6_i258
+#ISCELL
+  standard vio *
+  page6_i259
+#CELL
+  resistor res *
+  page6_i26
+#CELL
+  cmos nc7wz17 *
+  page6_i260
+#CELL
+  resistor res *
+  page6_i261
+#CELL
+  resistor res *
+  page6_i262
+#CELL
+  resistor res *
+  page6_i263
+#CELL
+  resistor res *
+  page6_i264
+#ISCELL
+  standard vio *
+  page6_i265
+#ISCELL
+  standard vio *
+  page6_i266
+#ISCELL
+  standard vio *
+  page6_i267
+#ISCELL
+  standard vio *
+  page6_i268
+#ISCELL
+  standard vio *
+  page6_i269
+#CELL
+  resistor res *
+  page6_i270
+#ISCELL
+  standard vio *
+  page6_i271
+#ISCELL
+  standard vio *
+  page6_i272
+#CELL
+  resistor res *
+  page6_i273
+#CELL
+  resistor res *
+  page6_i274
+#CELL
+  resistor res *
+  page6_i275
+#ISCELL
+  standard vio *
+  page6_i276
+#ISCELL
+  standard vio *
+  page6_i278
+#ISCELL
+  standard vio *
+  page6_i279
+#CELL
+  cmos nc7wz17 *
+  page6_i280
+#CELL
+  capacitor cap *
+  page6_i281
+#CELL
+  capacitor cap *
+  page6_i282
+#CELL
+  parts testpoint *
+  page6_i283
+#CELL
+  parts testpoint *
+  page6_i284
+#CELL
+  parts testpoint *
+  page6_i285
+#CELL
+  parts testpoint *
+  page6_i286
+#CELL
+  resistor res *
+  page6_i287
+#CELL
+  resistor res *
+  page6_i288
+#CELL
+  resistor res *
+  page6_i290
+#CELL
+  parts testpoint *
+  page6_i291
+#CELL
+  parts testpoint *
+  page6_i292
+#CELL
+  parts testpoint *
+  page6_i293
+#CELL
+  parts testpoint *
+  page6_i294
+#CELL
+  parts testpoint *
+  page6_i295
+#CELL
+  parts testpoint *
+  page6_i296
+#CELL
+  parts testpoint *
+  page6_i297
+#CELL
+  parts testpoint *
+  page6_i298
+#CELL
+  parts testpoint *
+  page6_i299
+#CELL
+  parts testpoint *
+  page6_i300
+#CELL
+  parts testpoint *
+  page6_i301
+#CELL
+  parts testpoint *
+  page6_i302
+#CELL
+  parts testpoint *
+  page6_i304
+#CELL
+  parts testpoint *
+  page6_i305
+#CELL
+  parts testpoint *
+  page6_i307
+#ISCELL
+  standard vio *
+  page6_i308
+#CELL
+  analog bsp123_e6327 *
+  page6_i341
+#CELL
+  parts testpoint *
+  page6_i342
+#ISCELL
+  standard vio *
+  page6_i343
+#CELL
+  resistor sres *
+  page6_i344
+#ISCELL
+  standard vio *
+  page6_i345
+#CELL
+  capacitor cap *
+  page6_i347
+#CELL
+  capacitor cap *
+  page6_i348
+#CELL
+  capacitor cap *
+  page6_i349
+#CELL
+  capacitor cap *
+  page6_i350
+#CELL
+  capacitor cap *
+  page6_i351
+#CELL
+  capacitor cap *
+  page6_i352
+#CELL
+  capacitor cap *
+  page6_i353
+#CELL
+  capacitor cap *
+  page6_i354
+#CELL
+  capacitor cap *
+  page6_i355
+#CELL
+  capacitor cap *
+  page6_i356
+#CELL
+  capacitor cap *
+  page6_i357
+#CELL
+  capacitor cap *
+  page6_i358
+#CELL
+  capacitor cap *
+  page6_i359
+#CELL
+  capacitor cap *
+  page6_i360
+#CELL
+  capacitor cap *
+  page6_i361
+#CELL
+  capacitor cap *
+  page6_i362
+#ISCELL
+  standard vio *
+  page6_i363
+#ISCELL
+  standard vio *
+  page6_i364
+#CELL
+  connector conn10 *
+  page6_i365
+#CELL
+  connector conn10 *
+  page6_i366
+#CELL
+  connector conn10 *
+  page6_i367
+#CELL
+  connector conn10 *
+  page6_i368
+#CELL
+  connector conn10 *
+  page6_i369
+#CELL
+  connector conn10 *
+  page6_i370
+#CELL
+  connector conn10 *
+  page6_i371
+#CELL
+  connector conn10 *
+  page6_i372
+#CELL
+  connector conn10 *
+  page6_i373
+#CELL
+  connector conn10 *
+  page6_i374
+#ISCELL
+  standard vio *
+  page6_i375
+#ISCELL
+  standard vio *
+  page6_i73
+#ISCELL
+  standard vio *
+  page6_i88
+#CELL
+  array smc_fpga *
+  page6_i94
+#CELL
+  array smc_fpga *
+  page6_i95
+#CELL
+  array smc_fpga *
+  page6_i96
+#CELL
+  array smc_fpga *
+  page6_i97
+#ISCELL
+  standard vio *
+  page6_i98
+#ISCELL
+  standard vio *
+  page6_i99

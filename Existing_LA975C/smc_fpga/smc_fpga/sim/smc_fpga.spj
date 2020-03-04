@@ -1,0 +1,107 @@
+[Settings]
+Version=2002.1
+Mode=Debug
+[Files]
+0="smc_fpga_tf.v"
+1="../rtl/smc_fpga.v"
+2="../rtl/edgesr.v"
+[LibraryFiles]
+0="../idl/{.v}"
+[IncDirs]
+0="../idl"
+[WindowPos]
+Explorer=0,1,0,608,0,-1,44,44,1068,399
+Output=0,1,0,-1,0,-1,406,-21,1200,334
+OpenWindows=1
+Analyzer=0,1,0,-1,0,-1,88,116,1157,552
+[Analyzer]
+P1Width=351
+P2Width=699
+C1Width=196
+C2Width=99
+C3Width=60
+[Explorer]
+P1Width=179
+P2Width=826
+View=Icon
+Scope=t.m.tach0_freq_ctr
+[Options]
+DebugEnable=Yes
+CCEnable=No
+CcOpEnable=No
+[Position]
+Width=1280
+Height=975
+X=6
+Y=-6
+[TraceInput]
+P1Width=242
+P2Width=803
+[Group0]
+Name=Default
+0="t : port0_data[7:0]" default
+1="t : port0_ctl" default
+2="t : I_reset_N" default
+3="t : I_port2[7:0]" default
+4="t : I_monitors[10:0]" default
+5="t : I_maint_mon" default
+6="t : I_main_blower_mon" default
+7="t : I_clk" default
+8="t : I_ale" default
+9="t : I_V0_mon" default
+10="t : I_SMC_MON_PDU_JAG_THERMAL_FAULT" default
+11="t : I_SMC_MON_PDU_JAG_48V_GOOD" default
+12="t : I_SMC_MON_DC90_OVR_TMP" default
+13="t : I_SMC_MON_DC90_OUTPUT_FAULT" default
+14="t : I_SMC_MON_DC90_AC_PWR_FAULT" default
+15="t : I_SMC_MON_DC90_48V_ON" default
+16="t : I_SMC_MON_BC_PHASE_LOSS" default
+17="t : I_SMC_MON_BC_OVR_TMP" default
+18="t : I_SMC_MON_BC_OUTPUT_FAULT" default
+19="t : I_SMC_MON_BC_FAN1_TACH" default
+20="t : I_SMC_MON_BC_FAN1_STATE" default
+21="t : I_SMC_MON_BC_FAN0_TACH" default
+22="t : I_SMC_MON_BC_FAN0_STATE" default
+23="t : I_SMC_MON_BC_AC_PWR_FAULT" default
+24="t : I_SMC_MON_BC_AC_ON" default
+25="t : I_I2_mon" default
+26="t : I_I1_mon" default
+27="t.m : noalloc_wdata[7:0]" default
+28="t.m : B_CNTRL_BC_48VDC" default
+29="t.m.tach0_freq_ctr : I_reset_N" default
+30="t.m.tach0_freq_ctr : I_lock_out" default
+31="t.m.tach0_freq_ctr : I_enable" default
+32="t.m.tach0_freq_ctr : I_clr_regs" default
+33="t.m.tach0_freq_ctr : I_clr_ctrs" default
+34="t.m.tach0_freq_ctr : I_CTL" default
+35="t.m.tach0_freq_ctr : I_clk" default
+36="t.m.tach0_freq_ctr : start_ctr" default
+37="t.m.tach0_freq_ctr : shft_reg[1:0]" default
+38="t.m.tach0_freq_ctr : ctr_reg[15:0]" default
+39="t.m : B_CNTRL_BC_48VDC_wstb" default
+40="t.m.idl_regs : I_V48_ENABLE_ON" default
+41="t.m.tach0_freq_ctr : I_signal" default
+42="t.m : BC_TACH1_CTR_LO[7:0]" default
+43="t.m : BC_TACH1_CTR_HI[7:0]" default
+44="t.m : BC_TACH1_CTL" default
+45="t.m : BC_TACH0_CTR_LO[7:0]" default
+46="t.m : BC_TACH0_CTR_HI[7:0]" default
+47="t.m : BC_TACH0_CTL" default
+48="t.m : tach1_lock_out" default
+49="t.m : tach0_lock_out" default
+50="t.m : V48_ENABLE" default
+51="t : IN_wr" default
+52="t : IN_rd" default
+53="t : IN_psen" default
+54="t : OC_k1_on" default
+55="t : OC_SMC_CNTRL_JAG_SWITCHED_AC" default
+56="t : OC_SMC_CNTRL_JAG_48VDC_ON" default
+57="t : OC_B_SMC_CNTRL_BC_SWITCHED_AC" default
+58="t : OC_B_CNTRL_BC_48VDC_DC90" default
+59="t : OC_B_CNTRL_BC_48VDC" default
+60="t : OC_48v_on" default
+61="t : BI_port0[7:0]" default
+62="t.m.idl_regs : I_addr[15:0]" default
+Open=Yes
+[GroupList]
+0=Default

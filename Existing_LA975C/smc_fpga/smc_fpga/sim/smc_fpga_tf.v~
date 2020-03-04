@@ -1,0 +1,690 @@
+`timescale 1ns/1ns
+
+`include "smc_fpga_reg_def.vh"
+`include "smc_fpga_idl_rtl.vh"
+
+module t;
+
+reg I_ale,    // ale control input from uC
+	 IN_wr,    // write strobe from uC
+	 IN_rd,    // read strobe from uC
+	 IN_psen,  // memory cycle control signal from uC
+	 I_clk,    // 11.092 MHz clock
+	 I_reset_N;
+wire [7:0] BI_port0;
+pullup (BI_port0[0]);
+pullup (BI_port0[1]);
+pullup (BI_port0[2]);
+pullup (BI_port0[3]);
+pullup (BI_port0[4]);
+pullup (BI_port0[5]);
+pullup (BI_port0[6]);
+pullup (BI_port0[7]);
+
+reg [7:0] I_port2;
+reg [10:0] I_monitors;
+reg I_main_blower_mon, // blower monitor signal from PDU (opto isolated)
+	 I_V0_mon,     // V0 monitor from PDU (opto isolated)
+	 I_I1_mon,     // I1 monitor from PDU (opto isolated)
+	 I_I2_mon,     // I2 monitor from PDU (opto isolated)
+	 I_maint_mon;
+wire OC_48v_on,  // output control to turn 48V on (opto isolated)
+	 OC_k1_on;
+wire [3:0] OC_aux_ctl;
+reg I_SMC_MON_PDU_K1,
+	 I_SMC_MON_DC90_OUTPUT_FAULT,
+	 I_SMC_MON_DC90_AC_PWR_FAULT,
+	 I_SMC_MON_DC90_OVR_TMP,
+	 I_SMC_MON_DC90_48V_ON,
+	 I_SMC_MON_BC_OUTPUT_FAULT,
+	 I_SMC_MON_BC_AC_PWR_FAULT,
+	 I_SMC_MON_BC_OVR_TMP,
+	 I_SMC_MON_BC_PHASE_LOSS,
+	 I_SMC_MON_BC_AC_ON,
+	 I_SMC_SPR2_FAN_IN_MON,
+	 I_SMC_MON_PDU_JAG_48V_GOOD,
+	 I_SMC_MON_PDU_JAG_THERMAL_FAULT,
+	 I_SMC_MON_BC_FAN0_STATE,
+	 I_SMC_MON_BC_FAN1_STATE,
+	 I_SMC_MON_BC_FAN0_TACH,
+	 I_SMC_MON_BC_FAN1_TACH;
+   wire OC_B_CNTRL_BC_48VDC_DC90,
+	  OC_B_CNTRL_BC_48VDC,
+	  OC_SMC_CNTRL_JAG_SWITCHED_AC,
+	  OC_SMC_CNTRL_JAG_48VDC_ON, 
+	  OC_B_SMC_CNTRL_BC_SWITCHED_AC;
+    smc_fpga m (.I_ale(I_ale), .IN_wr(IN_wr), .IN_rd(IN_rd), .IN_psen(IN_psen), 
+		.BI_port0(BI_port0), .I_port2(I_port2), .I_clk(I_clk),
+		 .I_monitors(I_monitors), .OC_48v_on(OC_48v_on), .OC_k1_on(OC_k1_on), 
+		.I_main_blower_mon(I_main_blower_mon), 
+		.I_V0_mon(I_V0_mon), .I_I1_mon(I_I1_mon), .I_I2_mon(I_I2_mon), 
+		.I_maint_mon(I_maint_mon), .I_reset_N(I_reset_N),
+.I_SMC_MON_DC90_OUTPUT_FAULT(I_SMC_MON_DC90_OUTPUT_FAULT),
+.I_SMC_MON_DC90_AC_PWR_FAULT(I_SMC_MON_DC90_AC_PWR_FAULT),
+.I_SMC_MON_DC90_OVR_TMP(I_SMC_MON_DC90_OVR_TMP), 
+.I_SMC_MON_DC90_48V_ON(I_SMC_MON_DC90_48V_ON),  
+.I_SMC_MON_BC_OUTPUT_FAULT(I_SMC_MON_BC_OUTPUT_FAULT), 
+.I_SMC_MON_BC_AC_PWR_FAULT(I_SMC_MON_BC_AC_PWR_FAULT), 
+.I_SMC_MON_BC_OVR_TMP(I_SMC_MON_BC_OVR_TMP), 
+.I_SMC_MON_BC_PHASE_LOSS(I_SMC_MON_BC_PHASE_LOSS), 
+.I_SMC_MON_BC_AC_ON(I_SMC_MON_BC_AC_ON), 
+.I_SMC_MON_PDU_JAG_THERMAL_FAULT(I_SMC_MON_PDU_JAG_THERMAL_FAULT),
+.I_SMC_MON_BC_FAN0_STATE(I_SMC_MON_BC_FAN0_STATE), 
+.I_SMC_MON_PDU_JAG_48V_GOOD(I_SMC_MON_PDU_JAG_48V_GOOD), 
+.I_SMC_MON_BC_FAN1_STATE(I_SMC_MON_BC_FAN1_STATE), 
+.I_SMC_MON_BC_FAN0_TACH(I_SMC_MON_BC_FAN0_TACH), 	
+.I_SMC_MON_BC_FAN1_TACH(I_SMC_MON_BC_FAN1_TACH), 
+.OC_B_CNTRL_BC_48VDC_DC90(OC_B_CNTRL_BC_48VDC_DC90), 	
+.OC_B_CNTRL_BC_48VDC(OC_B_CNTRL_BC_48VDC), 
+.OC_SMC_CNTRL_JAG_SWITCHED_AC(OC_SMC_CNTRL_JAG_SWITCHED_AC), 	
+.OC_SMC_CNTRL_JAG_48VDC_ON(OC_SMC_CNTRL_JAG_48VDC_ON), 
+.OC_B_SMC_CNTRL_BC_SWITCHED_AC(OC_B_SMC_CNTRL_BC_SWITCHED_AC));
+
+    // Enter fixture code here
+
+   reg port0_ctl;
+   reg [7:0] port0_data;
+   assign    BI_port0 = port0_ctl ? port0_data : 8'hzz;
+   
+initial begin
+ I_SMC_MON_PDU_K1=0;
+  I_SMC_MON_DC90_OUTPUT_FAULT=0;
+  I_SMC_MON_DC90_AC_PWR_FAULT=0;
+  I_SMC_MON_DC90_OVR_TMP=0;
+  I_SMC_MON_DC90_48V_ON=0;
+  I_SMC_MON_BC_OUTPUT_FAULT=0;
+  I_SMC_MON_BC_AC_PWR_FAULT=0;
+  I_SMC_MON_BC_OVR_TMP=0;
+  I_SMC_MON_BC_PHASE_LOSS=0;
+  I_SMC_MON_BC_AC_ON=0;
+  I_SMC_SPR2_FAN_IN_MON=0;
+  I_SMC_MON_PDU_JAG_48V_GOOD=0;
+  I_SMC_MON_PDU_JAG_THERMAL_FAULT=0;
+  I_SMC_MON_BC_FAN0_STATE=0;
+  I_SMC_MON_BC_FAN1_STATE=0;
+  I_SMC_MON_BC_FAN0_TACH=0;
+  I_SMC_MON_BC_FAN1_TACH=0;
+end
+
+//   pullup (OC_48v_on);
+//   pullup (OC_k1_on);
+//   pullup (OC_aux_ctl[3]);
+//   pullup (OC_aux_ctl[2]);
+//   pullup (OC_aux_ctl[1]);
+//   pullup (OC_aux_ctl[0]);
+//   pullup (OC_aux_fan);
+
+   always #45 I_clk = ~I_clk;
+   
+   
+initial begin
+   port0_ctl = 0;
+   port0_data = 0;
+   
+   I_ale = 0;
+   IN_wr = 1;
+   IN_rd = 1;
+   IN_psen = 0;
+   I_clk = 0;
+   I_reset_N = 1;
+   I_port2 = 8'h00;
+   I_monitors = 11'h000;
+   I_main_blower_mon = 1'b1;
+   I_V0_mon = 1'b1;
+   I_I1_mon = 1'b1;
+   I_I2_mon = 1'b1;
+   I_maint_mon = 1'b1;
+   	   
+   #1001 I_reset_N = 0;
+   #1002 I_reset_N = 1;
+
+   #1000 
+     // without enable register should not set
+     read(`V48_ON, `SMC_FPGA_V48_ON_OFF);
+   write (`V48_ON, `SMC_FPGA_V48_ON_ON);
+   read (`V48_ON, `SMC_FPGA_V48_ON_OFF);
+   // now set enable
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   // now we should be able to turn on v48
+     read(`V48_ON, `SMC_FPGA_V48_ON_OFF);
+   write (`V48_ON, `SMC_FPGA_V48_ON_ON);
+   read (`V48_ON, `SMC_FPGA_V48_ON_ON);
+   // turn off enable. This should turn on/off back off
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`V48_ON, `SMC_FPGA_V48_ON_OFF);
+   // enable again and turn back on
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   write (`V48_ON, `SMC_FPGA_V48_ON_ON);
+   read (`V48_ON, `SMC_FPGA_V48_ON_ON);
+   
+
+   // enable freq ctrs
+   write (`CTR_CTL, `SMC_FPGA_CTR_CTL_ENABLE);
+   read (`CTR_CTL, `SMC_FPGA_CTR_CTL_ENABLE);
+   
+
+   #1000
+     // without enable register should not set
+     read(`K1_ON, `SMC_FPGA_K1_ON_OFF);
+   write (`K1_ON, `SMC_FPGA_K1_ON_ON);
+   read (`K1_ON, `SMC_FPGA_K1_ON_OFF);
+   // now set enable
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   // now we should be able to turn on K1
+     read(`K1_ON, `SMC_FPGA_K1_ON_OFF);
+   write (`K1_ON, `SMC_FPGA_K1_ON_ON);
+   read (`K1_ON, `SMC_FPGA_K1_ON_ON);
+   // turn off enable. This should turn on/off back off
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   read (`K1_ON, `SMC_FPGA_K1_ON_OFF);
+   // enable again and turn back on
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   write (`K1_ON, `SMC_FPGA_K1_ON_ON);
+   read (`K1_ON, `SMC_FPGA_K1_ON_ON);
+
+   #10000
+     read(`AUX_FAN_CTL, `SMC_FPGA_AUX_FAN_CTL_OFF);
+   write (`AUX_FAN_CTL, `SMC_FPGA_AUX_FAN_CTL_ON);
+   read (`AUX_FAN_CTL, `SMC_FPGA_AUX_FAN_CTL_ON);
+
+     // try illegal value: should be off
+   #10000
+   write (`AUX_FAN_CTL, 8'h2);
+   read (`AUX_FAN_CTL, 8'h2);
+
+   #10000
+   write (`AUX_FAN_CTL, `SMC_FPGA_AUX_FAN_CTL_LOW);
+   read (`AUX_FAN_CTL, `SMC_FPGA_AUX_FAN_CTL_LOW);
+
+   #10000
+     read(`AUX_0_CTL, `SMC_FPGA_AUX_0_CTL_OFF);
+   write (`AUX_0_CTL, `SMC_FPGA_AUX_0_CTL_ON);
+   read (`AUX_0_CTL, `SMC_FPGA_AUX_0_CTL_ON);
+
+     // try illegal value: should be off
+   #10000
+   write (`AUX_0_CTL, 8'h2);
+   read (`AUX_0_CTL, 8'h2);
+
+   #10000
+   write (`AUX_0_CTL, `SMC_FPGA_AUX_0_CTL_LOW);
+   read (`AUX_0_CTL, `SMC_FPGA_AUX_0_CTL_LOW);
+
+   #10000
+     read(`AUX_1_CTL, `SMC_FPGA_AUX_1_CTL_OFF);
+   write (`AUX_1_CTL, `SMC_FPGA_AUX_1_CTL_ON);
+   read (`AUX_1_CTL, `SMC_FPGA_AUX_1_CTL_ON);
+
+     // try illegal value: should be off
+   #10000
+   write (`AUX_1_CTL, 8'h2);
+   read (`AUX_1_CTL, 8'h2);
+
+   #10000
+   write (`AUX_1_CTL, `SMC_FPGA_AUX_1_CTL_LOW);
+   read (`AUX_1_CTL, `SMC_FPGA_AUX_1_CTL_LOW);
+
+   #10000
+     read(`AUX_2_CTL, `SMC_FPGA_AUX_2_CTL_OFF);
+   write (`AUX_2_CTL, `SMC_FPGA_AUX_2_CTL_ON);
+   read (`AUX_2_CTL, `SMC_FPGA_AUX_2_CTL_ON);
+
+     // try illegal value: should be off
+   #10000
+   write (`AUX_2_CTL, 8'h2);
+   read (`AUX_2_CTL, 8'h2);
+
+   #10000
+   write (`AUX_2_CTL, `SMC_FPGA_AUX_2_CTL_LOW);
+   read (`AUX_2_CTL, `SMC_FPGA_AUX_2_CTL_LOW);
+
+   #10000
+     read(`AUX_3_CTL, `SMC_FPGA_AUX_3_CTL_OFF);
+   write (`AUX_3_CTL, `SMC_FPGA_AUX_3_CTL_ON);
+   read (`AUX_3_CTL, `SMC_FPGA_AUX_3_CTL_ON);
+
+     // try illegal value: should be off
+   #10000
+   write (`AUX_3_CTL, 8'h2);
+   read (`AUX_3_CTL, 8'h2);
+
+   #10000
+   write (`AUX_3_CTL, `SMC_FPGA_AUX_3_CTL_LOW);
+   read (`AUX_3_CTL, `SMC_FPGA_AUX_3_CTL_LOW);
+
+   // wait 100000 for counters to get valid data and read back
+   #100000;
+   read (`V0_HI, 8'h0);  // v0 hi
+   read (`V0_LO, 8'h6e);  // v0 lo
+
+   read (`I1_HI, 8'h0);  // i1 hi
+   read (`I1_LO, 8'h37);  // i1 lo
+
+   read (`I2_HI, 8'h00);  // i2 hi
+   read (`I2_LO, 8'ha6);  // i2 lo
+   
+   read (`MAIN_BLOWER_HI, 8'h00);  // main blower hi
+   read (`MAIN_BLOWER_LO, 8'h4);  // main blower lo
+
+   // reset holding regs and read back to see if they reset to 0
+   write (`RESET, 8'h2); // set holding regs clear bit
+   
+   read (`V0_HI, 8'h0);  // v0 hi
+   read (`V0_LO, 8'h00);  // v0 lo
+
+   read (`I1_HI, 8'h0);  // i1 hi
+   read (`I1_LO, 8'h00);  // i1 lo
+
+   read (`I2_HI, 8'h00);  // i2 hi
+   read (`I2_LO, 8'h0);  // i2 lo
+   
+   read (`MAIN_BLOWER_HI, 8'h00);  // main blower hi
+   read (`MAIN_BLOWER_LO, 8'h00);  // main blower lo
+
+   // release holding regs reset and read back to see if they start to count again
+   write (`RESET, 8'h0); // set holding regs clear bit
+   #50000;
+   
+   
+   read (`V0_HI, 8'h0);  // v0 hi
+   read (`V0_LO, 8'h6e);  // v0 lo
+
+   read (`I1_HI, 8'h0);  // i1 hi
+   read (`I1_LO, 8'h37);  // i1 lo
+
+   read (`I2_HI, 8'h00);  // i2 hi
+   read (`I2_LO, 8'ha6);  // i2 lo
+   
+   read (`MAIN_BLOWER_HI, 8'h00);  // main blower hi
+   read (`MAIN_BLOWER_LO, 8'h4);  // main blower lo
+
+   // reset counter regs and read back to see if they reset to 0. Holding
+   // regs are loaded if an edge comes in.
+   write (`RESET, 8'h1); // set counters clear bit
+   #50000;
+   
+   read (`V0_HI, 8'h0);  // v0 hi
+   read (`V0_LO, 8'h00);  // v0 lo
+
+   read (`I1_HI, 8'h0);  // i1 hi
+   read (`I1_LO, 8'h00);  // i1 lo
+
+   read (`I2_HI, 8'h00);  // i2 hi
+   read (`I2_LO, 8'h0);  // i2 lo
+   
+   read (`MAIN_BLOWER_HI, 8'h00);  // main blower hi
+   read (`MAIN_BLOWER_LO, 8'h00);  // main blower lo
+
+   // release counter reset and read back to see if they start to count again
+   write (`RESET, 8'h0); // reset holding regs clear bit
+   #75000;
+   
+   read (`V0_HI, 8'h0);  // v0 hi
+   read (`V0_LO, 8'h6f);  // v0 lo
+
+   read (`I1_HI, 8'h0);  // i1 hi
+   read (`I1_LO, 8'h37);  // i1 lo
+
+   read (`I2_HI, 8'h00);  // i2 hi
+   read (`I2_LO, 8'ha6);  // i2 lo
+   
+   read (`MAIN_BLOWER_HI, 8'h00);  // main blower hi
+   read (`MAIN_BLOWER_LO, 8'h04);  // main blower lo
+   
+   // check lock out readback. read hi part of counters and then read
+   // lock out state readback.
+   // reset holding reg's to see if they do not update
+   write (`RESET, 8'h2);
+   
+   read (`V0_HI, 8'h0);  // v0 hi
+   read (`LOCK_OUT_STATE, 8'h1);  // v0 lo
+
+   read (`I1_HI, 8'h0);  // i1 hi
+   read (`LOCK_OUT_STATE, 8'h3);  // i1 lo
+
+   read (`I2_HI, 8'h00);  // i2 hi
+   read (`LOCK_OUT_STATE, 8'h7);  // i2 lo
+   
+   read (`MAIN_BLOWER_HI, 8'h00);  // main blower hi
+   read (`LOCK_OUT_STATE, 8'hf);
+
+   read (`GEN_FREQ_CTR_HI, 8'h00);  // main blower hi
+   read (`LOCK_OUT_STATE, 8'h1f);
+
+   // check that reading the LO register will clear the lock out state
+   read (`V0_LO, 8'h0);  // v0 lo
+   read (`LOCK_OUT_STATE, 8'h1e);  // v0 lo
+
+   read (`I1_LO, 8'h0);  // i1 lo
+   read (`LOCK_OUT_STATE, 8'h1c);  // i1 lo
+
+   read (`I2_LO, 8'h00);  // i2 lo
+   read (`LOCK_OUT_STATE, 8'h18);  // i2 lo
+   
+   read (`MAIN_BLOWER_LO, 8'h00);  // main blower lo
+   read (`LOCK_OUT_STATE, 8'h10);
+
+   read (`GEN_FREQ_CTR_MID, 8'h00);  // should not reset with MID read
+   read (`LOCK_OUT_STATE, 8'h10);
+
+   read (`GEN_FREQ_CTR_LO, 8'h00);  // 
+   read (`LOCK_OUT_STATE, 8'h00);
+
+   
+   // read id and rev register
+   read (`ID_REV, 8'hd2);
+
+   // try invalid reads. First assert psen_N
+   // this won't work because read function deasserts psen
+//   IN_psen = 0;
+//   #10;
+//   read (`ID_REV, 8'hc2);
+
+   // now read from an invalid address (return psen)
+   IN_psen = 1;
+   read (24'h123456, 8'hzz);
+   
+   // test counter rollover. If no input signal, holding reg should get
+   // all ones if counter rolls over.
+   // turn off some inputs with a force.
+   force I_V0_mon = 1'b1;
+   force I_I2_mon = 1'b1;
+   // reset the counter and holding reg to start rollover period
+   write (`RESET, 8'h03);
+   write (`RESET, 8'h00);
+   // read back to check clear
+   read (`V0_HI, 8'h00);  // v0 hi
+   read (`V0_LO, 8'h00);  // v0 lo
+
+   read (`I2_HI, 8'h00);  // i2 hi
+   read (`I2_LO, 8'h00);  // i2 lo
+   
+   // wait for counter to rollover: 17 bits @ 11.0592MHz = 13usec
+   #13100000;
+   // now read holding regs to see if all ones
+   read (`V0_HI, 8'hFF);  // v0 hi
+   read (`V0_LO, 8'hFF);  // v0 lo
+
+   read (`I2_HI, 8'hFF);  // i2 hi
+   read (`I2_LO, 8'hFF);  // i2 lo
+   
+// test new control outputs. These are levels so can be checked in TF
+   #1000
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+
+$display ("testing BC_48VDC");
+
+     // without enable register should not set
+     read(`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_OFF);
+   write (`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_ON);
+   read (`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_OFF);
+   // now set enable
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   // now we should be able to turn on K1
+$display("enable on, check proper operation");
+     read(`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_OFF);
+   write (`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_ON);
+   read (`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_ON);
+   // turn off enable. This should turn on/off back off
+$display ("enable back off");
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_OFF);
+   // enable again and turn back on
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   write (`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_ON);
+   read (`B_CNTRL_BC_48VDC, `SMC_FPGA_K1_ON_ON);
+
+   #1000
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+
+$display ("testing JAG_48VDC");
+
+     // without enable register should not set
+     read(`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_OFF);
+   write (`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_ON);
+   read (`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_OFF);
+   // now set enable
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   // now we should be able to turn on K1
+$display("enable on, check proper operation");
+     read(`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_OFF);
+   write (`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_ON);
+   read (`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_ON);
+   // turn off enable. This should turn on/off back off
+$display ("enable back off");
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_OFF);
+   // enable again and turn back on
+   write (`V48_ENABLE, `SMC_FPGA_V48_ENABLE_ENABLE);
+   write (`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_ON);
+   read (`SMC_CNTRL_JAG_48VDC_ON, `SMC_FPGA_K1_ON_ON);
+
+   #1000
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+
+$display ("testing BC_SWITCHED_AC");
+
+     // without enable register should not set
+     read(`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   write (`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   read (`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   // now set enable
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   // now we should be able to turn on K1
+$display("enable on, check proper operation");
+     read(`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   write (`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   read (`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   // turn off enable. This should turn on/off back off
+$display ("enable back off");
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   read (`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   // enable again and turn back on
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   write (`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   read (`B_SMC_CNTRL_BC_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+
+   #1000
+
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+
+$display ("testing JAG_SWITCHED_AC");
+
+     // without enable register should not set
+     read(`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   write (`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   read (`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   // now set enable
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   // now we should be able to turn on K1
+$display("enable on, check proper operation");
+     read(`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   write (`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   read (`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   // turn off enable. This should turn on/off back off
+$display ("enable back off");
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   read (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_DISABLE);
+   read (`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_OFF);
+   // enable again and turn back on
+   write (`K1_ENABLE, `SMC_FPGA_K1_ENABLE_ENABLE);
+   write (`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+   read (`SMC_CNTRL_JAG_SWITCHED_AC, `SMC_FPGA_K1_ON_ON);
+
+   #1000
+
+$display ("Testing BC_48VDC_DC90");
+
+     // without enable register should not set
+     read(`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_OFF);
+   write (`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_ON);
+   read (`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_OFF);
+   // now set enable
+   read (`B_DC90_48V_Enable, `SMC_FPGA_V48_ENABLE_DISABLE);
+   write (`B_DC90_48V_Enable, `SMC_FPGA_V48_ENABLE_ENABLE);
+   read (`B_DC90_48V_Enable, `SMC_FPGA_V48_ENABLE_ENABLE);
+   // now we should be able to turn on K1
+$display("enable on, check proper operation");
+     read(`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_OFF);
+   write (`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_ON);
+   read (`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_ON);
+   // turn off enable. This should turn on/off back off
+$display ("enable back off");
+   write (`B_DC90_48V_Enable, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`B_DC90_48V_Enable, `SMC_FPGA_V48_ENABLE_DISABLE);
+   read (`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_OFF);
+   // enable again and turn back on
+   write (`B_DC90_48V_Enable, `SMC_FPGA_V48_ENABLE_ENABLE);
+   write (`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_ON);
+   read (`B_CNTRL_BC_48VDC_DC90, `SMC_FPGA_K1_ON_ON);
+
+$display ("Testing new inputs. FIrst BC inputs");
+  // should be at 0 now
+  read (`STATE_48V, 0);
+I_SMC_MON_BC_OUTPUT_FAULT=1;
+  read (`STATE_48V, 1);
+  I_SMC_MON_BC_AC_PWR_FAULT=1;
+  read (`STATE_48V, 3);
+  I_SMC_MON_BC_OVR_TMP=1;
+  read (`STATE_48V, 7);
+  I_SMC_MON_BC_PHASE_LOSS=1;
+  read (`STATE_48V, 15);
+I_SMC_MON_BC_OUTPUT_FAULT=0;
+  read (`STATE_48V, 14);
+  I_SMC_MON_BC_AC_PWR_FAULT=0;
+  read (`STATE_48V, 12);
+  I_SMC_MON_BC_OVR_TMP=0;
+  read (`STATE_48V, 8);
+  I_SMC_MON_BC_PHASE_LOSS=0;
+  read (`STATE_48V, 0);
+   
+  read (`SMC_MON_BC_AC_ON, 0);
+  I_SMC_MON_BC_AC_ON=1;
+  read (`SMC_MON_BC_AC_ON, 1);
+  I_SMC_MON_BC_AC_ON=0;
+  read (`SMC_MON_BC_AC_ON, 0);
+
+$display ("Testing new inputs. Now DC90 inputs");
+  // should be at 0 now
+  read (`DC90_STATE, 0);
+	I_SMC_MON_DC90_OUTPUT_FAULT=1;
+  read (`DC90_STATE, 1);
+	 I_SMC_MON_DC90_AC_PWR_FAULT=1;
+  read (`DC90_STATE, 3);
+	 I_SMC_MON_DC90_OVR_TMP=1;
+  read (`DC90_STATE, 7);
+	 I_SMC_MON_DC90_48V_ON=1;
+  read (`DC90_STATE, 15);
+	I_SMC_MON_DC90_OUTPUT_FAULT=0;
+  read (`DC90_STATE, 14);
+	 I_SMC_MON_DC90_AC_PWR_FAULT=0;
+  read (`DC90_STATE, 12);
+	 I_SMC_MON_DC90_OVR_TMP=0;
+  read (`DC90_STATE, 8);
+	 I_SMC_MON_DC90_48V_ON=0;
+  read (`DC90_STATE, 0);
+
+$display ("Testing new inputs. Now JAG inputs");
+  // should be at 0 now
+  read (`SMC_MON_PDU_K1, 0);
+  I_monitors[3] = 1;
+  read (`SMC_MON_PDU_K1, 1);
+  I_monitors[3] = 0;
+  read (`SMC_MON_PDU_K1, 0);
+
+  // should be at 0 now
+  read (`SMC_MON_PDU_JAG_48V_LVL_ON, 0);
+  I_monitors[9] = 1;
+  read (`SMC_MON_PDU_JAG_48V_LVL_ON, 1);
+  I_monitors[9] = 0;
+  read (`SMC_MON_PDU_JAG_48V_LVL_ON, 0);
+
+  read (`SMC_MON_PDU_JAG_THERMAL_FAULT, 0);
+  I_SMC_MON_PDU_JAG_THERMAL_FAULT=1;
+  read (`SMC_MON_PDU_JAG_THERMAL_FAULT, 1);
+  I_SMC_MON_PDU_JAG_THERMAL_FAULT=0;
+  read (`SMC_MON_PDU_JAG_THERMAL_FAULT, 0);
+
+  read (`SMC_MON_PDU_JAG_48V_GOOD, 0);
+  I_SMC_MON_PDU_JAG_48V_GOOD=1;
+  read (`SMC_MON_PDU_JAG_48V_GOOD, 1);
+  I_SMC_MON_PDU_JAG_48V_GOOD=0;
+  read (`SMC_MON_PDU_JAG_48V_GOOD, 0);
+
+
+
+
+   #20000 $finish;
+   
+
+end
+   
+   always #10000 I_V0_mon = ~I_V0_mon;
+   always #5000 I_I1_mon = ~I_I1_mon;
+   always #15000 I_I2_mon = ~I_I2_mon;
+   always #24000 I_main_blower_mon = ~I_main_blower_mon;
+   
+   
+   task read;
+      input [23:0] rd_addr;
+      input [7:0] rd_data;
+	  begin
+	  @(posedge I_clk);
+	 // assert ale and psen, and put a7-a0 on port 0 and a23-a16 on port 2
+	 I_ale = 1;
+	 IN_psen = 1;
+	 #100 I_port2 = rd_addr[23:16];
+	 port0_ctl = 1;
+	 port0_data = rd_addr[7:0];
+	 #43 I_ale = 0;
+	 #48 port0_ctl = 0;
+	 I_port2 = rd_addr[15:8];
+	 #250 IN_rd = 0;
+	 #399 ;
+	 if (BI_port0 != rd_data) $display ("read data mismatch, exp: %h, read: %h, at time %t", rd_data, BI_port0, $time);
+	 #1 IN_rd = 1;
+	 #43 IN_psen = 0;
+      end
+   endtask // read
+   
+   task write;
+      input [23:0] wr_addr;
+      input [7:0] wr_data;
+      begin
+	  @(posedge I_clk);
+	 // assert ale and psen, and put a7-a0 on port 0 and a23-a16 on port 2
+	 I_ale = 1;
+	 IN_psen = 1;
+	 #100 I_port2 = wr_addr[23:16];
+	 port0_ctl = 1;
+	 port0_data = wr_addr[7:0];
+	 #43 I_ale = 0;
+	 #48 port0_ctl = 1;
+	 port0_data = wr_data;
+	 I_port2 = wr_addr[15:8];
+	 #250 IN_wr = 0;
+	 #400 IN_wr = 1;
+	 #43 IN_psen = 0;
+      end
+   endtask // write
+   
+initial $recordvars();
+      
+endmodule // t

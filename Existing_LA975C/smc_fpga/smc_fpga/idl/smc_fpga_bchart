@@ -1,0 +1,1204 @@
+
+
+
+
+-------------------------------------------------------
+Register V48_ON Alt 0    (V48_ON)   
+-------------------------------------------------------
+    On/off control bit for 48V
+    wstb: wrstb      wenbs: addr==0xb201 & V48_ENABLE_ON==0x1
+    rstb: rdstb      renbs: addr==0xb201
+
+                                               __ 
+                                              | 0|
+                                                |_ V48_ON [0]
+
+   SMC_FPGA_V48_ON ( read-write , not shadowed)
+     -On/off control bit for 48V
+           ON                   0x1
+           OFF                  0x0
+
+   Turn 48V control signal on or off. Control signal is a 15khz square
+   wave. When off, the pin goes tristate. When on, the output is open 
+   collector (only actively pulls low).
+   
+
+
+
+
+-------------------------------------------------------
+Register V48_ENABLE Alt 0    (V48_ENABLE)   
+-------------------------------------------------------
+    Enable for On/off control bit for 48V
+    wstb: wrstb      wenbs: addr==0xb20c
+    rstb: rdstb      renbs: addr==0xb20c
+
+                                               __ 
+                                              | 0|
+                                                |_ V48_ENABLE [0]
+
+   SMC_FPGA_V48_ENABLE ( read-write , not shadowed)
+     -Enable for On/off control bit for 48V
+           ENABLE               0x1
+           DISABLE              0x0   <=PWRCLR          
+
+   This register enable the V48_ON register. This is part of a 2 level fault
+   protection mechanism such that this register and the V48_ON register must
+   fail before power in the system could accidentally turn on.
+
+   This register must be enabled before writing to the on/off register. If 
+   this register is disabled while the on/off register is on, the on/off will
+   br turned off.
+   
+
+
+
+
+-------------------------------------------------------
+Register K1_ON Alt 0    (K1_ON)   
+-------------------------------------------------------
+    On/off control bit for K1
+    wstb: wrstb      wenbs: addr==0xb202 & K1_ENABLE_ON==0x1
+    rstb: rdstb      renbs: addr==0xb202
+
+                                               __ 
+                                              | 0|
+                                                |_ K1_ON [0]
+
+   SMC_FPGA_K1_ON ( read-write , not shadowed)
+     -On/off control bit for K1
+           ON                   0x1
+           OFF                  0x0
+
+   Turn K1 control signal on or off. Control signal is a 15khz square
+   wave. When off, the pin goes tristate. When on, the output is open 
+   collector (only actively pulls low).
+   
+
+
+
+
+-------------------------------------------------------
+Register K1_ENABLE Alt 0    (K1_ENABLE)   
+-------------------------------------------------------
+    Enable for On/off control bit for 48V
+    wstb: wrstb      wenbs: addr==0xb20d
+    rstb: rdstb      renbs: addr==0xb20d
+
+                                               __ 
+                                              | 0|
+                                                |_ K1_ENABLE [0]
+
+   SMC_FPGA_K1_ENABLE ( read-write , not shadowed)
+     -Enable for On/off control bit for K1
+           ENABLE               0x1
+           DISABLE              0x0   <=PWRCLR          
+
+   This register enable the K1_ON register. This is part of a 2 level fault
+   protection mechanism such that this register and the K1_ON register must
+   fail before power in the system could accidentally turn on.
+
+   This register must be enabled before writing to the on/off register. If 
+   this register is disabled while the on/off register is on, the on/off will
+   br turned off.
+   
+
+
+
+
+-------------------------------------------------------
+Register AUX_FAN_CTL Alt 0    (AUX_FAN_CTL)   
+-------------------------------------------------------
+    On/off control bits for Auxiliary fan output
+    wstb: wrstb      wenbs: addr==0xb203
+    rstb: rdstb      renbs: addr==0xb203
+
+                                            __ __ 
+                                           | 1  0|
+                                                |_ AUX_FAN_CTL [1:0]
+
+   SMC_FPGA_AUX_FAN_CTL ( read-write , not shadowed)
+     -On/off control bits for Auxiliary fan output
+           ON                   0x1
+           OFF                  0x0   <=PWRCLR          
+           LOW                  0x3
+
+   Controls auxiliary fan output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   
+
+
+
+
+-------------------------------------------------------
+Register AUX_0_CTL Alt 0    (AUX_0_CTL)   
+-------------------------------------------------------
+    On/off control bits for Auxiliary 0 control
+    wstb: wrstb      wenbs: addr==0xb204
+    rstb: rdstb      renbs: addr==0xb204
+
+                                            __ __ 
+                                           | 1  0|
+                                                |_ AUX_0_CTL [1:0]
+
+   SMC_FPGA_AUX_0_CTL ( read-write , not shadowed)
+     -On/off control bits for Auxiliary 0 output
+           ON                   0x1
+           OFF                  0x0   <=PWRCLR          
+           LOW                  0x3
+
+   Controls auxiliary 0 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   
+
+
+
+
+-------------------------------------------------------
+Register AUX_1_CTL Alt 0    (AUX_1_CTL)   
+-------------------------------------------------------
+    On/off control bits for Auxiliary 1 control
+    wstb: wrstb      wenbs: addr==0xb205
+    rstb: rdstb      renbs: addr==0xb205
+
+                                            __ __ 
+                                           | 1  0|
+                                                |_ AUX_1_CTL [1:0]
+
+   SMC_FPGA_AUX_1_CTL ( read-write , not shadowed)
+     -On/off control bits for Auxiliary 1 output
+           ON                   0x1
+           OFF                  0x0   <=PWRCLR          
+           LOW                  0x3
+
+   Controls auxiliary 1 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   
+
+
+
+
+-------------------------------------------------------
+Register AUX_2_CTL Alt 0    (AUX_2_CTL)   
+-------------------------------------------------------
+    On/off control bits for Auxiliary 2 control
+    wstb: wrstb      wenbs: addr==0xb206
+    rstb: rdstb      renbs: addr==0xb206
+
+                                            __ __ 
+                                           | 1  0|
+                                                |_ AUX_2_CTL [1:0]
+
+   SMC_FPGA_AUX_2_CTL ( read-write , not shadowed)
+     -On/off control bits for Auxiliary 2 output
+           ON                   0x1
+           OFF                  0x0   <=PWRCLR          
+           LOW                  0x3
+
+   Controls auxiliary 2 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   
+
+
+
+
+-------------------------------------------------------
+Register AUX_3_CTL Alt 0    (AUX_3_CTL)   
+-------------------------------------------------------
+    On/off control bits for Auxiliary 3 control
+    wstb: wrstb      wenbs: addr==0xb207
+    rstb: rdstb      renbs: addr==0xb207
+
+                                            __ __ 
+                                           | 1  0|
+                                                |_ AUX_3_CTL [1:0]
+
+   SMC_FPGA_AUX_3_CTL ( read-write , not shadowed)
+     -On/off control bits for Auxiliary 3 output
+           ON                   0x1
+           OFF                  0x0   <=PWRCLR          
+           LOW                  0x3
+
+   Controls auxiliary 3 output control signal. Control signal can be
+   a 15khz square wave, a low level or off (open collector). 
+
+   There are 2 bits to control the output state, but only 3 possible states:
+   ON: output is a 15khz square wave.
+   OFF: output is tristate.
+   LOW: output is on and low.
+
+   The output is open collector (only actively pulls low).
+   
+
+
+
+
+-------------------------------------------------------
+Register RESET Alt 0    (RESET)   
+-------------------------------------------------------
+    Resets for counters and output registers
+    wstb: wrstb      wenbs: addr==0xb208
+    rstb: rdstb      renbs: addr==0xb208
+
+                                      __ __ __ __ 
+                                     | 3| 2| 1| 0|
+                                       |  |  |  |_ CLR_CTRS [0]
+                                       |  |  |____ CLR_REGS [0]
+                                       |  |_______ CLR_MAINT_REG [0]
+                                       |__________ CLR_LOCK_OUT [0]
+
+   SMC_FPGA_CLR_LOCK_OUT ( read-write , not shadowed)
+     -Reset lock_out signals for all counters
+           CLR                  0x1
+           NORMAL               0x0   <=PWRCLR          
+
+   SMC_FPGA_CLR_MAINT_REG ( read-write , not shadowed)
+     -Reset Maint signal change register
+           CLR                  0x1
+           NORMAL               0x0   <=PWRCLR          
+
+   SMC_FPGA_CLR_REGS ( read-write , not shadowed)
+     -Reset all frequency counter output registers
+           CLR                  0x1
+           COUNT                0x0   <=PWRCLR          
+
+   SMC_FPGA_CLR_CTRS ( read-write , not shadowed)
+     -Reset all frequency counters
+           CLR                  0x1
+           COUNT                0x0   <=PWRCLR          
+
+   This register contains 3 bits for resetting various parts of the circuit.
+
+   CLR_CTRS will reset all frequency counters back to 0. While the register
+   is set to CLR, the caounters will be held at 0. WHen the register is set
+   back to COUNT, the frequency counters will start counting again.
+
+   CLR_REGS will reset the frequency counter output registers. When a 
+   frequency counter has finished its measurement window, it wil
+   transfer the counter value to the output register so the CPU will
+   see a stable value while the counter gets the next data. Setting this
+   register to CLR will hold the output registers at 0. When the register 
+   is set back to COUNT, the registers will start to get values from the 
+   frequency counters.
+
+   CLR_MAINT_REG will reset the maintainence signal monitor register. Since
+   the maintainence signal changes so infrequently, a frequency counter is
+   not implemented to measure it. Instead, maintainence monitor circuit will
+   watch for any activity on the signal. If the signal changes from low to
+   high or high to low, the maintainence monitor circuit will capture the
+   event.
+   
+   Writing this bit to CLR will hold the maintainence monitor circuit at 0.
+   When this register is set to NORMAL, the maintainence monitor circuit
+   will monitor the maintainence signal for changes.
+   
+   CLR_LOCK_OUT will clear any lock_out signals that are set. The lock_out
+   signals are used to prevent the holding registers from getting updated
+   until software has read all bytes from the counters. Lock_out is set
+   by reading the HI byte of a counter, and is reset after reading the
+   LO bytes from the counter. Lock_out can also be cleared by setting the
+   CLR_LOCK_OUT bit high and then low. The state of the lock_out signals
+   can be read through the LOCK_OUT_STATE readback.
+
+
+
+
+-------------------------------------------------------
+Register CTR_CTL Alt 0    (CTR_CTL)   
+-------------------------------------------------------
+    Frequency counter enable
+    wstb: wrstb      wenbs: addr==0xb209
+    rstb: rdstb      renbs: addr==0xb209
+
+                                               __ 
+                                              | 0|
+                                                |_ CTR_CTL [0]
+
+   SMC_FPGA_CTR_CTL ( read-write , not shadowed)
+     -frequency counter enable
+           ENABLE               0x1
+           DISABLE              0x0   <=PWRCLR          
+
+   This register enables all the frequency counter in the FPGA. When set to
+   DISABLE, The counters are held at a value of zero. When set to ENABLE, the
+   counters are allowed to count incoming signals.
+   
+
+
+
+
+-------------------------------------------------------
+Register GEN_FREQ_CTR_MUX Alt 0    (GEN_FREQ_CTR_MUX)   
+-------------------------------------------------------
+    General purpose frequency counter input select
+    wstb: wrstb      wenbs: addr==0xb227
+    rstb: rdstb      renbs: addr==0xb227
+
+                                   __ __ __ __ __ 
+                                  | 4  -  -  -  0|
+                                                |_ GEN_FREQ_CTR_MUX [4:0]
+
+   SMC_FPGA_GEN_FREQ_CTR_MUX ( read-write , not shadowed)
+     -General purpose frequency counter input select
+           SC_FAN               0x10
+           PDU_V1               0x11
+           PDU_V2               0x12
+           PDU_K1_ON            0x13
+           SPU_FAN              0x14
+           PDU_VAB              0x15
+           PDU_VAC              0x16
+           PDU_VBC              0x17
+           PDU_FREQ             0x18
+           PDU_48V_ON           0x19
+           SMC_SPR2_FAN_IN_MON  0x1a
+           FPGA_48V_ON          0x0   <=PWRCLR          
+           FPGA_K1_ON           0x1
+           BC_FAN0_TACH         0x2
+           BC_FAN1_TACH         0x3
+           FPGA_AUX2            0x4
+           FPGA_AUX3            0x5
+
+   This register selects which signal to feed into the general purpose 
+   frequency counter. There are 14 signal inputs to the FPGA, and 7
+   outputs. 4 of the signal inputs, V0, I1, I2 and MAIN_BLOWER have
+   dedicated frequency counters. All the other signal inputs, and all
+   of the output signals can be be measured by selecting one as input
+   to the general purpose frequency conter using this register. The general
+   purpose frequency counter is a 24 bit counter, whereas he other frequency
+   counters are only 16 bits. his is to allow it to cover a wider range of 
+   possible input frequencies. I added an additional mux select six rjb 
+   
+
+
+
+
+-------------------------------------------------------
+Register V0_LO Alt 0    (V0_LO)   
+-------------------------------------------------------
+    Readback for low 8 bits of V0 frequency counter
+    rstb: rdstb      renbs: addr==0xb20a
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ V0_LO [7:0]
+
+   SMC_FPGA_V0_LO ( read-only , not shadowed)
+     -Readback for low 8 bits of V0 frequency counter
+
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   V0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register V0_HI Alt 0    (V0_HI)   
+-------------------------------------------------------
+    Readback for upper 8 bits of V0 frequency counter
+    rstb: rdstb      renbs: addr==0xb20b
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ V0_HI [7:0]
+
+   SMC_FPGA_V0_HI ( read-only , not shadowed)
+     -Readback for upper 8 bits of V0 frequency counter
+
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   V0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register I1_LO Alt 0    (I1_LO)   
+-------------------------------------------------------
+    Readback for low 8 bits of I1 frequency counter
+    rstb: rdstb      renbs: addr==0xb210
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ I1_LO [7:0]
+
+   SMC_FPGA_I1_LO ( read-only , not shadowed)
+     -Readback for low 8 bits of I1 frequency counter
+
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   I1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register I1_HI Alt 0    (I1_HI)   
+-------------------------------------------------------
+    Readback for upper 8 bits of I1 frequency counter
+    rstb: rdstb      renbs: addr==0xb211
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ I1_HI [7:0]
+
+   SMC_FPGA_I1_HI ( read-only , not shadowed)
+     -Readback for upper 8 bits of I1 frequency counter
+
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   I1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register I2_LO Alt 0    (I2_LO)   
+-------------------------------------------------------
+    Readback for low 8 bits of I2 frequency counter
+    rstb: rdstb      renbs: addr==0xb212
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ I2_LO [7:0]
+
+   SMC_FPGA_I2_LO ( read-only , not shadowed)
+     -Readback for low 8 bits of I2 frequency counter
+
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   I2 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register I2_HI Alt 0    (I2_HI)   
+-------------------------------------------------------
+    Readback for upper 8 bits of I2 frequency counter
+    rstb: rdstb      renbs: addr==0xb213
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ I2_HI [7:0]
+
+   SMC_FPGA_I2_HI ( read-only , not shadowed)
+     -Readback for upper 8 bits of I2 frequency counter
+
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   I2 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 180.845 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register MAIN_BLOWER_LO Alt 0    (MAIN_BLOWER_LO)   
+-------------------------------------------------------
+    Readback for lower 8 bits of main blower frequency counter
+    rstb: rdstb      renbs: addr==0xb21e
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ MAIN_BLOWER_LO [7:0]
+
+   SMC_FPGA_MAIN_BLOWER_LO ( read-only , not shadowed)
+     -Readback for upper 8 bits of main blower frequency counter
+
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   main blower input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 11.574 usec.
+   
+
+
+
+
+-------------------------------------------------------
+Register MAIN_BLOWER_HI Alt 0    (MAIN_BLOWER_HI)   
+-------------------------------------------------------
+    Readback for upper 8 bits of main blower frequency counter
+    rstb: rdstb      renbs: addr==0xb21f
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ MAIN_BLOWER_HI [7:0]
+
+   SMC_FPGA_MAIN_BLOWER_HI ( read-only , not shadowed)
+     -Readback for upper 8 bits of main blower frequency counter
+
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   main blower input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   The LSB of this counter is 11.574 usec.
+   
+
+
+
+
+-------------------------------------------------------
+Register GEN_FREQ_CTR_LO Alt 0    (GEN_FREQ_CTR_LO)   
+-------------------------------------------------------
+    Readback for lower 8 bits of the general purpose frequency counter
+    rstb: rdstb      renbs: addr==0xb228
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ GEN_FREQ_CTR_LO [7:0]
+
+   SMC_FPGA_GEN_FREQ_CTR_LO ( read-only , not shadowed)
+     -Readback for upper 8 bits of the general purpose frequency counter
+
+   Readback for lower 8 bits of 24 bit frequency counter for the
+   other input signals and output signals. This value is actually
+   the value in the holding register so that it is stable while
+   the counter takes the next measurement.
+
+   The signal being measured is selected by the GEN_FREQ_CTR_MUX register.
+
+   The LSB of this counter is 90.432 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register GEN_FREQ_CTR_MID Alt 0    (GEN_FREQ_CTR_MID)   
+-------------------------------------------------------
+    Readback for lower 8 bits of the general purpose frequency counter
+    rstb: rdstb      renbs: addr==0xb226
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ GEN_FREQ_CTR_MID [7:0]
+
+   SMC_FPGA_GEN_FREQ_CTR_MID ( read-only , not shadowed)
+     -Readback for middle 8 bits of the general purpose frequency counter
+
+   Readback for middle 8 bits of 24 bit frequency counter for the
+   other input signals and output signals. This value is actually
+   the value in the holding register so that it is stable while
+   the counter takes the next measurement.
+
+   The signal being measured is selected by the GEN_FREQ_CTR_MUX register.
+
+   The LSB of this counter is 90.432 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register GEN_FREQ_CTR_HI Alt 0    (GEN_FREQ_CTR_HI)   
+-------------------------------------------------------
+    Readback for upper 8 bits of general purpose frequency counter
+    rstb: rdstb      renbs: addr==0xb229
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ GEN_FREQ_CTR_HI [7:0]
+
+   SMC_FPGA_GEN_FREQ_CTR_HI ( read-only , not shadowed)
+     -Readback for upper 8 bits of general purpose frequency counter
+
+   Readback for upper 8 bits of 24 bit frequency counter for the
+   other input signals and output signals. This value is actually
+   the value in the holding register so that it is stable while
+   the counter takes the next measurement.
+
+   The signal being measured is selected by the GEN_FREQ_CTR_MUX register.
+
+   The LSB of this counter is 90.432 nsec.
+   
+
+
+
+
+-------------------------------------------------------
+Register BC_TACH0_CTR_LO Alt 0    (BC_TACH0_CTR_LO)   
+-------------------------------------------------------
+    Readback for lower 8 bits of Bobcat fan 0 frequency counter
+    rstb: rdstb      renbs: addr==0xb22d
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ BC_TACH0_CTR_LO [7:0]
+
+   SMC_FPGA_BC_TACH0_CTR_LO ( read-only , not shadowed)
+     -Readback for upper 8 bits of Bobcat fan 0 frequency counter
+
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   Bocat fan 0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   
+
+
+
+
+-------------------------------------------------------
+Register BC_TACH0_CTR_HI Alt 0    (BC_TACH0_CTR_HI)   
+-------------------------------------------------------
+    Readback for upper 8 bits of Bobcat fan 0 frequency counter
+    rstb: rdstb      renbs: addr==0xb22e
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ BC_TACH0_CTR_HI [7:0]
+
+   SMC_FPGA_BC_TACH0_CTR_HI ( read-only , not shadowed)
+     -Readback for upper 8 bits of Bobcat fan 0 frequency counter
+
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   Bobcat fan 0 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   
+
+
+
+
+-------------------------------------------------------
+Register BC_TACH1_CTR_LO Alt 0    (BC_TACH1_CTR_LO)   
+-------------------------------------------------------
+    Readback for lower 8 bits of Bobcat fan 1 frequency counter
+    rstb: rdstb      renbs: addr==0xb22f
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ BC_TACH1_CTR_LO [7:0]
+
+   SMC_FPGA_BC_TACH1_CTR_LO ( read-only , not shadowed)
+     -Readback for upper 8 bits of Bobcat fan 1 frequency counter
+
+   Readback for lower 8 bits of 16 bit frequency counter for the
+   Bocat fan 1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   
+
+
+
+
+-------------------------------------------------------
+Register BC_TACH1_CTR_HI Alt 0    (BC_TACH1_CTR_HI)   
+-------------------------------------------------------
+    Readback for upper 8 bits of Bobcat fan 1 frequency counter
+    rstb: rdstb      renbs: addr==0xb230
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ BC_TACH1_CTR_HI [7:0]
+
+   SMC_FPGA_BC_TACH1_CTR_HI ( read-only , not shadowed)
+     -Readback for upper 8 bits of Bobcat fan 1 frequency counter
+
+   Readback for upper 8 bits of 16 bit frequency counter for the
+   Bobcat fan 1 input signal. This value is actually the value in the 
+   holding register so that it is stable while the counter takes 
+   the next measurement.
+
+   
+
+
+
+
+-------------------------------------------------------
+Register BC_TACH_CTL Alt 0    (BC_TACH_CTL)   
+-------------------------------------------------------
+    COntrol bits for TACH counters
+    wstb: wrstb      wenbs: addr==0xb231
+
+                                            __ __ 
+                                           | 1| 0|
+                                             |  |_ BC_TACH0_CTL [0]
+                                             |____ BC_TACH1_CTL [0]
+
+   SMC_FPGA_BC_TACH1_CTL ( write-only , not shadowed, pulse)
+     - Control bit for TACH1 counters
+
+   SMC_FPGA_BC_TACH0_CTL ( write-only , not shadowed, pulse)
+     - Control bit for TACH0 counters
+
+   control bits to reser the TACH counters and transfer their 
+   last value to the holding registers for readback
+   
+
+
+
+
+-------------------------------------------------------
+Register ID_REV Alt 0    (ID_REV)   
+-------------------------------------------------------
+    ID and revision of FPGA
+    rstb: rdstb      renbs: addr==0xb22a
+
+                          __ __ __ __ __ __ __ __ 
+                         | 7  -  -  -  -  -  -  0|
+                                                |_ ID_REV [7:0]
+
+   SMC_FPGA_ID_REV ( read-only , not shadowed)
+     -ID and revision of FPGA
+
+   ID and revision of FPGA. Upper 4 bits are the ID and is set to hex D.
+   Lower 4 bits are the revision starting at rev 1.
+   
+
+
+
+
+-------------------------------------------------------
+Register MAINT_MON Alt 0    (MAINT_MON)   
+-------------------------------------------------------
+    Maintainence signal monitor readback
+    rstb: rdstb      renbs: addr==0xb22b
+
+                                            __ __ 
+                                           | 1  0|
+                                                |_ MAINT_MON [1:0]
+
+   SMC_FPGA_MAINT_MON ( read_only , not shadowed)
+     -Maintainence signal monitor readback
+
+   Readback of maintainence signal monitor circuit. The monitor circuit
+   captures any rising or falling edge event that occurs on the 
+   maintainence signal input. This register is synchronously cleared
+   by the CLR_MAINT_REG bit in the RESET register.
+
+   The LSB of this register is set if a rising edge has been seen by
+   the monitor circuit on the maintainence signal. The 2nd bit will
+   be set if the monitor circuit saw a falling edge on the
+   maintainence signal.
+
+   The expected usage of this readback is that the software will clear
+   this register using the CLR_MAINT_REG bit, then will wait some time,
+   and then check the state of these bits. If any of them are set, then
+   the maintainence signal had activity since the register was cleared.
+   
+
+
+
+
+-------------------------------------------------------
+Register LOCK_OUT_STATE Alt 0    (LOCK_OUT_STATE)   
+-------------------------------------------------------
+    Readback for all lock_out signals
+    rstb: rdstb      renbs: addr==0xb22c
+
+                             __ __ __ __ __ __ __ 
+                            | 6| 5| 4| 3| 2| 1| 0|
+                              |  |  |  |  |  |  |_ V0_LOCK_OUT [0]
+                              |  |  |  |  |  |____ I1_LOCK_OUT [0]
+                              |  |  |  |  |_______ I2_LOCK_OUT [0]
+                              |  |  |  |__________ MAIN_LOCK_OUT [0]
+                              |  |  |_____________ GEN_FREQ_LOCK_OUT [0]
+                              |  |________________ BC_TACH0_LOCK_OUT [0]
+                              |___________________ BC_TACH1_LOCK_OUT [0]
+
+   SMC_FPGA_BC_TACH1_LOCK_OUT ( read_only , not shadowed)
+     -Lock out state of the GEN_FREQ counter readback
+
+   SMC_FPGA_BC_TACH0_LOCK_OUT ( read_only , not shadowed)
+     -Lock out state of the GEN_FREQ counter readback
+
+   SMC_FPGA_GEN_FREQ_LOCK_OUT ( read_only , not shadowed)
+     -Lock out state of the GEN_FREQ counter readback
+
+   SMC_FPGA_MAIN_LOCK_OUT ( read_only , not shadowed)
+     -Lock out state of the MAIN_BLOWER counter readback
+
+   SMC_FPGA_I2_LOCK_OUT ( read_only , not shadowed)
+     -Lock out state of the I2 counter readback
+
+   SMC_FPGA_I1_LOCK_OUT ( read_only , not shadowed)
+     -Lock out state of the I1 counter readback
+
+   SMC_FPGA_V0_LOCK_OUT ( read_only , not shadowed)
+     -Lock out state of the V0 counter readback
+
+   
+
+
+
+
+-------------------------------------------------------
+Register B_CNTRL_BC_48VDC Alt 0    (B_CNTRL_BC_48VDC)   
+-------------------------------------------------------
+    On/off control bit for Bobcat 48V
+    wstb: wrstb      wenbs: addr==0xb301 & V48_ENABLE_ON==0x1
+    rstb: rdstb      renbs: addr==0xb301
+
+                                               __ 
+                                              | 0|
+                                                |_ B_CNTRL_BC_48VDC [0]
+
+   SMC_FPGA_B_CNTRL_BC_48VDC ( read-write , not shadowed)
+     -On/off control bit for Bobcat 48V
+           ON                   0x1
+           OFF                  0x0
+
+   Turn Bobcat 48V control signal on or off. Control signal is a level. When 
+   off, the pin goes Actively High. When on, the output actively pulls low.
+   
+
+
+
+
+-------------------------------------------------------
+Register B_DC90_48V_Enable Alt 0    (B_DC90_48V_Enable)   
+-------------------------------------------------------
+    Enable for On/off control bit for Bobcat DC90 48V
+    wstb: wrstb      wenbs: addr==0xb30c
+    rstb: rdstb      renbs: addr==0xb30c
+
+                                               __ 
+                                              | 0|
+                                                |_ B_DC90_48V_Enable [0]
+
+   SMC_FPGA_B_DC90_48V_Enable ( read-write , not shadowed)
+     -Enable for On/off control bit for Bobcat DC90 48V
+           ENABLE               0x1
+           DISABLE              0x0   <=PWRCLR          
+
+   This register enable the Bobcat B_DC90_V48_ON register. This is part of a 2 
+   level fault protection mechanism such that this register and the 
+   B_CNTRL_BC_48VDC_DC90 register must fail before power in the system could
+   accidentally turn on. This register must be enabled before writing to the 
+   on/off register. If this register is disabled while the on/off register is
+   on, the on/off will be turned off.
+   
+
+
+
+
+-------------------------------------------------------
+Register B_CNTRL_BC_48VDC_DC90 Alt 0    (B_CNTRL_BC_48VDC_DC90)   
+-------------------------------------------------------
+    On/off control bit for Bobcat 48V
+    wstb: wrstb      wenbs: addr==0xb304 & B_DC90_48V_Enable_ON==0x1
+    rstb: rdstb      renbs: addr==0xb304
+
+                                               __ 
+                                              | 0|
+                                                |_ B_CNTRL_BC_48VDC_DC90 [0]
+
+   SMC_FPGA_B_CNTRL_BC_48VDC_DC90 ( read-write , not shadowed)
+     -On/off control bit for Bobcat 48V
+           ON                   0x1
+           OFF                  0x0
+
+   Turn DC_90 on Bobcat 48V control signal on or off. Control signal is a level. 
+   When off, the pin goes Actively LOW. When on, the output actively pulls High. 
+   Uses the enable signal, part of a 2 level fault protection mechanism.
+   
+
+
+
+
+-------------------------------------------------------
+Register DC90_STATE Alt 0    (DC90_STATE)   
+-------------------------------------------------------
+    Readback for all Bobcat DC90 Status bits
+    rstb: rdstb      renbs: addr==0xb32e
+
+                                      __ __ __ __ 
+                                     | 3| 2| 1| 0|
+                                       |  |  |  |_ SMC_MON_DC90_OUTPUT_FAULT [0]
+                                       |  |  |____ SMC_MON_DC90_AC_PWR_FAULT [0]
+                                       |  |_______ SMC_MON_DC90_OVR_TMP [0]
+                                       |__________ SMC_MON_DC90_48V_ON [0]
+
+   SMC_FPGA_SMC_MON_DC90_48V_ON ( read_only , not shadowed)
+     -Feedback from the control side of the opto re: the PS state On = High
+
+   SMC_FPGA_SMC_MON_DC90_OVR_TMP ( read_only , not shadowed)
+     -Overtemperature signal DC90 supply Low Active
+
+   SMC_FPGA_SMC_MON_DC90_AC_PWR_FAULT ( read_only , not shadowed)
+     -AC input fault DC90 supply Low Active
+
+   SMC_FPGA_SMC_MON_DC90_OUTPUT_FAULT ( read_only , not shadowed)
+     -Output bad DC90 supply Low Active
+ 
+   
+
+
+
+
+-------------------------------------------------------
+Register STATE_48V Alt 0    (STATE_48V)   
+-------------------------------------------------------
+    Readback for all Bobcat 48V Supply Status bits
+    rstb: rdstb      renbs: addr==0xb32b
+
+                                      __ __ __ __ 
+                                     | 3| 2| 1| 0|
+                                       |  |  |  |_ SMC_MON_BC_OUTPUT_FAULT [0]
+                                       |  |  |____ SMC_MON_BC_AC_PWR_FAULT [0]
+                                       |  |_______ SMC_MON_BC_OVR_TMP [0]
+                                       |__________ SMC_MON_BC_PHASE_LOSS [0]
+
+   SMC_FPGA_SMC_MON_BC_PHASE_LOSS ( read_only , not shadowed)
+     -Phase Loss signal Bobcat 48V supply Low Active
+
+   SMC_FPGA_SMC_MON_BC_OVR_TMP ( read_only , not shadowed)
+     -Overtemperature signal Bobcat 48V supply Low Active
+
+   SMC_FPGA_SMC_MON_BC_AC_PWR_FAULT ( read_only , not shadowed)
+     -AC power fault Bobcat 48V supply Low Active
+
+   SMC_FPGA_SMC_MON_BC_OUTPUT_FAULT ( read_only , not shadowed)
+     -Output bad Bobcat 48V supply Low Active
+ 
+Since all active low a test for non-zero indicates all is well
+   
+
+
+
+
+-------------------------------------------------------
+Register STATE_BC_FAN Alt 0    (STATE_BC_FAN)   
+-------------------------------------------------------
+    Readback for all Bobcat 48V Supply Status bits
+    rstb: rdstb      renbs: addr==0xb310
+
+                                            __ __ 
+                                           | 1| 0|
+                                             |  |_ SMC_MON_BC_FAN0_STATE [0]
+                                             |____ SMC_MON_BC_FAN1_STATE [0]
+
+   SMC_FPGA_SMC_MON_BC_FAN1_STATE ( read_only , not shadowed)
+     - Input the state of the multiSpeed fan bit 1
+
+   SMC_FPGA_SMC_MON_BC_FAN0_STATE ( read_only , not shadowed)
+     -Input the state of the multiSpeed fan bit 0
+ 
+State not really used but left here anyway. Tach is 90hz signal
+connected to Frequency Counter.
+   
+
+
+
+
+-------------------------------------------------------
+Register B_SMC_CNTRL_BC_SWITCHED_AC Alt 0    (B_SMC_CNTRL_BC_SWITCHED_AC)   
+-------------------------------------------------------
+    On/off control bit for Bobcat AC
+    wstb: wrstb      wenbs: addr==0xb305 & AC_ENABLE_ON==0x1
+    rstb: rdstb      renbs: addr==0xb305
+
+                                               __ 
+                                              | 0|
+                                                |_ B_SMC_CNTRL_BC_SWITCHED_AC [0]
+
+   SMC_FPGA_B_SMC_CNTRL_BC_SWITCHED_AC ( read-write , not shadowed)
+     -On/off control bit for Bobcat AC
+           ON                   0x1
+           OFF                  0x0
+
+   Turn  Bobcat AC control signal on or off. Control signal is a level. When on, 
+   the pin goes Actively LOW. When off, the output actively pulls High. Uses the
+   enable signal, part of a 2 level fault protection mechanism.
+   
+
+
+
+
+-------------------------------------------------------
+Register SMC_MON_BC_AC_ON Alt 0    (SMC_MON_BC_AC_ON)   
+-------------------------------------------------------
+    On/off control readback bit for K1
+    rstb: rdstb      renbs: addr==0xb32a
+
+                                               __ 
+                                              | 0|
+                                                |_ SMC_MON_BC_AC_ON [0]
+
+   SMC_FPGA_SMC_MON_BC_AC_ON ( read_only , not shadowed)
+     -On/off control readback bit for K1
+
+   Used on Bobcat this is feedback for the control Input Signal is On=Low
+   
+
+
+
+
+-------------------------------------------------------
+Register SMC_CNTRL_JAG_SWITCHED_AC Alt 0    (SMC_CNTRL_JAG_SWITCHED_AC)   
+-------------------------------------------------------
+    On/off control bit for Jaguar AC
+    wstb: wrstb      wenbs: addr==0xb302 & AC_ENABLE_ON==0x1
+    rstb: rdstb      renbs: addr==0xb302
+
+                                               __ 
+                                              | 0|
+                                                |_ SMC_CNTRL_JAG_SWITCHED_AC [0]
+
+   SMC_FPGA_SMC_CNTRL_JAG_SWITCHED_AC ( read-write , not shadowed)
+     -On/off control bit for Jaguar AC
+           ON                   0x1
+           OFF                  0x0
+
+   Turn  Jaguar AC control signal on or off. Control signal is a level. When on, 
+   the pin goes Actively LOW. When off, the output actively pulls High. Uses the
+   enable signal, part of a 2 level fault protection mechanism.
+   
+
+
+
+
+-------------------------------------------------------
+Register SMC_MON_PDU_K1 Alt 0    (SMC_MON_PDU_K1)   
+-------------------------------------------------------
+    On/off control readback bit for K1
+    rstb: rdstb      renbs: addr==0xb303
+
+                                               __ 
+                                              | 0|
+                                                |_ SMC_MON_PDU_K1 [0]
+
+   SMC_FPGA_SMC_MON_PDU_K1 ( read_only , not shadowed)
+     -On/off control readback bit for K1
+           CLR                  0x0
+
+   Used on Jaguar this is feedback for the K1 control Input Signal, On=High
+   
+
+
+
+
+-------------------------------------------------------
+Register SMC_CNTRL_JAG_48VDC_ON Alt 0    (SMC_CNTRL_JAG_48VDC_ON)   
+-------------------------------------------------------
+    On/off control bit for Jaguar 48V
+    wstb: wrstb      wenbs: addr==0xb306 & V48_ENABLE_ON==0x1
+    rstb: rdstb      renbs: addr==0xb306
+
+                                               __ 
+                                              | 0|
+                                                |_ SMC_CNTRL_JAG_48VDC_ON [0]
+
+   SMC_FPGA_SMC_CNTRL_JAG_48VDC_ON ( read-write , not shadowed)
+     -On/off control bit for Jaguar 48V
+           ON                   0x1
+           OFF                  0x0
+
+   Turn Jaguar 48V control signal on or off. Control signal is a level. When 
+   off, the pin goes Actively High. When on, the output actively pulls low.
+   
+
+
+
+
+-------------------------------------------------------
+Register SMC_MON_PDU_JAG_48V_GOOD Alt 0    (SMC_MON_PDU_JAG_48V_GOOD)   
+-------------------------------------------------------
+    On/off control readback bit for JAG_48V
+    rstb: rdstb      renbs: addr==0xb311
+
+                                               __ 
+                                              | 0|
+                                                |_ SMC_MON_PDU_JAG_48V_GOOD [0]
+
+   SMC_FPGA_SMC_MON_PDU_JAG_48V_GOOD ( read_only , not shadowed)
+     -BOBCAT 48V interlock OK = Low, Jag output OK OK = HIGH
+
+ BOBCAT 48V interlock OK = Low, Jag output OK = High
+   
+
+
+
+
+-------------------------------------------------------
+Register SMC_MON_PDU_JAG_48V_LVL_ON Alt 0    (SMC_MON_PDU_JAG_48V_LVL_ON)   
+-------------------------------------------------------
+    On/off control readback bit for JAG_48V
+    rstb: rdstb      renbs: addr==0xb32c
+
+                                               __ 
+                                              | 0|
+                                                |_ SMC_MON_PDU_JAG_48V_LVL_ON [0]
+
+   SMC_FPGA_SMC_MON_PDU_JAG_48V_LVL_ON ( read_only , not shadowed)
+     - Used on Jaguar this is feedback for the control Input Signal, On=Low 
+
+   Used on Jaguar this is feedback for the control Input Signal, On=Low
+   
+
+
+
+
+-------------------------------------------------------
+Register SMC_MON_PDU_JAG_THERMAL_FAULT Alt 0    (SMC_MON_PDU_JAG_THERMAL_FAULT)   
+-------------------------------------------------------
+    Thermal Fault output from 48V Jag Power Supply
+    rstb: rdstb      renbs: addr==0xb30a
+
+                                               __ 
+                                              | 0|
+                                                |_ SMC_MON_PDU_JAG_THERMAL_FAULT [0]
+
+   SMC_FPGA_SMC_MON_PDU_JAG_THERMAL_FAULT ( read_only , not shadowed)
+     -Thermal Fault output from 48V Jag Power Supply
+
+   Used on Jaguar this is power supply fault is Active Low
+   

@@ -1,0 +1,23 @@
+// Simucad Generated Commands Start Here
+
+// Simucad define
++define+sse
+
+// Project Settings
++assignment_tracking
++libext+.v+
+-y "../idl"
+"+incdir+../idl"
++typdelays
+-"!file .sav=\"smc_fpga\""
+-"!control .sav=3"
+-"!control .enablecache"
+-"!control .savcell=0"
+-"!control .disk=1000M"
+
+// Input Files
+"smc_fpga_tf.v"
+"../rtl/smc_fpga.v"
+"../rtl/edgesr.v"
+
+// Simucad Generated Commands End Here

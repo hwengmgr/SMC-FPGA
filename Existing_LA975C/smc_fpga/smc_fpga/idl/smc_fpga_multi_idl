@@ -1,0 +1,37 @@
+// DERIVED FILE smc_fpga_multi_idl - DO NOT EDIT
+// CREATED BY IDL 2.30e 
+
+// MULTI_CYCLE TIMING for smc_fpga
+FORMAT  module_name  notci start_signal_name bit  num_cycles 
+PATH smc_fpga_idl y SMC_CNTRL_JAG_48VDC_ON  -   2
+PATH smc_fpga_idl y SMC_CNTRL_JAG_SWITCHED_AC  -   2
+PATH smc_fpga_idl y B_SMC_CNTRL_BC_SWITCHED_AC  -   2
+PATH smc_fpga_idl y B_CNTRL_BC_48VDC_DC90  -   2
+PATH smc_fpga_idl y B_CNTRL_BC_48VDC  -   2
+PATH smc_fpga_idl y BC_TACH1_CTL  -   2
+PATH smc_fpga_idl y BC_TACH0_CTL  -   2
+PATH smc_fpga_idl y GEN_FREQ_CTR_MUX 4  2
+PATH smc_fpga_idl y GEN_FREQ_CTR_MUX 3  2
+PATH smc_fpga_idl y GEN_FREQ_CTR_MUX 2  2
+PATH smc_fpga_idl y GEN_FREQ_CTR_MUX 1  2
+PATH smc_fpga_idl y GEN_FREQ_CTR_MUX 0  2
+PATH smc_fpga_idl y CTR_CTL  -   2
+PATH smc_fpga_idl y CLR_LOCK_OUT  -   2
+PATH smc_fpga_idl y CLR_REGS  -   2
+PATH smc_fpga_idl y CLR_CTRS  -   2
+PATH smc_fpga_idl y CLR_MAINT_REG  -   2
+PATH smc_fpga_idl y AUX_3_CTL 1  2
+PATH smc_fpga_idl y AUX_3_CTL 0  2
+PATH smc_fpga_idl y AUX_2_CTL 1  2
+PATH smc_fpga_idl y AUX_2_CTL 0  2
+PATH smc_fpga_idl y AUX_1_CTL 1  2
+PATH smc_fpga_idl y AUX_1_CTL 0  2
+PATH smc_fpga_idl y AUX_0_CTL 1  2
+PATH smc_fpga_idl y AUX_0_CTL 0  2
+PATH smc_fpga_idl y AUX_FAN_CTL 1  2
+PATH smc_fpga_idl y AUX_FAN_CTL 0  2
+PATH smc_fpga_idl y B_DC90_48V_Enable  -   2
+PATH smc_fpga_idl y K1_ENABLE  -   2
+PATH smc_fpga_idl y V48_ENABLE  -   2
+PATH smc_fpga_idl y K1_ON  -   2
+PATH smc_fpga_idl y V48_ON  -   2

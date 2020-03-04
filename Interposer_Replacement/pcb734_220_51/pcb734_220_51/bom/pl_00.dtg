@@ -1,0 +1,40 @@
+#-------------------------------------------------------------------------------
+# ADD/DELETE BOM TEMPLATE
+#-------------------------------------------------------------------------------
+#
+# HEADING record commented out:
+#
+# H|DesignDescription |PartNbr Rev |
+#
+# HEADING record not commented out:
+#
+H|                                                             |             |
+#
+#-------------------------------------------------------------------------------
+#
+# OUTPUT record commented out:
+#
+# O|Filename |CreationDate ||Owner |PartNbr REV Ltr |
+#
+# OUTPUT record not commented out:
+#
+O|M:\pcb734_220_51_a\worklib\pcb734_220_51\bom/pl_00.dtg |12/15/2010 ||Diazf ||
+#
+#-------------------------------------------------------------------------------
+# PLEASE NOTE: In most cases the Description field DOES NOT need to be filled in
+# by the user.  This field is automatically filled in when Bom is generated.
+#
+# DELETE record definition commented out:
+#
+# -|Item |PartNbr |Qty |RefDes/(Notes)     |Description  |EffectDate |InActDate|
+#  |     |        |    |ContRefDes/(Notes) |ContDescript |           |         |
+#
+# ADD record definition commented out:
+#
+# +|Item |PartNbr |Qty |RefDes/(Notes)     |Description  |EffectDate |InActDate|
+#  |     |        |    |ContRefDes/(Notes) |ContDescript |           |         |
+#
+#-------------------------------------------------------------------------------
+# The "Qty" field, in the ADD and DELETE records, must be zero or greater.
+#-------------------------------------------------------------------------------
+
